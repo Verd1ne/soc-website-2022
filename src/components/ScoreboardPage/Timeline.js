@@ -3,7 +3,7 @@ import React from 'react'
 export default function () {
   return (
     <div>
-      <table>
+      <table className='border-collapse border border-[#]'>
         <tr>
           <th>Hari/Tanggal</th>
           <th>Jam</th>
