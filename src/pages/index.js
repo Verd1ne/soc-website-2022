@@ -1,10 +1,10 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import Layout from "../components/Layout"
-import Nowshowingcard from "../components/Nowshowingcard"
-import Themesong from "../components/Themesong"
-import Timeline from "../components/Timeline"
-import Sponsors from "../components/Sponsors"
+import Layout from "../components/Layout/Layout"
+import Nowshowingcard from "../components/HomePage/Nowshowingcard"
+import Themesong from "../components/HomePage/Themesong"
+import Timeline from "../components/HomePage/Timeline"
+import Sponsors from "../components/HomePage/Sponsors"
 import { BsArrowRight } from "@react-icons/all-files/bs/BsArrowRight";
 import { FaLongArrowAltRight } from "@react-icons/all-files/fa/FaLongArrowAltRight";
 
@@ -37,8 +37,8 @@ const IndexPage = () => {
         View More
         <BsArrowRight className="inline" size={24}/>
       </div>
-      <div className="text-center text-white font-Broadway text-8xl mt-12 overflow-hidden mb-6">PREVIEW</div>
-      <div className="text-[#f5f1be] font-Palatino text-5xl text-center overflow-hidden mb-6">our opening video</div>
+      <div className="text-center text-white font-Broadway text-[110px] mt-12 overflow-hidden mb-6">PREVIEW</div>
+      <div className="text-[#f5f1be] font-Palatino text-[60px] text-center overflow-hidden mb-6">our opening video</div>
       <Themesong/>
       <Timeline/>
       <Sponsors/>
