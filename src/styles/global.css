@@ -44,7 +44,7 @@ body {
     font-style: italic;
     font-weight: 400;
     font-display: swap;
-    src: url('../fonts/Product_Sans_Italic.ttf') format('truetype');
+    src: url(../fonts/Product_Sans_Italic.ttf) format('truetype');
   }
   @font-face {
     font-family: 'ProductSans';
@@ -53,4 +53,47 @@ body {
     font-display: swap;
     src: url(../fonts/Product_Sans_Bold_Italic.ttf) format('truetype');
   }
+}
+
+td, th {
+  border-collapse: collapse;
+  border: 1px solid white;
+  margin: 5px 10px;
+  padding: 12px 50px;
+}
+
+.namaLomba, .abc{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.infoLomba {
+  top:50%;
+  transform: translate(0, -50%);
+}
+
+.headerButton {
+  position: relative;
+}
+
+.headerButton:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  z-index: -2;
+  padding-top: 2px;
+  background-color: #999DA0;
+  transform-origin: bottom right;
+  transition: transform 0.4s ease-in-out;
+}
+
+.headerButton:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  
 }

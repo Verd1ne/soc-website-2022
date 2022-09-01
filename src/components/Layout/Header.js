@@ -7,7 +7,7 @@ export default function Header() {
     <div className="z-[100] fixed bg-black flex justify-between px-8 sm:px-16 h-16 w-screen">
       <Link to="/">
         <StaticImage 
-          src= "../images/SmakonecupLogo.png"
+          src= "../../images/SmakonecupLogo.png"
           alt= "logo"
           placeholder="blurred"
           layout="fixed"
@@ -15,11 +15,11 @@ export default function Header() {
         />
       </Link>
       <div className="flex-row my-auto text-white space-x-7 font-ProductSans text-2xl">
-        <Link to="/" className="opacity-80 hover:opacity-100">About</Link>
-        <Link to="/" className="opacity-80 hover:opacity-100">Store</Link>
-        <Link to="/scoreboard" className="opacity-80 hover:opacity-100">Competition</Link>
-        <Link to="/" className="opacity-80 hover:opacity-100">Registration</Link>
-        <Link to="/" className="opacity-80 hover:opacity-100">Soundscape</Link>
+        <Link to="/" className="headerButton">About</Link>
+        <Link to="/" className="headerButton">Store</Link>
+        <Link to="/scoreboard" className="headerButton">Competition</Link>
+        <Link to="/" className="headerButton">Registration</Link>
+        <Link to="/" className="headerButton">Soundscape</Link>
       </div>
     </div>
   )

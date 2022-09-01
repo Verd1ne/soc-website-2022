@@ -9,15 +9,21 @@ import Hadiah from "../components/ScoreboardPage/Hadiah"
 const Scoreboard = () => {
   return (
     <Layout>
-      <div className='grid grid-cols-2 relative mt-[64px]'>
-        <div>
+      <div className='grid grid-rows-2 xl:grid-cols-2 relative mt-[64px] mx-auto mb-[100px]'>
+        <div className="mx-auto mt-12">
+          <Hadiah/>
+        </div>
+        <div className="mt-12 lg:mt-16 xl:mt-20 mx-auto">
+          <Infolomba namaLomba="NAMA LOMBA 123"/>
+        </div>
+        <div className="mx-auto mt-12">
           <Timeline/>
         </div>
-        <div>
+        <div className="mx-auto mt-12">
           <Hadiah/>
         </div>
       </div>
-      <div className="mt-[800px]"></div>
+      <div className=""></div>
     </Layout>
   )
 }
