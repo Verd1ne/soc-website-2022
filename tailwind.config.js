@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'Broadway' : ['Broadway'],
+        'Broadway': ['Broadway'],
         'Palatino': ['Palatino'],
         'ProductSans': ['ProductSans'],
       },

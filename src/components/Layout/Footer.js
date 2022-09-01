@@ -11,7 +11,7 @@ export default function Footer() {
       <div className='grid grid-cols-2'>
         <div className=''>
           <StaticImage 
-            src= "../images/SmakonecupLogo.png"
+            src= "../../images/SmakonecupLogo.png"
             alt= "logo"
             placeholder="blurred"
             layout="fixed"
@@ -32,7 +32,7 @@ export default function Footer() {
             <a href="https://www.youtube.com/channel/UCscmFcZIn8T0-Of192snpcQ" target="blank">
               <AiOutlineYoutube color="#f5f1be" size={30}/>
             </a>
-            <a href="https://www.youtube.com/channel/UCscmFcZIn8T0-Of192snpcQ" target="blank">
+            <a href="https://www.tiktok.com/@smakonecup " target="blank">
               <SiTiktok color="#f5f1be" size={30}/>
             </a>
           </div>

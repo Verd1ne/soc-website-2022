@@ -2,9 +2,10 @@ import React from 'react'
 
 export default function () {
   return (
-    <div>
-      <table className='border-collapse border border-[#]'>
-        <tr>
+    <>
+      <div className='font-Broadway text-6xl text-[#f5f1be] my-6 overflow-hidden text-center'>TIMELINE</div>
+      <table className="border-collapse border border-[#FFF] text-[#f5f1be] font-ProductSans">
+        <tr className='text-3xl'>
           <th>Hari/Tanggal</th>
           <th>Jam</th>
         </tr>
@@ -49,6 +50,6 @@ export default function () {
           <td>08.00 - 12.00</td>
         </tr>
       </table>
-    </div>
+    </>
   )
 }
