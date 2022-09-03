@@ -16,10 +16,9 @@ const IndexPage = () => {
         alt= "banner"
         placeholder="blurred"
         className="mt-16"
-        
+        width={1920}
       />
-      <div className="text-[#f5f1be] font-Palatino text-center text-2xl mx-12 " 
-      style={{width: "100%"}}>
+      <div className="text-[#f5f1be] font-Palatino text-center text-2xl mx-12">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu nunc eget ex viverra condimentum. Integer suscipit enim nibh, sit amet ornare ligula tincidunt in. Mauris accumsan ex nec condimentum lacinia. Donec a feugiat metus, vel venenatis purus. Aenean elementum odio et lorem cursus consequat eu eget tortor. Etiam sit amet tempus neque. Aliquam in metus tellus. Aenean elementum ligula vitae facilisis venenatis. Nulla scelerisque scelerisque nisl nec mollis. Vestibulum ultrices id metus quis dapibus. Nulla facilisi. Fusce volutpat lectus et rutrum mollis. Quisque non suscipit augue. In est felis, convallis et sodales non, eleifend vel odio. In et aliquet.
       </div>
       <StaticImage 
