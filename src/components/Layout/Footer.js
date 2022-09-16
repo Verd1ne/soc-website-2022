@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
         <div className=''>
           <div>
-            <h1 className="text-white text-right text-2xl md:text-[28px] mb-4 ">Contact Us</h1>
+            <h1 className="text-white text-right text-[28px] mb-4 overflow-hidden">Contact Us</h1>
           </div>
           <div className='flex flex-row-reverse gap-x-1 pb-12'>
             <a href="https://www.instagram.com/smukiee/" target="blank">
