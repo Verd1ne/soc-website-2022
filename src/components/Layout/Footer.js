@@ -7,17 +7,18 @@ import { SiTiktok } from "@react-icons/all-files/si/SiTiktok";
 
 export default function Footer() {
   return (
-    <div className='bg-black pt-6 pb-2 px-12 bottom-0 w-full'>
+    <div className='bg-black pt-6 pb-2 px-3 md:px-12 bottom-0 w-full'>
       <div className='grid grid-cols-2'>
         <div className=''>
           <StaticImage 
             src= "../../images/SmakonecupLogo.png"
             alt= "logo"
             placeholder="blurred"
-            layout="fixed"
-            height= {80}
+            // layout="fixed"
+            // height= {80}
+            className="h-[40px] md:h-[80px] md:w-2/3 lg:w-2/5"
           />
-          <div className="text-[#f5f1be] font-Palatino text-left">
+          <div className="text-[#f5f1be] font-Palatino text-left md:text-lg lg:text-xl">
             Smakonecup Atraxia, and its logo marks are the property of Smakonecup, a part of SMAK 1 PENABUR Jakarta
           </div>
         </div>
@@ -38,7 +39,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className='font-Palatino text-[#f5f1be] text-center mt-3'>
+      <div className='font-Palatino text-[#f5f1be] text-center text-sm md:text-base mt-5 md:mt-10'>
         Copyright 2022 Smakonecup Atraxia All Rights Reserved
       </div>
     </div>
