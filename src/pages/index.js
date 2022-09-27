@@ -16,7 +16,7 @@ const IndexPage = () => {
         src= "../images/JudulAtraxia.png"
         alt= "banner"
         placeholder="blurred"
-        className="mt-16"
+        className="mt-32"
         width={1920}
       />
       <div className="text-[#f5f1be] font-Palatino text-center text-xs md:text-lg lg:text-2xl mx-5 md:mx-12 mb-20">
