@@ -8,15 +8,15 @@ export default function Header() {
 
   return (
     <div className="fixed z-[100] w-full">
-      <div className="grid grid-cols-4 sm:grid-cols-3 lg:grid-cols-4 bg-black flex justify-between w-screen h-16 pr-4 md:pr-8 lg:pr-12">
-          <Link to="/" className="col-span-3 sm:col-span-2 lg:col-span-1">
+      <div className="grid grid-cols-4 sm:grid-cols-3 lg:grid-cols-4 bg-black flex justify-between w-screen h-20 pr-4 md:pr-8 lg:pr-12">
+          <Link to="/" className="col-span-3 sm:col-span-2 lg:col-span-1 h-full ml-0 md:ml-4 lg:ml-8 xl:ml-12">
             <StaticImage 
               src= "../../images/SmakonecupLogo.png"
               alt= "logo"
               placeholder="blurred"
               layout="fixed"
               height= {64}
-              className=""
+              className="my-2"
             />
           </Link>
         <div className="col-start-4 sm:col-start-3 lg:col-span-3">
@@ -24,12 +24,12 @@ export default function Header() {
           <div className="hidden lg:flex text-white space-x-4 lg:space-x-7 font-ProductSans text-xl lg:text-2xl w-full justify-end my-auto h-full items-center inline">
             <Link to="/" className="headerButton">About</Link>
             <Link to="/" className="headerButton">Store</Link>
-            <Link to="/scoreboard" className="headerButton">Competition</Link>
+            <Link to="/competition" className="headerButton">Competition</Link>
             <Link to="/" className="headerButton">Registration</Link>
             <Link to="/" className="headerButton">Soundscape</Link>
           </div>
           {/* mobile */}
-          <div className="flex lg:hidden justify-end items-center h-full">
+          <div className="flex lg:hidden justify-end items-center h-full mr-4">
             <button onClick={() => setDropdown(prev => !prev)}>
               <GiHamburgerMenu color="white" size={40} />
             </button>
