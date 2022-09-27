@@ -36,8 +36,8 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className={`${dropdown ? "" : "hidden"} lg:hidden w-fit fixed right-0 px-2 pt-1 -mt-2 rounded divide-y bg-black`}>
-        <ul className="py-1 text-[10px] text-gray-700 dark:text-gray-200 text-right">
+      <div className={`${dropdown ? "" : "hidden"} lg:hidden w-fit fixed right-0 px-3 pt-1 -mt-2 rounded divide-y bg-black`}>
+        <ul className="py-1 text-[20px] text-gray-700 dark:text-gray-200 text-right">
           <li>
             <Link to="/" className="headerButton headerButtonThin">About</Link>
           </li>

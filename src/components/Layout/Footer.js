@@ -57,7 +57,7 @@ export default function Footer() {
             className=""
           />
         </div>
-        <div className="text-[#f5f1be] font-Palatino text-center text-xs -mt-4 mb-2">
+        <div className="text-[#f5f1be] font-Palatino text-center text-xs -mt-3 mb-2">
           Smakonecup Atraxia, and its logo marks are the property of Smakonecup, a part of SMAK 1 PENABUR Jakarta
         </div>
         <div className="mb-1 text-center">
