@@ -19,7 +19,7 @@ const IndexPage = () => {
         className="mt-16"
         width={1920}
       />
-      <div className="text-[#f5f1be] font-Palatino text-center text-xs md:text-lg lg:text-2xl mx-5 md:mx-12">
+      <div className="text-[#f5f1be] font-Palatino text-center text-xs md:text-lg lg:text-2xl mx-5 md:mx-12 mb-20">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu nunc eget ex viverra condimentum. Integer suscipit enim nibh, sit amet ornare ligula tincidunt in. Mauris accumsan ex nec condimentum lacinia. Donec a feugiat metus, vel venenatis purus. Aenean elementum odio et lorem cursus consequat eu eget tortor. Etiam sit amet tempus neque. Aliquam in metus tellus. Aenean elementum ligula vitae facilisis venenatis. Nulla scelerisque scelerisque nisl nec mollis. Vestibulum ultrices id metus quis dapibus. Nulla facilisi. Fusce volutpat lectus et rutrum mollis. Quisque non suscipit augue. In est felis, convallis et sodales non, eleifend vel odio. In et aliquet.
       </div>
       <StaticImage 
@@ -28,12 +28,12 @@ const IndexPage = () => {
         placeholder="blurred"
         width={1920}
       />
-      <div className="relative grid grid-cols-3 mx-5 md:mx-10 lg:mx-20 lg:px-20">
+      <div className="relative grid grid-cols-3 mx-5 md:mx-10 lg:mx-20 lg:px-20 ">
         <Nowshowingcard/>
         <Nowshowingcard/>
         <Nowshowingcard/>
       </div>
-      <div className="text-[10px] md:text-2xl xl:text-3xl text-white text-center md:mt-3 lg:mt-0">
+      <div className="text-[10px] md:text-2xl xl:text-3xl text-white text-center md:mt-3 lg:mt-0 overflow-hidden">
         View More
         <BsArrowRight className="inline" size={24}/>
       </div>

@@ -75,6 +75,7 @@ td, th {
 
 .headerButton {
   position: relative;
+  display: inline-block;
 }
 
 .headerButton:after {
@@ -85,11 +86,15 @@ td, th {
   height: 2px;
   bottom: 0;
   left: 0;
-  z-index: -2;
   padding-top: 2px;
   background-color: #999DA0;
   transform-origin: bottom right;
   transition: transform 0.4s ease-in-out;
+}
+
+.headerButtonThin:after{
+  height: 1px;
+  padding-top: 1px;
 }
 
 .headerButton:hover:after {
