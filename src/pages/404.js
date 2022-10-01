@@ -27,26 +27,20 @@ const codeStyles = {
 // markup
 const NotFoundPage = () => {
   return (
-    <main style={pageStyles}>
+    <main style={pageStyles} className="flex grid-cols-2 text-white justify-center text-center">
       <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry{" "}
-        <span role="img" aria-label="Pensive emoji">
-          😔
-        </span>{" "}
-        we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
+      <div className="flex text-8xl font-bold justify-center items-center pr-5 outline-r">
+        404
+      </div>
+      <div>
+        <h1 /*style={headingStyles}*/ className="text-4xl font-bold mb-5">Page not found</h1>
+        <p /*style={paragraphStyles}*/ className="text-2xl mb-3">
+          Sorry{" "}
+          <span role="img" aria-label="Pensive emoji">😔</span>{" "}
+          we couldn’t find what you were looking for.
+        </p>
+        <Link to="/" className="justify-center text-xl text-white font-bold">Go Home</Link>
+      </div>
     </main>
   )
 }
