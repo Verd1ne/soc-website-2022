@@ -45,7 +45,7 @@ export default function Header() {
             <Link to="/" className="headerButton headerButtonThin">Store</Link>
           </li>
           <li>
-            <Link to="/scoreboard" className="headerButton headerButtonThin">Competition</Link>
+            <Link to="/competition" className="headerButton headerButtonThin">Competition</Link>
           </li>
           <li>
             <Link to="/" className="headerButton headerButtonThin">Registration</Link>
