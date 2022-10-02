@@ -10,7 +10,7 @@ export default function Index() {
       <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-4 md:gap-x-8 lg:gap-x-12 xl:gap-x-16 gap-y-12 md:gap-y-16 lg:gap-y-20 xl:gap-y-24 w-full container mx-auto mb-16 md:mb-20 lg:mb-24 p-12'>
         <Link className="mx-auto hover:scale-110 duration-300 ease-in-out" to='/'>
           <StaticImage 
-            src= "../../images/PosterLomba/Badminton.png"
+            src= "../../images/PosterLomba/Badminton.webp"
             alt= "Badminton"
             placeholder="blurred"
             layout="fixed"
@@ -19,7 +19,7 @@ export default function Index() {
         </Link>
         <Link className="mx-auto hover:scale-110 duration-300 ease-in-out" to='/'>
           <StaticImage 
-            src= "../../images/PosterLomba/Band.png"
+            src= "../../images/PosterLomba/Band.webp"
             alt= "Band"
             placeholder="blurred"
             layout="fixed"
@@ -28,7 +28,7 @@ export default function Index() {
         </Link>
         <Link className="mx-auto hover:scale-110 duration-300 ease-in-out" to='/'>
           <StaticImage 
-            src= "../../images/PosterLomba/Basket.png"
+            src= "../../images/PosterLomba/Basket.webp"
             alt= "Basket"
             placeholder="blurred"
             layout="fixed"
@@ -37,7 +37,7 @@ export default function Index() {
         </Link>
         <Link className="mx-auto hover:scale-110 duration-300 ease-in-out" to='/'>
           <StaticImage 
-            src= "../../images/PosterLomba/BusinessPlan.png"
+            src= "../../images/PosterLomba/BusinessPlan.webp"
             alt= "BusinessPlan"
             placeholder="blurred"
             layout="fixed"
@@ -46,7 +46,7 @@ export default function Index() {
         </Link>
         <Link className="mx-auto hover:scale-110 duration-300 ease-in-out" to='/'>
           <StaticImage 
-            src= "../../images/PosterLomba/Eds.png"
+            src= "../../images/PosterLomba/Eds.webp"
             alt= "Eds"
             placeholder="blurred"
             layout="fixed"
@@ -55,7 +55,7 @@ export default function Index() {
         </Link>
         <Link className="mx-auto hover:scale-110 duration-300 ease-in-out" to='/'>
           <StaticImage 
-            src= "../../images/PosterLomba/Fotografi.png"
+            src= "../../images/PosterLomba/Fotografi.webp"
             alt= "Fotografi"
             placeholder="blurred"
             layout="fixed"
@@ -64,7 +64,7 @@ export default function Index() {
         </Link>
         <Link className="mx-auto hover:scale-110 duration-300 ease-in-out" to='/'>
           <StaticImage 
-            src= "../../images/PosterLomba/Futsal.png"
+            src= "../../images/PosterLomba/Futsal.webp"
             alt= "Futsal"
             placeholder="blurred"
             layout="fixed"
@@ -73,7 +73,7 @@ export default function Index() {
         </Link>
         <Link className="mx-auto hover:scale-110 duration-300 ease-in-out" to='/'>
           <StaticImage 
-            src= "../../images/PosterLomba/Ipa.png"
+            src= "../../images/PosterLomba/Ipa.webp"
             alt= "Ipa"
             placeholder="blurred"
             layout="fixed"
@@ -82,7 +82,7 @@ export default function Index() {
         </Link>
         <Link className="mx-auto hover:scale-110 duration-300 ease-in-out" to='/'>
           <StaticImage 
-            src= "../../images/PosterLomba/Ips.png"
+            src= "../../images/PosterLomba/Ips.webp"
             alt= "Ips"
             placeholder="blurred"
             layout="fixed"
@@ -91,7 +91,7 @@ export default function Index() {
         </Link>
         <Link className="mx-auto hover:scale-110 duration-300 ease-in-out" to='/'>
           <StaticImage 
-            src= "../../images/PosterLomba/Matematika.png"
+            src= "../../images/PosterLomba/Matematika.webp"
             alt= "Matematika"
             placeholder="blurred"
             layout="fixed"
@@ -100,7 +100,7 @@ export default function Index() {
         </Link>
         <Link className="mx-auto hover:scale-110 duration-300 ease-in-out" to='/'>
           <StaticImage 
-            src= "../../images/PosterLomba/ModernDance.png"
+            src= "../../images/PosterLomba/ModernDance.webp"
             alt= "ModernDance"
             placeholder="blurred"
             layout="fixed"
@@ -109,7 +109,7 @@ export default function Index() {
         </Link>
         <Link className="mx-auto hover:scale-110 duration-300 ease-in-out" to='/'>
           <StaticImage 
-            src= "../../images/PosterLomba/Mun.png"
+            src= "../../images/PosterLomba/Mun.webp"
             alt= "Mun"
             placeholder="blurred"
             layout="fixed"
@@ -118,7 +118,7 @@ export default function Index() {
         </Link>
         <Link className="mx-auto hover:scale-110 duration-300 ease-in-out" to='/'>
           <StaticImage 
-            src= "../../images/PosterLomba/Mural.png"
+            src= "../../images/PosterLomba/Mural.webp"
             alt= "Mural"
             placeholder="blurred"
             layout="fixed"
@@ -127,7 +127,7 @@ export default function Index() {
         </Link>
         <Link className="mx-auto hover:scale-110 duration-300 ease-in-out" to='/'>
           <StaticImage 
-            src= "../../images/PosterLomba/Paskibra.png"
+            src= "../../images/PosterLomba/Paskibra.webp"
             alt= "Paskibra"
             placeholder="blurred"
             layout="fixed"
@@ -136,7 +136,7 @@ export default function Index() {
         </Link>
         <Link className="mx-auto hover:scale-110 duration-300 ease-in-out" to='/'>
           <StaticImage 
-            src= "../../images/PosterLomba/PencakSilat.png"
+            src= "../../images/PosterLomba/PencakSilat.webp"
             alt= "PencakSilat"
             placeholder="blurred"
             layout="fixed"
@@ -145,7 +145,7 @@ export default function Index() {
         </Link>
         <Link className="mx-auto hover:scale-110 duration-300 ease-in-out" to='/'>
           <StaticImage 
-            src= "../../images/PosterLomba/Podcast.png"
+            src= "../../images/PosterLomba/Podcast.webp"
             alt= "Podcast"
             placeholder="blurred"
             layout="fixed"
@@ -154,7 +154,7 @@ export default function Index() {
         </Link>
         <Link className="mx-auto hover:scale-110 duration-300 ease-in-out" to='/'>
           <StaticImage 
-            src= "../../images/PosterLomba/Speech.png"
+            src= "../../images/PosterLomba/Speech.webp"
             alt= "Speech"
             placeholder="blurred"
             layout="fixed"
@@ -163,7 +163,7 @@ export default function Index() {
         </Link>
         <Link className="mx-auto hover:scale-110 duration-300 ease-in-out" to='/'>
           <StaticImage 
-            src= "../../images/PosterLomba/Vlog.png"
+            src= "../../images/PosterLomba/Vlog.webp"
             alt= "Vlog"
             placeholder="blurred"
             layout="fixed"
@@ -172,7 +172,7 @@ export default function Index() {
         </Link>
         <Link className="mx-auto col-start-1 lg:col-span-2 xl:col-span-1 xl:col-start-2 hover:scale-110 duration-300 ease-in-out" to='/'>
           <StaticImage 
-            src= "../../images/PosterLomba/Voli.png"
+            src= "../../images/PosterLomba/Voli.webp"
             alt= "Voli"
             placeholder="blurred"
             layout="fixed"
