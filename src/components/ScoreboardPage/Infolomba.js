@@ -29,14 +29,14 @@ export default function Infolomba(props) {
         </div>
       </div>
       <div>
-        <Link to="/">
+        <a href="https://socregis.smakone.org/" target='_blank'>
           <StaticImage 
             src="../../images/RegistrasiButton.png"
             alt="Registrasi Button"
             placeholder="blurred"
             layout="constrained"
           />
-        </Link>
+        </a>
         
       </div>
     </div>
