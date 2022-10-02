@@ -17,7 +17,7 @@ const IndexPage = () => {
         alt= "banner"
         placeholder="blurred"
         className="mt-32"
-        width={1920}
+        width={3840}
       />
       <div className="text-[#f5f1be] font-Palatino text-center text-lg md:text-xl lg:text-2xl mx-5 md:mx-12 mb-20">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu nunc eget ex viverra condimentum. Integer suscipit enim nibh, sit amet ornare ligula tincidunt in. Mauris accumsan ex nec condimentum lacinia. Donec a feugiat metus, vel venenatis purus. Aenean elementum odio et lorem cursus consequat eu eget tortor. Etiam sit amet tempus neque. Aliquam in metus tellus. Aenean elementum ligula vitae facilisis venenatis. Nulla scelerisque scelerisque nisl nec mollis. Vestibulum ultrices id metus quis dapibus. Nulla facilisi. Fusce volutpat lectus et rutrum mollis. Quisque non suscipit augue. In est felis, convallis et sodales non, eleifend vel odio. In et aliquet.
@@ -26,7 +26,7 @@ const IndexPage = () => {
         src="../images/NowShowing.png"
         alt="Now Showing"
         placeholder="blurred"
-        width={1920}
+        width={3840}
       />
       <div className="relative grid grid-cols-3 mx-5 md:mx-10 lg:mx-20 lg:px-20 ">
         <Nowshowingcard/>
