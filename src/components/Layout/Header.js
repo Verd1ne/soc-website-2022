@@ -25,8 +25,8 @@ export default function Header() {
             <Link to="/" className="headerButton">About</Link>
             <Link to="/" className="headerButton">Store</Link>
             <Link to="/competition" className="headerButton">Competition</Link>
-            <Link to="/" className="headerButton">Registration</Link>
-            <Link to="/" className="headerButton">Soundscape</Link>
+            <a href="https://socregis.smakone.org/" target="_blank" className="headerButton">Registration</a>
+            <a href="https://open.spotify.com/artist/6dBkUvQfVsXZiz9X9DDnTo?si=dI6zyRaSTkaLpFfu2Qt1-A" target="_blank" className="headerButton">Soundscape</a>
           </div>
           {/* mobile */}
           <div className="flex lg:hidden justify-end items-center h-full mr-4">
@@ -36,7 +36,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className={`${dropdown ? "" : "hidden"} lg:hidden w-fit fixed right-0 px-3 pt-1 -mt-2 rounded divide-y bg-black`}>
+      <div className={`${dropdown ? "" : "hidden"} lg:hidden w-fit fixed right-0 pl-[16px] sm:pl-[20px] md:pl-[24px] lg:pl-[28px] pr-[20px] lg:pr-[32px] py-1 -mt-2 rounded-bl-xl divide-y bg-black`}>
         <ul className="py-1 text-[20px] text-gray-700 dark:text-gray-200 text-right">
           <li>
             <Link to="/" className="headerButton headerButtonThin">About</Link>
@@ -48,10 +48,10 @@ export default function Header() {
             <Link to="/competition" className="headerButton headerButtonThin">Competition</Link>
           </li>
           <li>
-            <Link to="/" className="headerButton headerButtonThin">Registration</Link>
+            <a href="https://socregis.smakone.org/" target="_blank" className="headerButton headerButtonThin">Registration</a>
           </li>
           <li>
-            <Link to="/" className="headerButton headerButtonThin">Soundscape</Link>
+            <a href="https://open.spotify.com/artist/6dBkUvQfVsXZiz9X9DDnTo?si=dI6zyRaSTkaLpFfu2Qt1-A" target="_blank" className="headerButton headerButtonThin">Soundscape</a>
           </li>
             {/* <a href="#" className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a> */}
         </ul>
