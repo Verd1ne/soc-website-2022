@@ -8,6 +8,7 @@ import Timeline from "../components/HomePage/Timeline"
 import Sponsors from "../components/HomePage/Sponsors"
 import { BsArrowRight } from "@react-icons/all-files/bs/BsArrowRight";
 import { FaLongArrowAltRight } from "@react-icons/all-files/fa/FaLongArrowAltRight";
+import { Link } from "gatsby"
 
 const IndexPage = () => {
   return (
@@ -33,10 +34,10 @@ const IndexPage = () => {
         <Nowshowingcard/>
         <Nowshowingcard/>
       </div>
-      <div className="text-[10px] md:text-2xl xl:text-3xl text-white text-center mt-2 md:mt-3 lg:mt-0 overflow-hidden">
+      <Link to="/competition" className="text-[10px] md:text-2xl xl:text-3xl text-white text-center mt-2 md:mt-3 lg:mt-0 overflow-hidden block">
         View More
         <BsArrowRight className="inline" size={24}/>
-      </div>
+      </Link>
       <Preview/>
       <Themesong/>
       <Timeline/>
