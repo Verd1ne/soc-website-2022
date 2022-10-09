@@ -2,7 +2,8 @@ import React from 'react'
 
 export default function Nowshowingcard(props) {
   return (
-    <div className="h-[150px] md:h-[350px] lg:h-[400px] xl:h-[650px] bg-contain bg-[url('../images/Card.png')] bg-no-repeat bg-center">
+    <div className="m-8 lg:m-0">
+      <img src={props.image} className="lg:p-4 xl:p-8"/>
     </div>
 
   )
