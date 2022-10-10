@@ -17,7 +17,7 @@ export default function Scoreboard({ data, }) {
 
   return (
     <Layout>
-      <Template title={ title } slug={ slug }/>
+      <Template title={ title } slug={ slug } date={date}/>
     </Layout>
   )
 }
@@ -28,7 +28,7 @@ export const query = graphql`
     markdownRemark(frontmatter: {slug: {eq: $slug}}) {
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD MMMM YYYY")
         slug
         title
       }
