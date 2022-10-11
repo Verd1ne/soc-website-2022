@@ -26,7 +26,7 @@ export default function Index() {
             height= {500}
           />
         </Link>
-        <Link className="mx-auto hover:scale-110 duration-300 ease-in-out" to='/'>
+        <Link className="mx-auto hover:scale-110 duration-300 ease-in-out" to='/competition/basketball'>
           <StaticImage 
             src= "../../images/PosterLomba/Basket.webp"
             alt= "Basket"

@@ -1,30 +1,30 @@
 import React from 'react'
 
-export default function () {
+export default function (props) {
   return (
     <>
-      <div className='font-Broadway text-6xl text-[#f5f1be] my-6 overflow-hidden text-center'>TIMELINE</div>
-      <table className="border-collapse border border-[#FFF] text-[#f5f1be] font-ProductSans">
-        <tbody>
+      <div className='font-Broadway text-6xl text-[#f5f1be] my-10 overflow-hidden text-center'>TIMELINE</div>
+      <table className="border-collapse border border-[#FFF] text-[#f5f1be] font-ProductSans text-center">
+        <tbody className="text-lg">
           <tr className='text-3xl'>
             <th>Event</th>
             <th>Date</th>
           </tr>
           <tr>
             <td>Registrasi Ditutup</td>
-            <td>PENDING</td>
+            <td>21 Oktober 2022</td>
           </tr>
           <tr>
             <td>Technical Meeting</td>
-            <td>PENDING</td>
+            <td>{props.date}</td>
           </tr>
           <tr>
-            <td>Competition Begins</td>
-            <td>PENDING</td>
+            <td>Competition</td>
+            <td>26 Oktober 2022</td>
           </tr>
           <tr>
-            <td>Closing</td>
-            <td>PENDING</td>
+            <td>Closing + Prize Anouncement</td>
+            <td>5 November 2022</td>
           </tr>
         </tbody>
         
