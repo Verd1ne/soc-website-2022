@@ -9,6 +9,9 @@ import Sponsors from "../components/HomePage/Sponsors"
 import { BsArrowRight } from "@react-icons/all-files/bs/BsArrowRight";
 import { FaLongArrowAltRight } from "@react-icons/all-files/fa/FaLongArrowAltRight";
 import { Link } from "gatsby"
+import Badminton from "../images/PosterLomba/Badminton.webp"
+import Band from "../images/PosterLomba/Band.webp"
+import Basket from "../images/PosterLomba/Basket.webp"
 
 const IndexPage = () => {
   return (
@@ -21,7 +24,7 @@ const IndexPage = () => {
         width={3840}
       />
       <div className="text-[#f5f1be] font-Palatino text-center text-lg md:text-xl lg:text-2xl mx-5 md:mx-12 mb-20">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu nunc eget ex viverra condimentum. Integer suscipit enim nibh, sit amet ornare ligula tincidunt in. Mauris accumsan ex nec condimentum lacinia. Donec a feugiat metus, vel venenatis purus. Aenean elementum odio et lorem cursus consequat eu eget tortor. Etiam sit amet tempus neque. Aliquam in metus tellus. Aenean elementum ligula vitae facilisis venenatis. Nulla scelerisque scelerisque nisl nec mollis. Vestibulum ultrices id metus quis dapibus. Nulla facilisi. Fusce volutpat lectus et rutrum mollis. Quisque non suscipit augue. In est felis, convallis et sodales non, eleifend vel odio. In et aliquet.
+        SMAKONECUP 2022, ATRAXIA yang merupakan singkatan dari “Above The Rest; eXpress your Inner personA”. Tema tahun ini terinspirasi dari keinginan kami agar setiap individu memiliki kesempatan untuk mengekspresikan dan mengeksplor diri masing-masing sehingga bisa menghasilkan inovasi-inovasi baru tanpa memiliki rasa kekhawatiran akan kegagalan. Hal ini bertujuan agar kita berani untuk menerobos rintangan dan menjadi berbeda dalam menunjukan warna kita yang sebenarnya dan agar kita bisa membawa perubahan positif ke depannya seiring dengan maraknya kemajuan teknologi dan banyaknya perubahan di era globalisasi ini dengan tetap memegang teguh prinsip-prinsip baik yang telah tertanam dan mempertahankan jati diri kita sebagai anak bangsa.
       </div>
       <StaticImage 
         src="../images/NowShowing.png"
@@ -30,9 +33,9 @@ const IndexPage = () => {
         width={3840}
       />
       <div className="relative grid grid-cols-3 mx-5 md:mx-10 lg:mx-20 lg:px-20 ">
-        <Nowshowingcard/>
-        <Nowshowingcard/>
-        <Nowshowingcard/>
+        <Nowshowingcard image={`${Badminton}`}/>
+        <Nowshowingcard image={`${Band}`}/>
+        <Nowshowingcard image={`${Basket}`}/>
       </div>
       <Link to="/competition" className="text-[10px] md:text-2xl xl:text-3xl text-white text-center mt-2 md:mt-3 lg:mt-0 overflow-hidden block">
         View More
