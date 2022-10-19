@@ -25,8 +25,8 @@ export default function Header() {
             <Link to="/" className="headerButton">About</Link>
             <Link to="/" className="headerButton">Store</Link>
             <Link to="/competition" className="headerButton">Competition</Link>
-            <a href="https://socregis.smakone.org/" target="_blank" className="headerButton">Registration</a>
-            <a href="https://open.spotify.com/artist/6dBkUvQfVsXZiz9X9DDnTo?si=dI6zyRaSTkaLpFfu2Qt1-A" target="_blank" className="headerButton">Soundscape</a>
+            <a href="https://socregis.smakone.org/" target="_blank" rel="noreferrer" className="headerButton">Registration</a>
+            <a href="https://open.spotify.com/artist/6dBkUvQfVsXZiz9X9DDnTo?si=dI6zyRaSTkaLpFfu2Qt1-A" target="_blank" rel="noreferrer" className="headerButton">Soundscape</a>
           </div>
           {/* mobile */}
           <div className="flex lg:hidden justify-end items-center h-full mr-4">
@@ -48,10 +48,10 @@ export default function Header() {
             <Link to="/competition" className="headerButton headerButtonThin">Competition</Link>
           </li>
           <li>
-            <a href="https://socregis.smakone.org/" target="_blank" className="headerButton headerButtonThin">Registration</a>
+            <a href="https://socregis.smakone.org/" target="_blank" rel="noreferrer" className="headerButton headerButtonThin">Registration</a>
           </li>
           <li>
-            <a href="https://open.spotify.com/artist/6dBkUvQfVsXZiz9X9DDnTo?si=dI6zyRaSTkaLpFfu2Qt1-A" target="_blank" className="headerButton headerButtonThin">Soundscape</a>
+            <a href="https://open.spotify.com/artist/6dBkUvQfVsXZiz9X9DDnTo?si=dI6zyRaSTkaLpFfu2Qt1-A" target="_blank" rel="noreferrer" className="headerButton headerButtonThin">Soundscape</a>
           </li>
             {/* <a href="#" className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a> */}
         </ul>
