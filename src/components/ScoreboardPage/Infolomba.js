@@ -25,7 +25,8 @@ export default function Infolomba(props) {
         <div className="infoLomba absolute text-[#f5f1be] md:text-xl lg:text-2xl font-semibold space-y-3 xl:space-y-5 font-ProductSans text-left ml-12 lg:ml-16 xl:ml-20 overflow-hidden">
           <div className="">Jam Tayang :</div>
           <div className="">Penanggung Jawab :</div>
-          <div className=""><u>Download PDF</u></div>
+          {/* <div className="">Download PDF</div> */}
+          <a href={"../../PDFrules/" + props.namaLomba + ".pdf"} download ><u>Download PDF Rules</u></a>
         </div>
       </div>
       <div>

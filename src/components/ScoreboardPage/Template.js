@@ -10,7 +10,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 AOS.init();
 
-export default function Template( props ) { 
+export default function Template( props ) {
   return (
       <div className='grid grid-cols-1 xl:grid-cols-12 relative mt-32 mb-16 md:mb-20 lg:mb-24 mx-0 xl:mx-16 2xl:mx-64'>
         <div data-aos="fade-right"

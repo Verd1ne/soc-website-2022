@@ -43,7 +43,7 @@ const IndexPage = () => {
       </Link>
       <Preview/>
       <Themesong/>
-      <Timeline/>
+      {/* <Timeline/> */}
       <Sponsors/>
     </Layout>
   )

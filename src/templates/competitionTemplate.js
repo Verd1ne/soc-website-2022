@@ -14,10 +14,9 @@ import Template from "../components/ScoreboardPage/template"
 export default function Scoreboard({ data, }) {
   const { html } = data.markdownRemark
   const { date, slug, title } = data.markdownRemark.frontmatter
-
   return (
     <Layout>
-      <Template title={ title } slug={ slug } date={date}/>
+      <Template title={ title } slug={ slug } date={ date }/>
     </Layout>
   )
 }
@@ -28,10 +27,23 @@ export const query = graphql`
     markdownRemark(frontmatter: {slug: {eq: $slug}}) {
       html
       frontmatter {
-        date(formatString: "DD MMMM YYYY")
+        date
         slug
         title
       }
     }
   }
 `
+
+// export const query = graphql`
+//   query MyQuery($slug: String) {
+//     markdownRemark(frontmatter: {slug: {eq: $slug}}) {
+//       html
+//       frontmatter {
+//         date(formatString: "MMMM DD, YYYY")
+//         slug
+//         title
+//       }
+//     }
+//   }
+// `

@@ -2,6 +2,7 @@
 slug: "basketball"
 date: "2022-10-21"
 title: "Basketball"
+tm: "21 Oktober 2022"
 ---
 
 <!-- 
@@ -13,4 +14,4 @@ title: "Basketball"
 2022-10-22 Mural
 2022-10-24 MUN
 2022-10-28 JHS Inggris
- -->
+-->
