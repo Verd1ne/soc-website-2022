@@ -4,10 +4,8 @@ import Layout from "../components/Layout/Layout"
 import Nowshowingcard from "../components/HomePage/Nowshowingcard"
 import Preview from "../components/HomePage/Preview"
 import Themesong from "../components/HomePage/Themesong"
-import Timeline from "../components/HomePage/Timeline"
 import Sponsors from "../components/HomePage/Sponsors"
 import { BsArrowRight } from "@react-icons/all-files/bs/BsArrowRight";
-import { FaLongArrowAltRight } from "@react-icons/all-files/fa/FaLongArrowAltRight";
 import { Link } from "gatsby"
 import Badminton from "../images/PosterLomba/Badminton.webp"
 import Band from "../images/PosterLomba/Band.webp"

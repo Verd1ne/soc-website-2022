@@ -9,9 +9,9 @@ export default function Index() {
 "Paskibra", "Pencak Silat", "Podcast", "Speech", "Vlog"];
   return (
     <Layout>
-    <div className='font-Broadway text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-white overflow-hidden mt-32 mb-10 text-center'>COMPETITIONS</div>
-      <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-4 md:gap-x-8 lg:gap-x-12 xl:gap-x-16 gap-y-12 md:gap-y-16 lg:gap-y-20 xl:gap-y-24 w-full container mx-auto mb-16 md:mb-20 lg:mb-24 p-12'>
-         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/'>
+    <div className='font-Broadway text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-white overflow-hidden mt-32 mb-10 text-center'>COMPETITIONS</div>
+      <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-4 md:gap-x-8 lg:gap-x-12 xl:gap-x-16 gap-y-12 md:gap-y-16 lg:gap-y-20 xl:gap-y-24 w-full container mx-auto mb-16 md:mb-20 lg:mb-24 p-12'>
+         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/badminton'>
           <StaticImage 
             src= "../../images/PosterLomba/Badminton.webp"
             alt= "Badminton"
@@ -19,7 +19,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Badminton</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Badminton</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/band'>
           <StaticImage 
@@ -29,7 +29,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto" 
           />
-          <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Band</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Band</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/basketball'>
           <StaticImage 
@@ -39,7 +39,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Basket</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Basket</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/businessPlan'>
           <StaticImage 
@@ -49,7 +49,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Business Plan</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Business Plan</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/eds'>
           <StaticImage 
@@ -59,7 +59,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">English Debate Competition</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">English Debate Competition</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/fotografi'>
           <StaticImage 
@@ -69,7 +69,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Fotografi</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Fotografi</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/futsal'>
           <StaticImage 
@@ -79,7 +79,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Futsal</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Futsal</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/jhsIpa'>
           <StaticImage 
@@ -89,7 +89,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">JHS IPA</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">JHS IPA</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/jhsIps'>
           <StaticImage 
@@ -99,7 +99,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">JHS IPS</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">JHS IPS</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/jhsMat'>
           <StaticImage 
@@ -109,7 +109,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">JHS Matematika</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">JHS Matematika</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/modernDance'>
           <StaticImage 
@@ -119,7 +119,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Modern Dance</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Modern Dance</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/mun'>
           <StaticImage 
@@ -129,7 +129,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Modern United Nation</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Modern United Nation</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/mural'>
           <StaticImage 
@@ -139,7 +139,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Mural</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Mural</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/paskibra'>
           <StaticImage 
@@ -149,7 +149,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Paskriba</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Paskriba</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/pencakSilat'>
           <StaticImage 
@@ -159,7 +159,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Pencak Silat</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Pencak Silat</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/podcast'>
           <StaticImage 
@@ -169,7 +169,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Podcast Competition</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Podcast Competition</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/speech'>
           <StaticImage 
@@ -179,7 +179,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Speech Competition</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Speech Competition</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/vlog'>
           <StaticImage 
@@ -189,7 +189,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Vlog Competition</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Vlog Competition</p>
         </Link>
         <Link className="col-start-1 lg:col-span-2 xl:col-span-1 xl:col-start-2 hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/voli'>
           <StaticImage 
@@ -199,7 +199,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Voli</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Voli</p>
         </Link> 
       </div>
     </Layout>
