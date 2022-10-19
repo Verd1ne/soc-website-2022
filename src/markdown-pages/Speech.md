@@ -1,6 +1,6 @@
 ---
-slug: "jhsInggris"
+slug: "speech"
 date: "2022-10-28"
-title: "JHS Inggris"
+title: "Speech"
 tm: "28 Oktober 2022"
 ---

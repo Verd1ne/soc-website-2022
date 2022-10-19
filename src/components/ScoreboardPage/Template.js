@@ -1,8 +1,4 @@
 import * as React from "react"
-// import { StaticImage } from "gatsby-plugin-image"
-import { graphql } from "gatsby"
-// import Layout from "./components/Layout/Layout"
-import Livescoreboard from './Livescoreboard'
 import Infolomba from './Infolomba'
 import Timeline from "./Timeline"
 import Hadiah from "./Hadiah"
@@ -48,17 +44,3 @@ export default function Template( props ) {
       </div>
   )
 }
-
-
-// export const query = graphql`
-//   query MyQuery($slug: String) {
-//     markdownRemark(frontmatter: {slug: {eq: $slug}}) {
-//       html
-//       frontmatter {
-//         date(formatString: "MMMM DD, YYYY")
-//         slug
-//         title
-//       }
-//     }
-//   }
-// `
