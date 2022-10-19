@@ -30,17 +30,17 @@ export default function Template( props ) {
             data-aos-easing="ease-in-out"
             data-aos-once="true"
             data-aos-anchor-placement="top-bottom"
-            className="mx-auto mt-12 col-span-1 xl:col-span-6">
+            className="mx-auto mt-12 col-span-1 xl:col-span-12">
           <Timeline date={ props.date }/>
         </div>
-        <div data-aos="fade-left"
+        {/* <div data-aos="fade-left"
             data-aos-duration="600"
             data-aos-easing="ease-in-out"
             data-aos-once="true"
             data-aos-anchor-placement="top-bottom"
             className="mx-auto mt-12 col-span-1 xl:col-span-6">
           <Hadiah/>
-        </div>
+        </div> */}
       </div>
   )
 }

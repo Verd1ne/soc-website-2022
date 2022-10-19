@@ -3,7 +3,6 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout/Layout"
 import Template from "../components/ScoreboardPage/template"
 
-
 export default function Scoreboard({ data, }) {
   // const { html } = data.markdownRemark
   const { date, slug, title } = data.markdownRemark.frontmatter
