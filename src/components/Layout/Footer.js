@@ -18,7 +18,7 @@ export default function Footer() {
                 placeholder="blurred"
                 // layout="fixed"
                 // height= {80}
-                className="h-[40px] md:h-[100px] md:w-2/3 lg:w-2/3 xl:w-2/5 md:-mt-7 lg:-mt-5 lg:-ml-3"
+                className="h-[40px] md:h-[90px] md:w-2/3 lg:w-2/3 xl:w-2/5 md:-mt-7 lg:-mt-5 lg:-ml-3"
               />
               <div className="text-[#f5f1be] font-Palatino text-left md:text-lg lg:text-xl md:-mt-5">
                 Smakonecup Atraxia, and its logo marks are the property of Smakonecup, a part of SMAK 1 PENABUR Jakarta

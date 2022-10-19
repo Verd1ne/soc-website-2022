@@ -4,6 +4,7 @@ import Layout from '../../components/Layout/Layout'
 import { Link } from 'gatsby'
 
 export default function Index() {
+  const imageheight = 500
   let competition = ["Badminton", "Band", "Basket", "Business Plan", "English Debate Competition", "Fotografi", "Futsal", "JHS IPA", "JHS IPS", "JHS Matematika", "Modern Dance", "Modern United Nation", "Mural",
 "Paskibra", "Pencak Silat", "Podcast", "Speech", "Vlog"];
   return (
@@ -20,7 +21,7 @@ export default function Index() {
           />
           <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Badminton</p>
         </Link>
-        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/'>
+        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/band'>
           <StaticImage 
             src= "../../images/PosterLomba/Band.webp"
             alt= "Band"
@@ -40,7 +41,7 @@ export default function Index() {
           />
           <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Basket</p>
         </Link>
-        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/'>
+        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/businessPlan'>
           <StaticImage 
             src= "../../images/PosterLomba/BusinessPlan.webp"
             alt= "BusinessPlan"
@@ -50,7 +51,7 @@ export default function Index() {
           />
           <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Business Plan</p>
         </Link>
-        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/'>
+        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/eds'>
           <StaticImage 
             src= "../../images/PosterLomba/Eds.webp"
             alt= "Eds"
@@ -60,7 +61,7 @@ export default function Index() {
           />
           <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">English Debate Competition</p>
         </Link>
-        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/'>
+        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/fotografi'>
           <StaticImage 
             src= "../../images/PosterLomba/Fotografi.webp"
             alt= "Fotografi"
@@ -70,7 +71,7 @@ export default function Index() {
           />
           <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Fotografi</p>
         </Link>
-        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/'>
+        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/futsal'>
           <StaticImage 
             src= "../../images/PosterLomba/Futsal.webp"
             alt= "Futsal"
@@ -80,7 +81,7 @@ export default function Index() {
           />
           <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Futsal</p>
         </Link>
-        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/'>
+        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/jhsIpa'>
           <StaticImage 
             src= "../../images/PosterLomba/Ipa.webp"
             alt= "Ipa"
@@ -90,7 +91,7 @@ export default function Index() {
           />
           <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">JHS IPA</p>
         </Link>
-        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/'>
+        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/jhsIps'>
           <StaticImage 
             src= "../../images/PosterLomba/Ips.webp"
             alt= "Ips"
@@ -100,7 +101,7 @@ export default function Index() {
           />
           <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">JHS IPS</p>
         </Link>
-        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/'>
+        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/jhsMat'>
           <StaticImage 
             src= "../../images/PosterLomba/Matematika.webp"
             alt= "Matematika"
@@ -110,7 +111,7 @@ export default function Index() {
           />
           <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">JHS Matematika</p>
         </Link>
-        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/'>
+        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/modernDance'>
           <StaticImage 
             src= "../../images/PosterLomba/ModernDance.webp"
             alt= "ModernDance"
@@ -120,7 +121,7 @@ export default function Index() {
           />
           <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Modern Dance</p>
         </Link>
-        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/'>
+        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/mun'>
           <StaticImage 
             src= "../../images/PosterLomba/Mun.webp"
             alt= "Mun"
@@ -130,7 +131,7 @@ export default function Index() {
           />
           <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Modern United Nation</p>
         </Link>
-        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/'>
+        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/mural'>
           <StaticImage 
             src= "../../images/PosterLomba/Mural.webp"
             alt= "Mural"
@@ -140,7 +141,7 @@ export default function Index() {
           />
           <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Mural</p>
         </Link>
-        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/'>
+        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/paskibra'>
           <StaticImage 
             src= "../../images/PosterLomba/Paskibra.webp"
             alt= "Paskibra"
@@ -150,7 +151,7 @@ export default function Index() {
           />
           <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Paskriba</p>
         </Link>
-        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/'>
+        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/pencakSilat'>
           <StaticImage 
             src= "../../images/PosterLomba/PencakSilat.webp"
             alt= "PencakSilat"
@@ -160,7 +161,7 @@ export default function Index() {
           />
           <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Pencak Silat</p>
         </Link>
-        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/'>
+        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/podcast'>
           <StaticImage 
             src= "../../images/PosterLomba/Podcast.webp"
             alt= "Podcast"
@@ -170,7 +171,7 @@ export default function Index() {
           />
           <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Podcast Competition</p>
         </Link>
-        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/'>
+        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/speech'>
           <StaticImage 
             src= "../../images/PosterLomba/Speech.webp"
             alt= "Speech"
@@ -180,7 +181,7 @@ export default function Index() {
           />
           <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Speech Competition</p>
         </Link>
-        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/'>
+        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/vlog'>
           <StaticImage 
             src= "../../images/PosterLomba/Vlog.webp"
             alt= "Vlog"
@@ -190,7 +191,7 @@ export default function Index() {
           />
           <p className="pt-5 text-white text-3xl font-bold text-center overflow-hidden">Vlog Competition</p>
         </Link>
-        <Link className="col-start-1 lg:col-span-2 xl:col-span-1 xl:col-start-2 hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/'>
+        <Link className="col-start-1 lg:col-span-2 xl:col-span-1 xl:col-start-2 hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/voli'>
           <StaticImage 
             src= "../../images/PosterLomba/Voli.webp"
             alt= "Voli"
