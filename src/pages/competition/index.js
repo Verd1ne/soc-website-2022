@@ -5,8 +5,6 @@ import { Link } from 'gatsby'
 
 export default function Index() {
   const imageheight = 500
-  let competition = ["Badminton", "Band", "Basket", "Business Plan", "English Debate Competition", "Fotografi", "Futsal", "JHS IPA", "JHS IPS", "JHS Matematika", "Modern Dance", "Modern United Nation", "Mural",
-"Paskibra", "Pencak Silat", "Podcast", "Speech", "Vlog"];
   return (
     <Layout>
     <div className='font-Broadway text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-white overflow-hidden mt-32 mb-10 text-center'>COMPETITIONS</div>
