@@ -16,7 +16,7 @@ export default function Timeline(props) {
           </tr>
           <tr>
             <td>Technical Meeting</td>
-            <td>{props.date}</td>
+            <td>{props.tm}</td>
           </tr>
           <tr>
             <td>Competition</td>

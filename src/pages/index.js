@@ -21,7 +21,7 @@ const IndexPage = () => {
         className="mt-32"
         width={3840}
       />
-      <div className="text-[#f5f1be] font-Palatino text-center text-lg md:text-xl lg:text-2xl mx-5 md:mx-12 mb-20">
+      <div className="text-[#f5f1be] font-Palatino text-center text-lg md:text-xl lg:text-2xl mx-5 md:mx-12 mb-20 mt-4">
         SMAKONECUP 2022, ATRAXIA yang merupakan singkatan dari “Above The Rest; eXpress your Inner personA”. Tema tahun ini terinspirasi dari keinginan kami agar setiap individu memiliki kesempatan untuk mengekspresikan dan mengeksplor diri masing-masing sehingga bisa menghasilkan inovasi-inovasi baru tanpa memiliki rasa kekhawatiran akan kegagalan. Hal ini bertujuan agar kita berani untuk menerobos rintangan dan menjadi berbeda dalam menunjukan warna kita yang sebenarnya dan agar kita bisa membawa perubahan positif ke depannya seiring dengan maraknya kemajuan teknologi dan banyaknya perubahan di era globalisasi ini dengan tetap memegang teguh prinsip-prinsip baik yang telah tertanam dan mempertahankan jati diri kita sebagai anak bangsa.
       </div>
       <StaticImage 
