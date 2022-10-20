@@ -26,17 +26,17 @@ export default function Footer() {
             </div>
             <div className=''>
               <div className="">
-                <h1 className="text-white text-right align-middle md:text-[40px] xl:text-[50px] font-Palatino">Contact Us</h1>
+                <h1 className="text-white text-right align-middle md:text-[40px] xl:text-[50px] font-ProductSans">Contact Us</h1>
               </div>
               <div className='flex flex-row-reverse gap-x-1'>
-                <a href="https://www.instagram.com/smukiee/" target="blank">
-                  <AiOutlineInstagram color="#f5f1be" size={45}/>
+                <a href="https://www.instagram.com/smukiee/" target="_blank" rel="noreferrer">
+                  <AiOutlineInstagram color="#f5f1be" size={45} className="hover:-translate-y-1 duration-300"/>
                 </a>
-                <a href="https://www.youtube.com/channel/UCscmFcZIn8T0-Of192snpcQ" target="blank">
-                  <AiOutlineYoutube color="#f5f1be" size={45}/>
+                <a href="https://www.youtube.com/channel/UCscmFcZIn8T0-Of192snpcQ" target="_blank" rel="noreferrer">
+                  <AiOutlineYoutube color="#f5f1be" size={45} className="hover:-translate-y-1 duration-300"/>
                 </a>
-                <a href="https://www.tiktok.com/@smakonecup " target="blank">
-                  <SiTiktok color="#f5f1be" size={38}/>
+                <a href="https://www.tiktok.com/@smakonecup " target="_blank" rel="noreferrer">
+                  <SiTiktok color="#f5f1be" size={35} className="hover:-translate-y-1 duration-300"/>
                 </a>
               </div>
             </div>
@@ -77,7 +77,7 @@ export default function Footer() {
             <SiTiktok color="#f5f1be" size={28}/>
           </a>
         </div>
-        <div className='font-Palatino text-[#f5f1be] text-center text-xs'>
+        <div className='font-Palatino text-[#f5f1be] text-center text-xs '>
           Copyright<sup>&copy;</sup> 2022 Smakonecup Atraxia<br/>All Rights Reserved
         </div>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function (props) {
+export default function Timeline(props) {
   return (
     <>
       <div className='font-Broadway text-6xl text-[#f5f1be] my-10 overflow-hidden text-center'>TIMELINE</div>
@@ -16,7 +16,7 @@ export default function (props) {
           </tr>
           <tr>
             <td>Technical Meeting</td>
-            <td>{props.date}</td>
+            <td>{props.tm}</td>
           </tr>
           <tr>
             <td>Competition</td>
