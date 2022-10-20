@@ -31,7 +31,7 @@ export default function Template( props ) {
             data-aos-once="true"
             data-aos-anchor-placement="top-bottom"
             className="mx-auto mt-12 col-span-1 xl:col-span-12">
-          <Timeline date={ props.date }/>
+          <Timeline tm={ props.tm }/>
         </div>
         {/* <div data-aos="fade-left"
             data-aos-duration="600"

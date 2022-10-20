@@ -5,10 +5,10 @@ import Template from "../components/ScoreboardPage/template"
 
 export default function Scoreboard({ data, }) {
   // const { html } = data.markdownRemark
-  const { date, slug, title } = data.markdownRemark.frontmatter
+  const { date, slug, title, tm } = data.markdownRemark.frontmatter
   return (
     <Layout>
-      <Template title={ title } slug={ slug } date={ date }/>
+      <Template title={ title } slug={ slug } date={ date } tm={ tm }/>
     </Layout>
   )
 }
@@ -22,6 +22,7 @@ export const query = graphql`
         date
         slug
         title
+        tm
       }
     }
   }
