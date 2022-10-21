@@ -4,7 +4,6 @@ import Layout from '../../components/Layout/Layout'
 import { Link } from 'gatsby'
 
 export default function Index() {
-  const imageheight = 500
   return (
     <Layout>
     <div className='font-Broadway text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white overflow-hidden mt-32 mb-[24px] lg:mb-8 xl:mb-[40px] text-center'>COMPETITIONS</div>
@@ -13,7 +12,7 @@ export default function Index() {
           <StaticImage 
             src= "../../images/PosterLomba/Badminton.webp"
             alt= "Badminton"
-            placeholder="blurred"
+            placeholder=" "
             layout="constrained"
             className="mx-auto"
           />
@@ -23,7 +22,7 @@ export default function Index() {
           <StaticImage 
             src= "../../images/PosterLomba/Band.webp"
             alt= "Band"
-            placeholder="blurred"
+            placeholder=" "
             layout="constrained"
             className="mx-auto" 
           />
@@ -33,7 +32,7 @@ export default function Index() {
           <StaticImage 
             src= "../../images/PosterLomba/Basket.webp"
             alt= "Basket"
-            placeholder="blurred"
+            placeholder=" "
             layout="constrained"
             className="mx-auto"
           />
@@ -43,7 +42,7 @@ export default function Index() {
           <StaticImage 
             src= "../../images/PosterLomba/BusinessPlan.webp"
             alt= "BusinessPlan"
-            placeholder="blurred"
+            placeholder=" "
             layout="constrained"
             className="mx-auto"
           />
@@ -53,7 +52,7 @@ export default function Index() {
           <StaticImage 
             src= "../../images/PosterLomba/Eds.webp"
             alt= "Eds"
-            placeholder="blurred"
+            placeholder=" "
             layout="constrained"
             className="mx-auto"
           />
@@ -63,7 +62,7 @@ export default function Index() {
           <StaticImage 
             src= "../../images/PosterLomba/Fotografi.webp"
             alt= "Fotografi"
-            placeholder="blurred"
+            placeholder=" "
             layout="constrained"
             className="mx-auto"
           />
@@ -73,7 +72,7 @@ export default function Index() {
           <StaticImage 
             src= "../../images/PosterLomba/Futsal.webp"
             alt= "Futsal"
-            placeholder="blurred"
+            placeholder=" "
             layout="constrained"
             className="mx-auto"
           />
@@ -83,7 +82,7 @@ export default function Index() {
           <StaticImage 
             src= "../../images/PosterLomba/Ipa.webp"
             alt= "Ipa"
-            placeholder="blurred"
+            placeholder=" "
             layout="constrained"
             className="mx-auto"
           />
@@ -93,7 +92,7 @@ export default function Index() {
           <StaticImage 
             src= "../../images/PosterLomba/Ips.webp"
             alt= "Ips"
-            placeholder="blurred"
+            placeholder=" "
             layout="constrained"
             className="mx-auto"
           />
@@ -103,7 +102,7 @@ export default function Index() {
           <StaticImage 
             src= "../../images/PosterLomba/Matematika.webp"
             alt= "Matematika"
-            placeholder="blurred"
+            placeholder=" "
             layout="constrained"
             className="mx-auto"
           />
@@ -113,7 +112,7 @@ export default function Index() {
           <StaticImage 
             src= "../../images/PosterLomba/ModernDance.webp"
             alt= "ModernDance"
-            placeholder="blurred"
+            placeholder=" "
             layout="constrained"
             className="mx-auto"
           />
@@ -123,7 +122,7 @@ export default function Index() {
           <StaticImage 
             src= "../../images/PosterLomba/Mun.webp"
             alt= "Mun"
-            placeholder="blurred"
+            placeholder=" "
             layout="constrained"
             className="mx-auto"
           />
@@ -133,7 +132,7 @@ export default function Index() {
           <StaticImage 
             src= "../../images/PosterLomba/Mural.webp"
             alt= "Mural"
-            placeholder="blurred"
+            placeholder=" "
             layout="constrained"
             className="mx-auto"
           />
@@ -143,7 +142,7 @@ export default function Index() {
           <StaticImage 
             src= "../../images/PosterLomba/Paskibra.webp"
             alt= "Paskibra"
-            placeholder="blurred"
+            placeholder=" "
             layout="constrained"
             className="mx-auto"
           />
@@ -153,7 +152,7 @@ export default function Index() {
           <StaticImage 
             src= "../../images/PosterLomba/PencakSilat.webp"
             alt= "PencakSilat"
-            placeholder="blurred"
+            placeholder=" "
             layout="constrained"
             className="mx-auto"
           />
@@ -163,7 +162,7 @@ export default function Index() {
           <StaticImage 
             src= "../../images/PosterLomba/Podcast.webp"
             alt= "Podcast"
-            placeholder="blurred"
+            placeholder=" "
             layout="constrained"
             className="mx-auto"
           />
@@ -173,7 +172,7 @@ export default function Index() {
           <StaticImage 
             src= "../../images/PosterLomba/Speech.webp"
             alt= "Speech"
-            placeholder="blurred"
+            placeholder=" "
             layout="constrained"
             className="mx-auto"
           />
@@ -183,7 +182,7 @@ export default function Index() {
           <StaticImage 
             src= "../../images/PosterLomba/Vlog.webp"
             alt= "Vlog"
-            placeholder="blurred"
+            placeholder=" "
             layout="constrained"
             className="mx-auto"
           />
@@ -193,7 +192,7 @@ export default function Index() {
           <StaticImage 
             src= "../../images/PosterLomba/Voli.webp"
             alt= "Voli"
-            placeholder="blurred"
+            placeholder=" "
             layout="constrained"
             className="mx-auto"
           />

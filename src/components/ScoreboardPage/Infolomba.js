@@ -9,7 +9,7 @@ export default function Infolomba(props) {
         <StaticImage 
           src="../../images/NamaLomba.png"
           alt="Frame"
-          placeholder="blurred"
+          placeholder="  "
           layout="constrained"
         />
         <div className="namaLomba w-full text-3xl xl:text-4xl text-center font-Broadway z-[5] absolute overflow-hidden">{props.namaLomba}</div>
@@ -19,7 +19,7 @@ export default function Infolomba(props) {
         <StaticImage 
           src="../../images/BorderJamTayang.PNG"
           alt="Frame"
-          placeholder="blurred"
+          placeholder="  "
           layout="constrained"
         />
         <div className="infoLomba absolute text-[#f5f1be] md:text-xl lg:text-2xl font-semibold font-ProductSans text-left ml-12 lg:ml-12 xl:ml-13 md:-mt-1">
@@ -36,7 +36,7 @@ export default function Infolomba(props) {
           <StaticImage 
             src="../../images/RegistrasiButton.png"
             alt="Registrasi Button"
-            placeholder="blurred"
+            placeholder="  "
             layout="constrained"
           />
         </a>

@@ -15,7 +15,7 @@ export default function Footer() {
               <StaticImage 
                 src= "../../images/SmakonecupLogo.png"
                 alt= "logo"
-                placeholder="blurred"
+                placeholder=""
                 layout="constrained"
                 height= {80}
                 className="md:-mt-4 lg:-mt-2 lg:-ml-3"
@@ -28,14 +28,14 @@ export default function Footer() {
               <div className="">
                 <h1 className="text-white text-right align-middle md:text-[40px] xl:text-[50px] font-ProductSans">Contact Us</h1>
               </div>
-              <div className='flex flex-row-reverse gap-x-1'>
+              <div className='flex flex-row-reverse gap-x-1 mt-2'>
                 <a href="https://www.instagram.com/smukiee/" target="_blank" rel="noreferrer">
                   <AiOutlineInstagram color="#f5f1be" size={45} className="hover:-translate-y-1 duration-300"/>
                 </a>
                 <a href="https://www.youtube.com/channel/UCscmFcZIn8T0-Of192snpcQ" target="_blank" rel="noreferrer">
                   <AiOutlineYoutube color="#f5f1be" size={45} className="hover:-translate-y-1 duration-300"/>
                 </a>
-                <a href="https://www.tiktok.com/@smakonecup " target="_blank" rel="noreferrer">
+                <a href="https://www.tiktok.com/@smakonecup" target="_blank" rel="noreferrer">
                   <SiTiktok color="#f5f1be" size={35} className="hover:-translate-y-1 duration-300"/>
                 </a>
               </div>
@@ -54,7 +54,7 @@ export default function Footer() {
           <StaticImage 
             src= "../../images/SmakonecupLogo.png"
             alt= "logo"
-            placeholder="blurred"
+            placeholder=""
             // layout="fixed"
             height= {70}
             className=""
@@ -64,17 +64,17 @@ export default function Footer() {
           Smakonecup Atraxia and its logo marks are the property of Smakonecup, a part of SMAK 1 PENABUR Jakarta
         </div>
         <div className="mb-1 text-center">
-          <h1 className="text-white text-2xl font-semibold font-Palatino">Contact Us</h1>
+          <h1 className="text-white text-2xl font-semibold font-ProductSans">Contact Us</h1>
         </div>
         <div className='flex gap-x-1.5 pb-3 justify-center'>
-          <a href="https://www.instagram.com/smukiee/" target="blank">
-            <AiOutlineInstagram color="#f5f1be" size={35}/>
+          <a href="https://www.instagram.com/smukiee/" target="_blank" rel="noreferrer">
+            <AiOutlineInstagram color="#f5f1be" size={35} className="hover:-translate-y-1 duration-300"/>
           </a>
-          <a href="https://www.youtube.com/channel/UCscmFcZIn8T0-Of192snpcQ" target="blank">
-            <AiOutlineYoutube color="#f5f1be" size={35}/>
+          <a href="https://www.youtube.com/channel/UCscmFcZIn8T0-Of192snpcQ" target="_blank" rel="noreferrer">
+            <AiOutlineYoutube color="#f5f1be" size={35} className="hover:-translate-y-1 duration-300"/>
           </a>
-          <a href="https://www.tiktok.com/@smakonecup " target="blank">
-            <SiTiktok color="#f5f1be" size={28}/>
+          <a href="https://www.tiktok.com/@smakonecup" target="_blank" rel="noreferrer">
+            <SiTiktok color="#f5f1be" size={28} className="hover:-translate-y-1 duration-300"/>
           </a>
         </div>
         <div className='font-Palatino text-[#f5f1be] text-center text-xs '>
