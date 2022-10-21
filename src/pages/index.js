@@ -1,6 +1,7 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import Layout from "../components/Layout/Layout"
+import Footer from "../components/Layout/Footer"
+import Header from "../components/Layout/Header"
 import Nowshowingcard from "../components/HomePage/Nowshowingcard"
 import Preview from "../components/HomePage/Preview"
 import Themesong from "../components/HomePage/Themesong"
@@ -14,9 +15,11 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 AOS.init();
 
+
 const IndexPage = () => {
   return (
-    <Layout>
+    <div>
+    <Header type={"absolute"}/>
       <div          
         data-aos="fade-in"
         data-aos-offset="0"
@@ -37,6 +40,7 @@ const IndexPage = () => {
           SMAKONECUP 2022, ATRAXIA yang merupakan singkatan dari “Above The Rest; eXpress your Inner personA”. Tema tahun ini terinspirasi dari keinginan kami agar setiap individu memiliki kesempatan untuk mengekspresikan dan mengeksplor diri masing-masing sehingga bisa menghasilkan inovasi-inovasi baru tanpa memiliki rasa kekhawatiran akan kegagalan. Hal ini bertujuan agar kita berani untuk menerobos rintangan dan menjadi berbeda dalam menunjukan warna kita yang sebenarnya dan agar kita bisa membawa perubahan positif ke depannya seiring dengan maraknya kemajuan teknologi dan banyaknya perubahan di era globalisasi ini dengan tetap memegang teguh prinsip-prinsip baik yang telah tertanam dan mempertahankan jati diri kita sebagai anak bangsa.
         </div>
       </div>
+      <Header type={"fixed"}/>
       <div
         data-aos="fade-in"
         data-aos-offset="100"
@@ -63,7 +67,8 @@ const IndexPage = () => {
       <Themesong/>
       {/* <Timeline/> */}
       <Sponsors/>
-    </Layout>
+    <Footer/>
+    </div>
   )
 }
 

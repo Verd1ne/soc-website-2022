@@ -1,13 +1,27 @@
-import React, {useState} from "react"
+import React, {useState, useEffect} from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { GiHamburgerMenu } from "@react-icons/all-files/gi/GiHamburgerMenu"
 
-export default function Header() {
+export default function Header(props) {
   const [dropdown, setDropdown] = useState(false);
+  
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const handleScroll = () => {
+      const position = window.pageYOffset;
+      setScrollPosition(position);
+  };
+
+  useEffect(() => {
+      window.addEventListener('scroll', handleScroll, { passive: true });
+
+      return () => {
+          window.removeEventListener('scroll', handleScroll);
+      };
+  }, []);
 
   return (
-    <div className="fixed z-[100] w-full">
+    <div className={`${props.type === "fixed" ? `${scrollPosition >= 958 ? "visible fixed top-0" : "invisible"}` : `${props.type === "absolute" ? "absolute" : "fixed"}`}  z-[100] w-full`}>
       <div className="grid grid-cols-4 sm:grid-cols-3 lg:grid-cols-4 bg-black flex justify-between w-screen h-20 pr-4 md:pr-8 lg:pr-12">
           <Link to="/" className="col-span-3 sm:col-span-2 lg:col-span-1 h-full ml-0 md:ml-4 lg:ml-8 xl:ml-12">
             <StaticImage 
@@ -22,7 +36,7 @@ export default function Header() {
         <div className="col-start-4 sm:col-start-3 lg:col-span-3">
           {/* laptop */}
           <div className="hidden lg:flex text-white space-x-4 lg:space-x-7 font-ProductSans text-xl lg:text-2xl w-full justify-end my-auto h-full items-center inline">
-            <Link to="/" className="headerButton">About</Link>
+            <Link to="/" className="headerButton"></Link>
             <Link to="/" className="headerButton">Store</Link>
             <Link to="/competition" className="headerButton">Competition</Link>
             <a href="https://socregis.smakone.org/" target="_blank" rel="noreferrer" className="headerButton">Registration</a>
