@@ -13,8 +13,10 @@ import Band from "../images/PosterLomba/Band.webp"
 import Basket from "../images/PosterLomba/Basket.webp"
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-AOS.init();
-
+AOS.init({
+  once: true,
+  mirror: false, 
+});
 
 const IndexPage = () => {
   return (
@@ -25,8 +27,6 @@ const IndexPage = () => {
         data-aos-offset="0"
         data-aos-delay="0"
         data-aos-duration="3000"
-        data-aos-mirror="true"
-        data-aos-once="true"
         data-aos-anchor-placement="top-center"
         >
         <StaticImage 
@@ -44,8 +44,7 @@ const IndexPage = () => {
       <div
         data-aos="fade-in"
         data-aos-offset="100"
-        data-aos-duration="3000"
-        data-aos-once="true">
+        data-aos-duration="3000">
         <StaticImage 
           src="../images/NowShowing.png"
           alt="Now Showing"
@@ -54,7 +53,11 @@ const IndexPage = () => {
         />
       </div>
       
-      <div className="relative grid grid-cols-3 mx-5 md:mx-10 lg:mx-20 lg:px-20">
+      <div 
+        data-aos="fade-in"
+        data-aos-offset="100"
+        data-aos-duration="3000"
+        className="relative grid grid-cols-3 mx-5 md:mx-10 lg:mx-20 lg:px-20">
         <Nowshowingcard image={`${Badminton}`}/>
         <Nowshowingcard image={`${Band}`}/>
         <Nowshowingcard image={`${Basket}`}/>
