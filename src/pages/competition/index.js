@@ -4,8 +4,7 @@ import Layout from '../../components/Layout/Layout'
 import { Link } from 'gatsby'
 
 export default function Index() {
-  let competition = ["Badminton", "Band", "Basket", "Business Plan", "English Debate Competition", "Fotografi", "Futsal", "JHS IPA", "JHS IPS", "JHS Matematika", "Modern Dance", "Modern United Nation", "Mural",
-"Paskibra", "Pencak Silat", "Podcast", "Speech", "Vlog"];
+  const imageheight = 500
   return (
     <Layout>
     <div className='font-Broadway text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white overflow-hidden mt-32 mb-[24px] lg:mb-8 xl:mb-[40px] text-center'>COMPETITIONS</div>

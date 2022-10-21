@@ -16,10 +16,12 @@ export default function Footer() {
                 src= "../../images/SmakonecupLogo.png"
                 alt= "logo"
                 placeholder="blurred"
-                className="h-[28px] lg:h-[70px] md:w-2/3 lg:w-2/3 xl:w-2/5 mb-3 xl:mb-5"
+                layout="constrained"
+                height= {80}
+                className="md:-mt-4 lg:-mt-2 lg:-ml-3"
               />
-              <div className="text-[#f5f1be] font-Palatino text-left md:text-lg lg:text-xl md:-mt-5 ml-0 md:ml-3">
-                Smakonecup Atraxia, and its logo marks are the property of Smakonecup, a part of SMAK 1 PENABUR Jakarta
+              <div className="text-[#f5f1be] font-Palatino text-left md:text-lg lg:text-xl md:-mt-3">
+                Smakonecup Atraxia and its logo marks are the property of Smakonecup, a part of SMAK 1 PENABUR Jakarta
               </div>
             </div>
             <div className=''>
@@ -39,7 +41,10 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className='font-Palatino text-[#f5f1be] text-center text-sm md:text-base mt-5 md:mt-10'>
+          <div className="text-[#f5f1be] font-Palatino text-center md:text-lg lg:text-xl mt-5 md:mt-10">
+            Jl. Tanjung Duren Raya No.4, RT.12/RW.2, Tj. Duren Utara, <br className="flex xl:hidden"/>Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11470
+          </div>
+          <div className='font-Palatino text-[#f5f1be] text-center text-sm md:text-base '>
             Copyright<sup>&copy;</sup> 2022 Smakonecup Atraxia All Rights Reserved
           </div>
       </div>
@@ -56,7 +61,7 @@ export default function Footer() {
           />
         </div>
         <div className="text-[#f5f1be] font-Palatino text-center text-xs -mt-3 mb-2">
-          Smakonecup Atraxia, and its logo marks are the property of Smakonecup, a part of SMAK 1 PENABUR Jakarta
+          Smakonecup Atraxia and its logo marks are the property of Smakonecup, a part of SMAK 1 PENABUR Jakarta
         </div>
         <div className="mb-1 text-center">
           <h1 className="text-white text-2xl font-semibold font-Palatino">Contact Us</h1>
