@@ -8,7 +8,7 @@ export default function Hadiah() {
       <StaticImage 
         src= "../../images/Hadiah.PNG"
         alt= "Hadiah"
-        placeholder="blurred"
+        placeholder=""
         layout="constrained"
         width= {550}
       />

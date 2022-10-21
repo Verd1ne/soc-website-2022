@@ -13,7 +13,7 @@ export default function Header() {
             <StaticImage 
               src= "../../images/SmakonecupLogo.png"
               alt= "logo"
-              placeholder="blurred"
+              placeholder=""
               layout="fixed"
               height= {64}
               className="my-2"
