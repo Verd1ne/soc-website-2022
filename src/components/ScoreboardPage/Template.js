@@ -23,7 +23,7 @@ export default function Template( props ) {
             data-aos-once="true"
             data-aos-anchor-placement="top-bottom"
             className="mx-auto mt-12 lg:mt-16 xl:mt-20 col-span-1 xl:col-span-7">
-          <Infolomba namaLomba={ props.title }/>
+          <Infolomba namaLomba={ props.title } contact={ props.contact }/>
         </div>
         <div data-aos="fade-right"
             data-aos-duration="600"
