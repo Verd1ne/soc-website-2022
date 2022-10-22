@@ -11,6 +11,7 @@ module.exports = {
         'Broadway': ['Broadway'],
         'Palatino': ['Palatino'],
         'ProductSans': ['ProductSans'],
+        'Esteban': ['Esteban']
       },
     },
   },

@@ -7,7 +7,7 @@ export default function Infolomba(props) {
     <div className='relative h-full overflow-hidden mx-4 sm:mx-12 md:mx-40 lg:mx-64 xl:mx-20 '>
       <div className="relative text-center">
         <StaticImage 
-          src="../../images/NamaLomba.png"
+          src="../../images/NamaLomba.webp"
           alt="Frame"
           placeholder="  "
           layout="constrained"
@@ -17,7 +17,7 @@ export default function Infolomba(props) {
       
       <div className="relative">
         <StaticImage 
-          src="../../images/BorderJamTayang.PNG"
+          src="../../images/BorderJamTayang.webp"
           alt="Frame"
           placeholder="  "
           layout="constrained"
@@ -34,7 +34,7 @@ export default function Infolomba(props) {
       <div>
         <a href="https://socregis.smakone.org/" target='_blank' rel="noreferrer">
           <StaticImage 
-            src="../../images/RegistrasiButton.png"
+            src="../../images/RegistrasiButton.webp"
             alt="Registrasi Button"
             placeholder="  "
             layout="constrained"
