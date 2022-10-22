@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 export default function Infolomba(props) {
   let contact = props.contact.split("|")
   return (
-    <div className='relative h-full overflow-hidden sm:mx-12 md:mx-40 lg:mx-64 xl:mx-20'>
+    <div className='relative h-full overflow-hidden mx-0 sm:mx-12 md:mx-40 lg:mx-64 xl:mx-20'>
       <div className="relative text-center">
         <div className="font-Broadway text-6xl text-[#f5f1be] overflow-hidden">{props.namaLomba}</div>
       </div>
