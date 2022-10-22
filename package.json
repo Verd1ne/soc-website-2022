@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
+    "@splidejs/react-splide": "^0.7.12",
     "aos": "^2.3.4",
     "gatsby": "^4.19.2",
     "gatsby-image": "^3.11.0",

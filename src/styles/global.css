@@ -2,13 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  overflow-x: hidden;
-}
 
 body {
   background-color: #520901;
 }
+
 
 @layer base {
   @font-face {

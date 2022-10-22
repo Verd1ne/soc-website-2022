@@ -1,30 +1,25 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/Layout/Layout"
-import Nowshowingcard from "../components/HomePage/Nowshowingcard"
 import Preview from "../components/HomePage/Preview"
 import Themesong from "../components/HomePage/Themesong"
 import Sponsors from "../components/HomePage/Sponsors"
-import { BsArrowRight } from "@react-icons/all-files/bs/BsArrowRight";
-import { Link } from "gatsby"
-import Badminton from "../images/PosterLomba/Badminton.webp"
-import Band from "../images/PosterLomba/Band.webp"
-import Basket from "../images/PosterLomba/Basket.webp"
+import Nowshowing from "../components/HomePage/Nowshowing";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-AOS.init();
-
+AOS.init({
+  once: true,
+  mirror: false, 
+});
 
 const IndexPage = () => {
   return (
-    <Layout>
+    <Layout className="overflow-x-hidden">
       <div          
         data-aos="fade-in"
         data-aos-offset="0"
         data-aos-delay="0"
         data-aos-duration="3000"
-        data-aos-mirror="true"
-        data-aos-once="true"
         data-aos-anchor-placement="top-center"
         >
         <StaticImage 
@@ -41,28 +36,25 @@ const IndexPage = () => {
       <div
         data-aos="fade-in"
         data-aos-offset="100"
-        data-aos-duration="3000"
-        data-aos-once="true">
+        data-aos-duration="3000">
         <StaticImage 
           src="../images/NowShowing.webp"
           alt="Now Showing"
           placeholder=""
           width={3840}
+          className="scale-110 mb-16 sm:mb-20 md:mb-24 lg:mb-28 xl:mb-32"
         />
       </div>
       
-      <div className="relative grid grid-cols-3 mx-5 md:mx-10 lg:mx-20 lg:px-20">
-        <Nowshowingcard image={`${Badminton}`}/>
-        <Nowshowingcard image={`${Band}`}/>
-        <Nowshowingcard image={`${Basket}`}/>
+      <div 
+        data-aos="fade-in"
+        data-aos-offset="100"
+        data-aos-duration="3000"
+        className="relative mx-5 md:mx-10 lg:mx-20 lg:px-20">
+        <Nowshowing/>
       </div>
-      <Link to="/competition" className="text-[10px] md:text-2xl xl:text-3xl text-white text-center mt-2 md:mt-3 lg:mt-0 overflow-hidden block">
-        View More
-        <BsArrowRight className="inline" size={24}/>
-      </Link>
       <Preview/>
       <Themesong/>
-      {/* <Timeline/> */}
       <Sponsors/>
     </Layout>
   )
