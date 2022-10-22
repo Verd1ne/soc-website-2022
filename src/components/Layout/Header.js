@@ -3,25 +3,11 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { GiHamburgerMenu } from "@react-icons/all-files/gi/GiHamburgerMenu"
 
-export default function Header(props) {
+export default function Header() {
   const [dropdown, setDropdown] = useState(false);
-  
-  const [scrollPosition, setScrollPosition] = useState(0);
-  const handleScroll = () => {
-      const position = window.pageYOffset;
-      setScrollPosition(position);
-  };
-
-  useEffect(() => {
-      window.addEventListener('scroll', handleScroll, { passive: true });
-
-      return () => {
-          window.removeEventListener('scroll', handleScroll);
-      };
-  }, []);
 
   return (
-    <div className={`${props.type === "fixed" ? `${scrollPosition >= 958 ? "visible fixed top-0" : "invisible"}` : `${props.type === "absolute" ? "absolute" : "fixed"}`}  z-[100] w-full`}>
+    <div className={"fixed z-[100] w-full"}>
       <div className="grid grid-cols-4 sm:grid-cols-3 lg:grid-cols-4 bg-black flex justify-between w-screen h-20 pr-4 md:pr-8 lg:pr-12">
           <Link to="/" className="col-span-3 sm:col-span-2 lg:col-span-1 h-full ml-0 md:ml-4 lg:ml-8 xl:ml-12">
             <StaticImage 
@@ -36,7 +22,7 @@ export default function Header(props) {
         <div className="col-start-4 sm:col-start-3 lg:col-span-3">
           {/* laptop */}
           <div className="hidden lg:flex text-white space-x-4 lg:space-x-7 font-ProductSans text-xl lg:text-2xl w-full justify-end my-auto h-full items-center inline">
-            <Link to="/" className="headerButton"></Link>
+            <Link to="/about" className="headerButton">About</Link>
             <Link to="/" className="headerButton">Store</Link>
             <Link to="/competition" className="headerButton">Competition</Link>
             <a href="https://socregis.smakone.org/" target="_blank" rel="noreferrer" className="headerButton">Registration</a>
@@ -53,7 +39,7 @@ export default function Header(props) {
       <div className={`${dropdown ? "" : "hidden"} lg:hidden w-fit fixed right-0 pl-[16px] sm:pl-[20px] md:pl-[24px] lg:pl-[28px] pr-[20px] lg:pr-[32px] py-1 -mt-2 rounded-bl-xl divide-y bg-black`}>
         <ul className="py-1 text-[20px] text-gray-700 dark:text-gray-200 text-right">
           <li>
-            <Link to="/" className="headerButton headerButtonThin">About</Link>
+            <Link to="/about" className="headerButton headerButtonThin">About</Link>
           </li>
           <li>
             <Link to="/" className="headerButton headerButtonThin">Store</Link>
