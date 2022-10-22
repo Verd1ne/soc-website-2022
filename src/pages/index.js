@@ -2,15 +2,10 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Footer from "../components/Layout/Footer"
 import Header from "../components/Layout/Header"
-import Nowshowingcard from "../components/HomePage/Nowshowingcard"
 import Preview from "../components/HomePage/Preview"
 import Themesong from "../components/HomePage/Themesong"
 import Sponsors from "../components/HomePage/Sponsors"
-import { BsArrowRight } from "@react-icons/all-files/bs/BsArrowRight";
-import { Link } from "gatsby"
-import Badminton from "../images/PosterLomba/Badminton.webp"
-import Band from "../images/PosterLomba/Band.webp"
-import Basket from "../images/PosterLomba/Basket.webp"
+import Nowshowing from "../components/HomePage/Nowshowing";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 AOS.init({
@@ -20,7 +15,7 @@ AOS.init({
 
 const IndexPage = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
     <Header type={"absolute"}/>
       <div          
         data-aos="fade-in"
@@ -50,6 +45,7 @@ const IndexPage = () => {
           alt="Now Showing"
           placeholder=""
           width={3840}
+          className="scale-110 mb-16 sm:mb-20 md:mb-24 lg:mb-28 xl:mb-32"
         />
       </div>
       
@@ -57,18 +53,11 @@ const IndexPage = () => {
         data-aos="fade-in"
         data-aos-offset="100"
         data-aos-duration="3000"
-        className="relative grid grid-cols-3 mx-5 md:mx-10 lg:mx-20 lg:px-20">
-        <Nowshowingcard image={`${Badminton}`}/>
-        <Nowshowingcard image={`${Band}`}/>
-        <Nowshowingcard image={`${Basket}`}/>
+        className="relative mx-5 md:mx-10 lg:mx-20 lg:px-20">
+        <Nowshowing/>
       </div>
-      <Link to="/competition" className="text-[10px] md:text-2xl xl:text-3xl text-white text-center mt-2 md:mt-3 lg:mt-0 overflow-hidden block">
-        View More
-        <BsArrowRight className="inline" size={24}/>
-      </Link>
       <Preview/>
       <Themesong/>
-      {/* <Timeline/> */}
       <Sponsors/>
     <Footer/>
     </div>

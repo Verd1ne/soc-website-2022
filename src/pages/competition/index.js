@@ -58,15 +58,15 @@ export default function Index() {
           />
           <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">English Debate Competition</p>
         </Link>
-        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/fotografi'>
+        <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/photography'>
           <StaticImage 
-            src= "../../images/PosterLomba/Fotografi.webp"
-            alt= "Fotografi"
+            src= "../../images/PosterLomba/Photography.webp"
+            alt= "Photography"
             placeholder=" "
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Fotografi</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Photography</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/futsal'>
           <StaticImage 

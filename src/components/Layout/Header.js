@@ -21,7 +21,7 @@ export default function Header(props) {
   }, []);
 
   return (
-    <div className={`${props.type === "fixed" ? `${scrollPosition >= 958 ? "visible fixed top-0" : "invisible"}` : `${props.type === "absolute" ? "absolute" : "fixed"}`}  z-[100] w-full`}>
+    <div className={`${props.type === "fixed" ? `${scrollPosition >= 958 ? "visible fixed top-0" : "invisible"}` : `${props.type === "absolute" ? "absolute" : "fixed"}`}  z-[100] w-full overflow-hidden`}>
       <div className="grid grid-cols-4 sm:grid-cols-3 lg:grid-cols-4 bg-black flex justify-between w-screen h-20 pr-4 md:pr-8 lg:pr-12">
           <Link to="/" className="col-span-3 sm:col-span-2 lg:col-span-1 h-full ml-0 md:ml-4 lg:ml-8 xl:ml-12">
             <StaticImage 
