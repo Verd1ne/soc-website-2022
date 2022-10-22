@@ -5,8 +5,8 @@ export default function Timeline(props) {
     <>
       <div className='font-Broadway text-6xl text-[#f5f1be] my-10 overflow-hidden text-center'>TIMELINE</div>
       <table className="border-collapse border border-[#FFF] text-[#f5f1be] font-ProductSans text-center">
-        <tbody className="text-lg">
-          <tr className='text-3xl'>
+        <tbody className="text-xs md:text-lg">
+          <tr className='text-xl md:text-3xl'>
             <th>Event</th>
             <th>Date</th>
           </tr>

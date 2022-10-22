@@ -15,6 +15,9 @@ module.exports = {
         'Monserrat': ['Montserrat'],
         'OpenSans': ['OpenSans']
       },
+      colors: {
+        'gold': '#FFDF00'
+      }
     },
   },
   plugins: [],
