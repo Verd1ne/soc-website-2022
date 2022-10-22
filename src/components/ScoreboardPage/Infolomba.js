@@ -6,13 +6,8 @@ export default function Infolomba(props) {
   return (
     <div className='relative h-full overflow-hidden mx-4 sm:mx-12 md:mx-40 lg:mx-64 xl:mx-20 '>
       <div className="relative text-center">
-        <StaticImage 
-          src="../../images/NamaLomba.webp"
-          alt="Frame"
-          placeholder="  "
-          layout="constrained"
-        />
-        <div className="namaLomba w-full text-3xl xl:text-4xl text-center font-Broadway z-[5] absolute overflow-hidden">{props.namaLomba}</div>
+
+        <div className="font-Broadway text-6xl text-[#f5f1be] overflow-hidden">{props.namaLomba}</div>
       </div>
       
       <div className="relative">

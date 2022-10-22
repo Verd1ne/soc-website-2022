@@ -10,8 +10,10 @@ export default function Preview() {
   return (
     <div 
       data-aos="fade-in"
-      data-aos-offset="1000"
-      data-aos-duration="3000">
+      data-aos-offset="700"
+      data-aos-duration="3000"
+      data-aos-delay="0"
+      className='mt-48 md:mt-52 lg:mt-56 xl:mt-60'>
       <div 
 
       className="text-center text-white font-Broadway text-[50px] md:text-[90px] lg:text-[110px] mt-5 md:mt-12 leading-none overflow-hidden">PREVIEW</div>
