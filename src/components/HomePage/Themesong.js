@@ -12,8 +12,9 @@ export default function Themesong() {
   return (
     <div  
       data-aos="fade-in"
-      data-aos-offset="1000"
+      data-aos-offset="700"
       data-aos-duration="3000"
+      data-aos-delay="0"
       className="relative z-10 bg-[url('../images/Disc.webp')] bg-no-repeat bg-top bg-contain mx-0 px-0 md:px-12 h-[300px] md:h-[600px] lg:h-[700px] mt-48 md:mt-52 lg:mt-56 xl:mt-60">
       <div className="text-center text-white font-Broadway text-5xl md:text-[80px] lg:text-[100px] mt-3 overflow-hidden mb-3">THEME SONG</div>
       <div className="flex flex-row text-center gap-4 md:gap-16 place-content-center overflow-hidden py-3">
