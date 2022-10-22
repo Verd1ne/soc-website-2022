@@ -19,9 +19,9 @@ export default function Infolomba(props) {
         />
         <div className="infoLomba absolute text-[#f5f1be] md:text-xl lg:text-2xl font-semibold font-ProductSans text-left ml-12 lg:ml-12 xl:ml-13 md:-mt-1">
           <div className="">Penanggung Jawab :</div>
-          <ul className="md:text-base lg:text-lg font-normal ml-3 md:mb-2 list-disc">
+          <ul className="text md:text-base lg:text-lg font-normal ml-3 md:mb-2 list-disc">
             <li>{contact[0]}</li>
-            <li>{contact[1]}</li>
+            <li className={`${!contact[1] ? "hidden" : ""}`}>{contact[1]}</li>
           </ul>
           <a href={"../../PDFrules/" + props.namaLomba + ".pdf"} download ><u>Download PDF Rules</u></a>
         </div>
