@@ -10,8 +10,9 @@ export default function Preview() {
   return (
     <div 
       data-aos="fade-in"
-      data-aos-offset="1000"
+      data-aos-offset="700"
       data-aos-duration="3000"
+      data-aos-delay="0"
       className='mt-48 md:mt-52 lg:mt-56 xl:mt-60'>
       <div 
 
