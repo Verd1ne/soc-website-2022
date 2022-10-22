@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import Badminton from "../../images/PosterLomba/Badminton.webp";
 import Band from "../../images/PosterLomba/Band.webp"
