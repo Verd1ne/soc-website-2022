@@ -4,20 +4,12 @@ import { StaticImage } from 'gatsby-plugin-image'
 export default function Infolomba(props) {
   let contact = props.contact.split("|")
   return (
-    <div className='relative h-full overflow-hidden mx-4 sm:mx-12 md:mx-40 lg:mx-64 xl:mx-20 '>
+    <div className='relative h-full overflow-hidden mx-0 sm:mx-12 md:mx-40 lg:mx-64 xl:mx-20'>
       <div className="relative text-center">
-
         <div className="font-Broadway text-6xl text-[#f5f1be] overflow-hidden">{props.namaLomba}</div>
       </div>
-      
-      <div className="relative">
-        <StaticImage 
-          src="../../images/BorderJamTayang.webp"
-          alt="Frame"
-          placeholder="  "
-          layout="constrained"
-        />
-        <div className="infoLomba absolute text-[#f5f1be] md:text-xl lg:text-2xl font-semibold font-ProductSans text-left ml-12 lg:ml-12 xl:ml-13 md:-mt-1">
+      <div>
+        <div className="infoLomba text-[#f5f1be] md:text-xl lg:text-2xl font-semibold font-ProductSans text-left lg:ml-7 xl:ml-13 md:mt-32 border-4 border-[gold] p-3 mt-32 mx-11">
           <div className="">Penanggung Jawab :</div>
           <ul className="text md:text-base lg:text-lg font-normal ml-3 md:mb-2 list-disc">
             <li>{contact[0]}</li>
@@ -25,8 +17,7 @@ export default function Infolomba(props) {
           </ul>
           <a href={"../../PDFrules/" + props.namaLomba + ".pdf"} download ><u>Download PDF Rules</u></a>
         </div>
-      </div>
-      <div>
+        <div>
         <a href="https://socregis.smakone.org/" target='_blank' rel="noreferrer">
           <StaticImage 
             src="../../images/RegistrasiButton.webp"
@@ -34,8 +25,8 @@ export default function Infolomba(props) {
             placeholder="  "
             layout="constrained"
           />
-        </a>
-        
+        </a>   
+        </div>
       </div>
     </div>
   )
