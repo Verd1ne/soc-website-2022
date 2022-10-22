@@ -6,7 +6,7 @@ export default function Hadiah() {
     <div>
       <div className='font-Broadway text-6xl text-[#f5f1be] my-6 overflow-hidden text-center'>HADIAH</div>
       <StaticImage 
-        src= "../../images/Hadiah.PNG"
+        src= "../../images/Hadiah.webp"
         alt= "Hadiah"
         placeholder=""
         layout="constrained"

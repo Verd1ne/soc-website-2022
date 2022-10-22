@@ -13,7 +13,7 @@ export default function Footer() {
           <div className='grid grid-cols-2'>
             <div className=''>
               <StaticImage 
-                src= "../../images/SmakonecupLogo.png"
+                src= "../../images/SmakonecupLogo.webp"
                 alt= "logo"
                 placeholder=""
                 layout="constrained"
@@ -52,7 +52,7 @@ export default function Footer() {
       <div className="visible md:hidden px-10 pb-2">
         <div className="text-center">
           <StaticImage 
-            src= "../../images/SmakonecupLogo.png"
+            src= "../../images/SmakonecupLogo.webp"
             alt= "logo"
             placeholder=""
             // layout="fixed"
