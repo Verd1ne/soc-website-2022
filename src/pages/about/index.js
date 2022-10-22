@@ -1,7 +1,8 @@
 import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../../components/Layout/Layout'
-import { Link } from 'gatsby'
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 
 export default function Index() {
   return (
@@ -10,7 +11,7 @@ export default function Index() {
         <div className='font-Broadway text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl overflow-hidden mt-32 mb-[50px] md:mb-[70px] lg:mb-[80px] xl:mb-[120px] text-center text-white'>About SOC</div>
         <div className="border border-black border-2 bg-white rounded-3xl px-5 md:px-10 lg:px-12 xl:px-15 py-5 md:py-7 lg:py-10 xl:py-12 mb-[50px] md:mb-[60px] lg:mb-[80px] xl:mb-[100px]">
           <div className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-[15px] lg:mb-[30px] 2xl:mb-[40px] text-center overflow-hidden'>Apa itu SOC ?</div>
-          <div className="text-justify text-sm md:text-base lg:text-lg xl:text-xl">
+          <div className="text-justify text-sm md:text-base lg:text-lg xl:text-xl ">
               <div>SMAKONECUP 2022 merupakan salah satu acara terbesar dalam serangkaian program satu tahun kami. Acara ini merupakan event persahabatan antar sekolah yang memperlombakan 16 cabang lomba baik dalam bidang akademis maupun non akademis.</div>
               <br/>
               <div>Dengan diadakannya SMAKONECUP 2022, diharapkan tujuan pengembangan potensi generasi muda secara menyeluruh dapat tercapai. Generasi muda dapat mengembangkan secara luas dan mendalam kemampuan dan potensi yang dimiliki dan mengekspresikannya melalui acara ini, terlepas dari kemampuan peserta didik dalam akademis namun juga menunjukan kemampuan peserta didik di berbagai bidang kreasi lainnya.</div>
@@ -38,10 +39,36 @@ export default function Index() {
         </div>
         <div className='mb-[50px] md:mb-[60px] lg:mb-[80px] xl:mb-[100px]'>
           <p className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white font-bold mb-[15px] lg:mb-[30px] 2xl:mb-[40px] text-center md:h-12 lg:h-20'>SOC throughout the years</p>
-          <div className="flex w-screen align-middle">
-            <div className="">ARROW LEFT</div>
-            <div className="scroll-smooth grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 md:gap-x-8 lg:gap-x-12 xl:gap-x-16">
+          <Splide
+            options={{
+              rewind: true,
+              start: 9,
+              lazyLoad:'nearby',
+              type   : 'loop',
+              perPage: 2,
+              perMove: 2,
+              gap: 20,
+              padding: "3rem",
+              // pagination: false,
+              breakpoints: {
+                623: {
+                  perPage: 1,
+                  perMove: 1
+                },
+                935: {
+                  perPage: 2,
+                  perMove: 2
+                },
+                1247: {
+                  perPage: 2,
+                  perMove: 2
+                }
+              }
+            }}
+          >
+            <SplideSlide>
               <div className="border border-black border-2 bg-white rounded-3xl px-5 md:px-10 lg:px-12 xl:px-15 py-5 md:py-7 lg:py-10 xl:py-12 text-center">
+                <div className="h-40 ">2018</div>
                 <StaticImage 
                   src= "../../images/Disc.webp"
                   alt= "logo"
@@ -50,19 +77,48 @@ export default function Index() {
                   height= {100}
                   className="mb-10"
                 />
-                <div className="h-60">Explanation</div>
               </div>
-              <div className="hidden md:flex border border-black border-2 bg-white rounded-3xl px-5 md:px-10 lg:px-12 xl:px-15 py-5 md:py-7 lg:py-10 xl:py-12">
-                <div>image</div>
-                <div>Explanation</div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className="border border-black border-2 bg-white rounded-3xl px-5 md:px-10 lg:px-12 xl:px-15 py-5 md:py-7 lg:py-10 xl:py-12 text-center">
+                <div className="h-60">2019</div>
+                <StaticImage 
+                  src= "../../images/Disc.webp"
+                  alt= "logo"
+                  placeholder=""
+                  layout="constrained"
+                  height= {100}
+                  className="mb-10"
+                />
               </div>
-              <div className="hidden lg:flex border border-black border-2 bg-white rounded-3xl px-5 md:px-10 lg:px-12 xl:px-15 py-5 md:py-7 lg:py-10 xl:py-12">
-                <div>image</div>
-                <div>Explanation</div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className="border border-black border-2 bg-white rounded-3xl px-5 md:px-10 lg:px-12 xl:px-15 py-5 md:py-7 lg:py-10 xl:py-12 text-center">
+                <div className="h-60">2020</div>
+                <StaticImage 
+                  src= "../../images/Disc.webp"
+                  alt= "logo"
+                  placeholder=""
+                  layout="constrained"
+                  height= {100}
+                  className="mb-10"
+                />
               </div>
-            </div>
-            <div className="">ARROW RIGHT</div>
-          </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className="border border-black border-2 bg-white rounded-3xl px-5 md:px-10 lg:px-12 xl:px-15 py-5 md:py-7 lg:py-10 xl:py-12 text-center">
+                <div className="h-60">2021</div>
+                <StaticImage 
+                  src= "../../images/Disc.webp"
+                  alt= "logo"
+                  placeholder=""
+                  layout="constrained"
+                  height= {100}
+                  className="mb-10"
+                />
+              </div>
+            </SplideSlide>
+          </Splide>
         </div>
       </div>
     </Layout>

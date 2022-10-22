@@ -94,12 +94,12 @@ export default function() {
           </Link>
         </SplideSlide>
         <SplideSlide>
-          <Link to="/competition/modernDance">
+          <Link to="/competition/jhsmat">
             <img src={Matematika} alt="JHS Matematika"></img>
           </Link>
         </SplideSlide>
         <SplideSlide>
-          <Link to="/competition/jhsMat">
+          <Link to="/competition/modernDance">
             <img src={ModernDance} alt="Modern Dance"></img>
           </Link>
         </SplideSlide>
@@ -124,17 +124,17 @@ export default function() {
           </Link>
         </SplideSlide>
         <SplideSlide>
-          <Link to="/competition/podcast">
+          <Link to="/competition/photography">
             <img src={Photography} alt="Photography"></img>
           </Link>
         </SplideSlide>
         <SplideSlide>
-          <Link to="/competition/speech">
+          <Link to="/competition/podcast">
             <img src={Podcast} alt="Podcast"></img>
           </Link>
         </SplideSlide>
         <SplideSlide>
-          <Link to="/competition/photography">
+          <Link to="/competition/speech">
             <img src={Speech} alt="Speech"></img>
           </Link>
         </SplideSlide>
