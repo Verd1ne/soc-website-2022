@@ -26,7 +26,7 @@ export default function Index() {
         data-aos-duration="1500"
         className="border border-white border-2 rounded-3xl px-5 md:px-10 lg:px-12 xl:px-15 py-5 md:py-7 lg:py-10 xl:py-12 mb-[50px] md:mb-[60px] lg:mb-[80px] xl:mb-[100px]">
           <p className='text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-[15px] lg:mb-[30px] 2xl:mb-[40px] text-center overflow-hidden font-ProductSans'>Apa itu SOC (SMAKONECUP)</p>
-          <div className="text-justify text-md md:text-lg lg:text-xl xl:text-2xl font-OpenSans">
+          <div className="text-justify text-sm sm:text-md md:text-lg lg:text-xl xl:text-2xl font-OpenSans">
               <div>SMAKONECUP 2022 merupakan salah satu acara terbesar dalam serangkaian program satu tahun kami. Acara ini merupakan event persahabatan antar sekolah yang memperlombakan 16 cabang lomba baik dalam bidang akademis maupun non akademis.</div>
               <br/>
               <div>Dengan diadakannya SMAKONECUP 2022, diharapkan tujuan pengembangan potensi generasi muda secara menyeluruh dapat tercapai. Generasi muda dapat mengembangkan secara luas dan mendalam kemampuan dan potensi yang dimiliki dan mengekspresikannya melalui acara ini, terlepas dari kemampuan peserta didik dalam akademis namun juga menunjukan kemampuan peserta didik di berbagai bidang kreasi lainnya.</div>
@@ -41,7 +41,7 @@ export default function Index() {
             className="lg:col-span-2 flex">
             <div className='border border-2 border-white rounded-3xl px-5 md:px-10 lg:px-12 xl:px-15 py-5 md:py-7 lg:py-10 xl:py-12 w-fit '>
               <p className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-[15px] lg:mb-[30px] 2xl:mb-[40px] text-center overflow-hidden font-ProductSans'>Tema SOC : ATRAXIA</p>
-              <div className="text-justify text-md md:text-lg lg:text-xl xl:text-2xl font-OpenSans">
+              <div className="text-justify text-sm sm:text-md md:text-lg lg:text-xl xl:text-2xl font-OpenSans">
                   ATRAXIA yang merupakan singkatan dari “Above The Rest; eXpress your Inner personA”. Tema tahun ini terinspirasi dari keinginan kami agar setiap individu memiliki kesempatan untuk mengekspresikan dan mengeksplor diri masing-masing sehingga bisa menghasilkan inovasi-inovasi baru tanpa memiliki rasa kekhawatiran akan kegagalan. Hal ini bertujuan agar kita berani untuk menerobos rintangan dan menjadi berbeda dalam menunjukan warna kita yang sebenarnya dan agar kita bisa membawa perubahan positif ke depannya seiring dengan maraknya kemajuan teknologi dan banyaknya perubahan di era globalisasi ini dengan tetap memegang teguh prinsip-prinsip baik yang telah tertanam dan mempertahankan jati diri kita sebagai anak bangsa.
               </div>
             </div>
@@ -65,11 +65,13 @@ export default function Index() {
         data-aos="fade-in"
         data-aos-offset="400"
         data-aos-duration="1500"
-        className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white font-bold mb-[30px] lg:mb-[30px] 2xl:mb-[40px] text-center md:h-12 lg:h-20 font-ProductSans  mt-36 md:mt-44 lg:mt-52 xl:mt-60'>SOC Throughout The Years</p>
+        className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white font-bold mb-[30px] lg:mb-[30px] 2xl:mb-[40px] text-center md:h-12 lg:h-20 font-ProductSans mt-36 md:mt-44 lg:mt-52 xl:mt-60'>SOC Throughout The Years</p>
         <Splide
+
           data-aos="fade-in"
           data-aos-offset="400"
           data-aos-duration="1500"
+          className="mb-20 sm:mb-24 md:mb-28 lg:mb-32 xl:mb-36 2xl:mb-40"
           options={{
             rewind: true,
             lazyLoad:'nearby',
