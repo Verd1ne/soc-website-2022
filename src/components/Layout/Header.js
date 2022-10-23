@@ -1,7 +1,7 @@
 import React, {useState} from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import { GiHamburgerMenu } from "@react-icons/all-files/gi/GiHamburgerMenu"
+import { Squash as Hamburger } from 'hamburger-react'
 
 export default function Header() {
   const [dropdown, setDropdown] = useState(false);
@@ -30,9 +30,9 @@ export default function Header() {
           </div>
           {/* mobile */}
           <div className="flex lg:hidden justify-end items-center h-full mr-4">
-            <button onClick={() => setDropdown(prev => !prev)}>
-              <GiHamburgerMenu color="white" size={40} />
-            </button>
+            {/* <button onClick={() => setDropdown(prev => !prev)}> */}
+              <Hamburger color="white" size={40} toggled={dropdown} toggle={setDropdown} duration={0.4} rounded/>
+            {/* </button> */}
           </div>
         </div>
       </div>
