@@ -1,52 +1,22 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
-
-// markup
 const NotFoundPage = () => {
   return (
-    <main style={pageStyles}>
+    <main className="flex grid-cols-2 text-white justify-center text-center mt-16 overflow-hidden">
       <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry{" "}
-        <span role="img" aria-label="Pensive emoji">
-          😔
-        </span>{" "}
-        we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
+      <div className="flex text-8xl font-bold justify-center items-center pr-5 outline-r overflow-hidden">
+        404
+      </div>
+      <div className=" overflow-hidden">
+        <h1 className="text-4xl font-bold mb-5 p-2">Page not found</h1>
+        <p className="text-2xl mb-3">
+          Sorry{" "}
+          <span role="img" aria-label="Pensive emoji">😔</span>{" "}
+          we couldn’t find what you were looking for.
+        </p>
+        <Link to="/" className="justify-center text-xl text-white font-bold pb-1">Go Home</Link>
+      </div>
     </main>
   )
 }

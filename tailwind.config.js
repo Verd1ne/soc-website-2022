@@ -11,7 +11,13 @@ module.exports = {
         'Broadway': ['Broadway'],
         'Palatino': ['Palatino'],
         'ProductSans': ['ProductSans'],
+        'Esteban': ['Esteban'],
+        'Monserrat': ['Montserrat'],
+        'OpenSans': ['OpenSans']
       },
+      colors: {
+        'gold': '#FFDF00'
+      }
     },
   },
   plugins: [],
