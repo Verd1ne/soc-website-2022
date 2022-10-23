@@ -2,6 +2,7 @@ import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../../components/Layout/Layout'
 import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 
 export default function Index() {
@@ -48,7 +49,8 @@ export default function Index() {
             perMove: 1,
             gap: 20,
             padding: "3rem",
-            // pagination: false,
+            drag: "free",
+            pagination: false,
             breakpoints: {
               623: {
                 perPage: 1,
@@ -65,8 +67,15 @@ export default function Index() {
                 perMove: 1,
                 gap : 35
               } 
+            },
+            autoscroll: {
+              pauseOnHover: false,
+              pauseOnFocus: false,
+              rewind: true,
+              speed: 1,
             }
           }}
+          extensions={{ AutoScroll }}
         >
           <SplideSlide>
             <div className="border border-black border-2 bg-[#071537] rounded-3xl p-5 lg:p-7 2xl:p-10 text-center">
