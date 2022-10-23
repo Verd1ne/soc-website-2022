@@ -17,7 +17,7 @@ export default function Index() {
       data-aos-offset="0"
       data-aos-delay="0"
       data-aos-duration="3000">
-    <div className='font-Broadway text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white overflow-hidden mt-32 mb-[24px] lg:mb-8 xl:mb-[40px] text-center'>COMPETITIONS</div>
+    <div className='font-Broadway text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white overflow-hidden mt-36 mb-[24px] lg:mb-8 xl:mb-[40px] text-center'>COMPETITIONS</div>
       <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-4 md:gap-x-8 lg:gap-x-12 xl:gap-x-16 gap-y-12 md:gap-y-16 lg:gap-y-20 xl:gap-y-24 w-full container mx-auto mb-16 md:mb-20 lg:mb-24 p-12'>
          <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/badminton'>
           <StaticImage 
