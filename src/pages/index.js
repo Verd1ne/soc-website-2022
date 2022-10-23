@@ -53,7 +53,7 @@ const IndexPage = () => {
         className="relative mx-5 md:mx-10 lg:mx-20 lg:px-20">
         <Nowshowing/>
       </div>
-      <Preview/>
+      {/* <Preview/> */}
       <Themesong/>
       <Sponsors/>
     </Layout>
