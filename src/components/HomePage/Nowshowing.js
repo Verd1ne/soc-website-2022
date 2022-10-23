@@ -111,7 +111,7 @@ export default function Nowshowing() {
           </Link>
         </SplideSlide>
         <SplideSlide>
-          <Link to="/competition/jhsmat">
+          <Link to="/competition/jhsMat">
             <img src={Matematika} alt="JHS Matematika"></img>
           </Link>
         </SplideSlide>
