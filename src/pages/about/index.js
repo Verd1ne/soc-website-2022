@@ -42,9 +42,7 @@ export default function Index() {
         <Splide
           options={{
             rewind: true,
-            start: 9,
             lazyLoad:'nearby',
-            type   : 'loop',
             perPage: 3,
             perMove: 1,
             gap: 20,
