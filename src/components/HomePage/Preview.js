@@ -10,7 +10,7 @@ export default function Preview() {
   return (
     <div 
       data-aos="fade-in"
-      data-aos-offset="800"
+      data-aos-offset="500"
       data-aos-duration="3000"
       data-aos-delay="0">
       <div 
