@@ -8,7 +8,7 @@ AOS.init();
 
 export default function Template( props ) {
   return (
-      <div className='grid grid-cols-1 xl:grid-cols-2 relative mt-32 mb-16 md:mb-20 lg:mb-24 mx-0 xl:mx-16 2xl:mx-64'>
+      <div className='grid grid-cols-1 xl:grid-cols-2 relative mt-32 mb-16 md:mb-20 lg:mb-24 xl:mx-16 2xl:mx-64'>
         {/* <div data-aos="fade-in"
             data-aos-duration="3000"
             data-aos-easing="ease-in-out"

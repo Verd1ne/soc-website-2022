@@ -23,7 +23,7 @@ export default function Header() {
           {/* laptop */}
           <div className="hidden lg:flex text-white space-x-4 lg:space-x-7 font-ProductSans text-xl lg:text-2xl w-full justify-end my-auto h-full items-center inline">
             <Link to="/about" className="headerButton">About</Link>
-            <Link to="/" className="headerButton">Store</Link>
+            {/* <Link to="/" className="headerButton">Store</Link> */}
             <Link to="/competition" className="headerButton">Competition</Link>
             <a href="https://socregis.smakone.org/" target="_blank" rel="noreferrer" className="headerButton">Registration</a>
             <a href="https://open.spotify.com/artist/6dBkUvQfVsXZiz9X9DDnTo?si=dI6zyRaSTkaLpFfu2Qt1-A" target="_blank" rel="noreferrer" className="headerButton">Soundscape</a>
@@ -42,7 +42,7 @@ export default function Header() {
             <Link to="/about" className="headerButton headerButtonThin">About</Link>
           </li>
           <li>
-            <Link to="/" className="headerButton headerButtonThin">Store</Link>
+            {/* <Link to="/" className="headerButton headerButtonThin">Store</Link> */}
           </li>
           <li>
             <Link to="/competition" className="headerButton headerButtonThin">Competition</Link>
