@@ -29,10 +29,10 @@ export default function Footer() {
                 <h1 className="text-white text-right align-middle md:text-[40px] xl:text-[50px] font-ProductSans">Contact Us</h1>
               </div>
               <div className='flex flex-row-reverse gap-x-1 mt-2'>
-                <a href="https://www.instagram.com/smukiee/" target="_blank" rel="noreferrer">
+                <a href="https://www.instagram.com/smakonecup/" target="_blank" rel="noreferrer">
                   <AiOutlineInstagram color="#f5f1be" size={45} className="hover:-translate-y-1 duration-300"/>
                 </a>
-                <a href="https://www.youtube.com/channel/UCscmFcZIn8T0-Of192snpcQ" target="_blank" rel="noreferrer">
+                <a href="https://www.youtube.com/user/SMAK1cup" target="_blank" rel="noreferrer">
                   <AiOutlineYoutube color="#f5f1be" size={45} className="hover:-translate-y-1 duration-300"/>
                 </a>
                 <a href="https://www.tiktok.com/@smakonecup" target="_blank" rel="noreferrer">
@@ -67,10 +67,10 @@ export default function Footer() {
           <h1 className="text-white text-2xl font-semibold font-ProductSans">Contact Us</h1>
         </div>
         <div className='flex gap-x-1.5 pb-3 justify-center'>
-          <a href="https://www.instagram.com/smukiee/" target="_blank" rel="noreferrer">
+          <a href="https://www.instagram.com/smakonecup/" target="_blank" rel="noreferrer">
             <AiOutlineInstagram color="#f5f1be" size={35} className="hover:-translate-y-1 duration-300"/>
           </a>
-          <a href="https://www.youtube.com/channel/UCscmFcZIn8T0-Of192snpcQ" target="_blank" rel="noreferrer">
+          <a href="https://www.youtube.com/user/SMAK1cup" target="_blank" rel="noreferrer">
             <AiOutlineYoutube color="#f5f1be" size={35} className="hover:-translate-y-1 duration-300"/>
           </a>
           <a href="https://www.tiktok.com/@smakonecup" target="_blank" rel="noreferrer">
