@@ -2,7 +2,14 @@ import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../../components/Layout/Layout'
 import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init({
+  once: true,
+  mirror: false, 
+});
 
 export default function Index() {
   return (
@@ -60,6 +67,9 @@ export default function Index() {
         data-aos-duration="1500"
         className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white font-bold mb-[30px] lg:mb-[30px] 2xl:mb-[40px] text-center md:h-12 lg:h-20 font-ProductSans  mt-36 md:mt-44 lg:mt-52 xl:mt-60'>SOC Throughout The Years</p>
         <Splide
+          data-aos="fade-in"
+          data-aos-offset="400"
+          data-aos-duration="1500"
           options={{
             rewind: true,
             lazyLoad:'nearby',
@@ -67,7 +77,8 @@ export default function Index() {
             perMove: 1,
             gap: 20,
             padding: "3rem",
-            // pagination: false,
+            drag: "free",
+            pagination: false,
             breakpoints: {
               623: {
                 perPage: 1,
@@ -84,8 +95,15 @@ export default function Index() {
                 perMove: 1,
                 gap : 35
               } 
+            },
+            autoscroll: {
+              pauseOnHover: false,
+              pauseOnFocus: false,
+              rewind: true,
+              speed: 1,
             }
           }}
+          extensions={{ AutoScroll }}
         >
           <SplideSlide>
             <div className="border border-black border-2 bg-[#071537] rounded-3xl p-5 lg:p-7 2xl:p-10 text-center">
