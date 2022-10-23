@@ -20,7 +20,7 @@ export default function Footer() {
                 height= {80}
                 className="md:-mt-4 lg:-mt-2 lg:-ml-3"
               />
-              <div className="text-[#f5f1be] font-Palatino text-left md:text-lg lg:text-xl md:-mt-3">
+              <div className="text-[#f5f1be] font-ProductSans text-left md:text-lg lg:text-xl md:-mt-3">
                 Smakonecup Atraxia and its logo marks are the property of Smakonecup, a part of SMAK 1 PENABUR Jakarta
               </div>
             </div>
@@ -41,10 +41,10 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="text-[#f5f1be] font-Palatino text-center md:text-lg lg:text-xl mt-5 md:mt-10">
+          <div className="text-[#f5f1be] font-ProductSans text-center md:text-lg lg:text-xl mt-5 md:mt-10">
             Jl. Tanjung Duren Raya No.4, RT.12/RW.2, Tj. Duren Utara, <br className="flex xl:hidden"/>Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11470
           </div>
-          <div className='font-Palatino text-[#f5f1be] text-center text-sm md:text-base '>
+          <div className='font-ProductSans text-[#f5f1be] text-center text-sm md:text-base '>
             Copyright<sup>&copy;</sup> 2022 Smakonecup Atraxia All Rights Reserved
           </div>
       </div>
@@ -60,7 +60,7 @@ export default function Footer() {
             className=""
           />
         </div>
-        <div className="text-[#f5f1be] font-Palatino text-center text-xs -mt-3 mb-2">
+        <div className="text-[#f5f1be] font-ProductSans text-center text-xs -mt-3 mb-2">
           Smakonecup Atraxia and its logo marks are the property of Smakonecup, a part of SMAK 1 PENABUR Jakarta
         </div>
         <div className="mb-1 text-center">
@@ -77,7 +77,7 @@ export default function Footer() {
             <SiTiktok color="#f5f1be" size={28} className="hover:-translate-y-1 duration-300"/>
           </a>
         </div>
-        <div className='font-Palatino text-[#f5f1be] text-center text-xs '>
+        <div className='font-ProductSans text-[#f5f1be] text-center text-xs '>
           Copyright<sup>&copy;</sup> 2022 Smakonecup Atraxia<br/>All Rights Reserved
         </div>
     </div>
