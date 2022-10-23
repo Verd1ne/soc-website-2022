@@ -11,7 +11,7 @@ export default function Index() {
       <div className="text-white overflow-x-hidden mx-[35px] md:mx-[80px] lg:mx-[125px] xl:mx-[300px] mb-[50px] md:mb-[60px] lg:mb-[80px] xl:mb-[100px]">
         <div className='font-Broadway text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl overflow-hidden mt-32 mb-[50px] md:mb-[70px] lg:mb-[80px] xl:mb-[120px] text-center text-white'>About SOC</div>
         <div className="border border-white border-2 rounded-3xl px-5 md:px-10 lg:px-12 xl:px-15 py-5 md:py-7 lg:py-10 xl:py-12 mb-[50px] md:mb-[60px] lg:mb-[80px] xl:mb-[100px]">
-          <p className='text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-[15px] lg:mb-[30px] 2xl:mb-[40px] text-center overflow-hidden'>Apa itu SOC (SMAKONECUP)</p>
+          <p className='text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-[15px] lg:mb-[30px] 2xl:mb-[40px] text-center'>Apa itu SOC (SMAKONECUP)</p>
           <div className="text-justify text-sm md:text-base lg:text-lg xl:text-xl ">
               <div>SMAKONECUP 2022 merupakan salah satu acara terbesar dalam serangkaian program satu tahun kami. Acara ini merupakan event persahabatan antar sekolah yang memperlombakan 16 cabang lomba baik dalam bidang akademis maupun non akademis.</div>
               <br/>
