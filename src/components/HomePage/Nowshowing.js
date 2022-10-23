@@ -1,5 +1,7 @@
 import React from "react";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
+import { Link } from "gatsby"
 import Badminton from "../../images/PosterLomba/Badminton.webp";
 import Band from "../../images/PosterLomba/Band.webp"
 import Basket from "../../images/PosterLomba/Basket.webp"
@@ -19,20 +21,10 @@ import Podcast from "../../images/PosterLomba/Podcast.webp"
 import Speech from "../../images/PosterLomba/Speech.webp"
 import Vlog from "../../images/PosterLomba/Vlog.webp"
 import Voli from "../../images/PosterLomba/Voli.webp"
-import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
-import { Link } from "gatsby"
 
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 
 export default function Nowshowing() {
-  // var splide = new Splide( '.splide' );
-  // var bar    = splide.root.querySelector( '.my-carousel-progress-bar' );
-  // splide.on( 'mounted move', function () {
-  //   var end  = splide.Components.Controller.getEnd() + 1;
-  //   var rate = Math.min( ( splide.index + 1 ) / end, 1 );
-  //   bar.style.width = String( 100 * rate ) + '%';
-  // } );
-  // splide.mount();
   return (
     <>
       <Splide
@@ -165,7 +157,6 @@ export default function Nowshowing() {
             <img src={Voli} alt="Voli"></img>
           </Link>
         </SplideSlide>
-        
       </Splide>
     </>
   );
