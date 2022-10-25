@@ -29,8 +29,7 @@ export default function Index() {
 
   return (
     <Layout>
-      <div className="text-white overflow-x-hidden mb-[50px] md:mb-[60px] lg:mb-[80px] xl:mb-[100px]">
-        <div className="mx-[35px] md:mx-[80px] lg:mx-[125px] xl:mx-[150px] 2xl:mx-[275px] ">
+      <div className="text-white overflow-x-hidden mb-[50px] md:mb-[60px] lg:mb-[80px] xl:mb-[100px] mx-[35px] md:mx-[80px] lg:mx-[125px] xl:mx-[150px] 2xl:mx-[275px]">
           <div         
           data-aos="fade-in"
           data-aos-offset="0"
@@ -82,7 +81,6 @@ export default function Index() {
           data-aos-offset="400"
           data-aos-duration="1500"
           className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white font-bold mb-[30px] lg:mb-[30px] 2xl:mb-[40px] text-center md:h-12 lg:h-20 font-ProductSans mt-36 md:mt-44 lg:mt-52 xl:mt-60'>SOC Throughout The Years</p>
-        </div>
         <Splide
           data-aos="fade-in"
           data-aos-offset="400"
@@ -133,7 +131,7 @@ export default function Index() {
                   placeholder=""
                   layout="constrained"
                   // height= {150}
-                  className="h-36 md:h-40 lg:h-52 xl:h-64 2xl:h-72 rounded-3xl"
+                  className="h-38 md:h-40 lg:h-52 xl:h-64 2xl:h-72 rounded-3xl"
                 />
                 <StaticImage 
                   src= "../../images/socDulu/2018_2.webp"
@@ -141,7 +139,7 @@ export default function Index() {
                   placeholder=""
                   layout="constrained"
                   // height= {150}
-                  className="h-36 md:h-40 lg:h-52 xl:h-64 2xl:h-72 rounded-3xl"
+                  className="h-38 md:h-40 lg:h-52 xl:h-64 2xl:h-72 rounded-3xl"
                 />
               </div>
             </div>
@@ -156,7 +154,7 @@ export default function Index() {
                   placeholder=""
                   layout="constrained"
                   // height= {150}
-                  className="h-36 md:h-40 lg:h-52 xl:h-64 2xl:h-72 rounded-3xl"
+                  className="h-38 md:h-40 lg:h-52 xl:h-64 2xl:h-72 rounded-3xl"
                 />
                 <StaticImage 
                   src= "../../images/socDulu/2018_4.webp"
@@ -164,7 +162,7 @@ export default function Index() {
                   placeholder=""
                   layout="constrained"
                   // height= {150}
-                  className="h-36 md:h-40 lg:h-52 xl:h-64 2xl:h-72 rounded-3xl"
+                  className="h-38 md:h-40 lg:h-52 xl:h-64 2xl:h-72 rounded-3xl"
                 />
               </div>
             </div>
@@ -179,7 +177,7 @@ export default function Index() {
                   placeholder=""
                   layout="constrained"
                   // height= {150}
-                  className="h-36 md:h-40 lg:h-52 xl:h-64 2xl:h-72 rounded-3xl"
+                  className="h-38 md:h-40 lg:h-52 xl:h-64 2xl:h-72 rounded-3xl"
                 />
                 <StaticImage 
                   src= "../../images/socDulu/2018_6.webp"
@@ -187,7 +185,7 @@ export default function Index() {
                   placeholder=""
                   layout="constrained"
                   // height= {150}
-                  className="h-36 md:h-40 lg:h-52 xl:h-64 2xl:h-72 rounded-3xl"
+                  className="h-38 md:h-40 lg:h-52 xl:h-64 2xl:h-72 rounded-3xl"
                 />
               </div>
             </div>
