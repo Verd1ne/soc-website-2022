@@ -57,7 +57,7 @@ const IndexPage = () => {
           alt="Now Showing"
           placeholder=""
           width={3840}
-          className=" mb-16 sm:mb-20 md:mb-24 lg:mb-28 xl:mb-32"
+          className="mb-4 sm:mb-8 md:mb-12 lg:mb-16 xl:mb-20"
         />
       </div>
       
