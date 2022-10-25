@@ -5,7 +5,7 @@ import Footer from "./Footer";
 const Layout = ({ children }) => {
   return(
     <div className="relative">
-      {/* <ScrollToTop/> */}
+      <ScrollToTop/>
       <Header/>
         { children }
       <Footer/>
@@ -13,14 +13,14 @@ const Layout = ({ children }) => {
   )
 }
 
-// const ScrollToTop = () => {
-//   const url = typeof window !== 'undefined' ? window.location.href : '';
+const ScrollToTop = () => {
+  const url = typeof window !== 'undefined' ? window.location.href : '';
 
-//   useEffect(() => {
-//     window.scrollTo(0,0);
-//   }, [url])
+  useEffect(() => {
+    window.scrollTo(0,0);
+  }, [url])
 
-//   return null;
-// }
+  return null;
+}
 
 export default Layout;  

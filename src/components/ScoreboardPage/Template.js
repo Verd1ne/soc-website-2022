@@ -7,12 +7,7 @@ export default function Template( props ) {
   let AOS;
 
   useEffect(() => {
-    /**
-     * Server-side rendering does not provide the 'document' object
-     * therefore this import is required either in useEffect or componentDidMount as they
-     * are exclusively executed on a client
-     */
-    const AOS = require("aos");
+    e("aos");
     AOS.init({
       once: true,
     });
