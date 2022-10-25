@@ -22,8 +22,7 @@ import Speech from "../../images/PosterLomba/Speech.webp"
 import Vlog from "../../images/PosterLomba/Vlog.webp"
 import Voli from "../../images/PosterLomba/Voli.webp"
 
-import '@splidejs/splide/css/sea-green';
-
+import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 export default function Nowshowing() {
   return (
     <>

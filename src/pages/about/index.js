@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../../components/Layout/Layout'
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
-import '@splidejs/splide/css/sea-green';
+import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import 'aos/dist/aos.css'; 
 
 export default function Index() {
@@ -52,7 +52,7 @@ export default function Index() {
             data-aos="zoom-in-right"
             data-aos-offset="0"
             data-aos-duration="1500"
-            data-aos-delay="1000"
+            data-aos-delay="500"
             className="lg:col-span-2 flex">
             <div className='border border-2 border-white rounded-3xl px-5 md:px-10 lg:px-12 xl:px-15 py-5 md:py-7 lg:py-10 xl:py-12 w-fit '>
               <p className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-[15px] lg:mb-[30px] 2xl:mb-[40px] text-center overflow-hidden font-ProductSans'>Tema SOC : ATRAXIA</p>
