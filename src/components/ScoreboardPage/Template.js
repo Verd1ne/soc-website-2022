@@ -7,7 +7,7 @@ export default function Template( props ) {
   let AOS;
 
   useEffect(() => {
-    e("aos");
+    const AOS = require("aos");
     AOS.init({
       once: true,
     });
