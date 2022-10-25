@@ -1,5 +1,14 @@
 const path = require('path')
 
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      fallback: {
+        fs: false
+      }
+    }
+  })
+}
 exports.createPages = async ({ graphql, actions}) => {
 
   const { data } = await graphql (`
