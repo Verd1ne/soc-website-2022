@@ -27,7 +27,7 @@ export default function Sponsors() {
   return (
     <div
       data-aos="fade-in"
-      data-aos-offset="500"
+      data-aos-offset="200"
       data-aos-duration="3000"
       data-aos-delay="0"
       className='mb-4 sm:mb-8 md:mb-12 lg:mb-16 xl:mb-20 2xl:mb-24'>
