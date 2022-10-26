@@ -152,7 +152,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Modern United Nation</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Model United Nations</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/mural'>
           <StaticImage 
@@ -172,7 +172,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Paskriba</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Paskibra</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/pencakSilat'>
           <StaticImage 
