@@ -11,7 +11,7 @@ export default function Infolomba(props) {
       <div>
         <div className="infoLomba text-[#f5f1be] md:text-xl lg:text-2xl font-semibold font-ProductSans text-left lg:ml-7 xl:ml-13 md:mt-32 border-4 border-[gold] p-3 md:p-5 mt-32 md:mt-40 mx-11 md:mx-0">
           <div className="">Penanggung Jawab :</div>
-          <ul className="text md:text-base lg:text-lg font-normal ml-3 mb-2 lg:mb-5 list-disc">
+          <ul className="text md:text-base lg:text-lg xl:text-xl font-normal ml-3 mb-2 lg:mb-5 list-disc">
             <li>{contact[0]}</li>
             <li className={`${!contact[1] ? "hidden" : ""}`}>{contact[1]}</li>
           </ul>
@@ -24,6 +24,7 @@ export default function Infolomba(props) {
               alt="Registrasi Button"
               placeholder=""
               layout="constrained"
+              className="-mt-8 lg:-mt-12 xl:-mt-16 2xl:-mt-20"
             />
           </a>   
         </div>
