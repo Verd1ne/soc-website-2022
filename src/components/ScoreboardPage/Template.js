@@ -5,32 +5,6 @@ import Hadiah from "./Hadiah"
 import 'aos/dist/aos.css';
 export default function Template( props ) {
   let AOS;
-export default function Template( props ) {
-  const [datas, setDatas] = useState([])
-  const sheetID = '1pk-6GLpbx3yRb52osPydVpdsesJbtXE-Mf_VgX5irMA'
-  const key = 'AIzaSyCyeHkUFZ5kWAwhCQZAm_hrOWPDUNfx_Lw'
-  const endpoint = `https://sheets.googleapis.com/v4/spreadsheets/${sheetID}?key=${key}`;
-
-  const getData = () => {
-    fetch(endpoint).then(response => response.json()).then(data => {
-      data?.sheets.forEach(s => {
-        const sheetName = s.properties.title;
-        const API = `https://sheets.googleapis.com/v4/spreadsheets/${sheetID}/values:batchGet?ranges=${sheetName}&valueRenderOption=ROWS&key=${key}`;
-        fetch(API).then(response => response.json()).then(data => {
-          let rows = data.valueRanges[0].values;
-
-          setDatas(rows)
-        });
-      });
-    });
-  }
-    
-  useEffect(() => {
-    setTimeout(() => {
-      console.log(datas)
-      getData();
-    }, 5000)
-    }, [datas]);
 
   useEffect(() => {
     const AOS = require("aos");
@@ -60,7 +34,7 @@ export default function Template( props ) {
             data-aos-once="true"
             data-aos-anchor-placement="top-bottom"
             className="mx-auto mt-12 col-span-1">
-          <Scoreboard timA={ props.timA } timB={ props.timB } skorA={ props.skorA } skorB={ props.skorB }/>
+          <Scoreboard bidang={ props.slug }/>
         </div>
         <div data-aos="fade-in"
             data-aos-duration="3000"
