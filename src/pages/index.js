@@ -1,18 +1,33 @@
-import * as React from "react"
+import React, {useEffect} from "react";
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/Layout/Layout"
 import Preview from "../components/HomePage/Preview"
 import Themesong from "../components/HomePage/Themesong"
 import Sponsors from "../components/HomePage/Sponsors"
 import Nowshowing from "../components/HomePage/Nowshowing";
-import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-AOS.init({
-  once: true,
-  mirror: false, 
-});
 
 const IndexPage = () => {
+  let AOS;
+
+  useEffect(() => {
+    /**
+     * Server-side rendering does not provide the 'document' object
+     * therefore this import is required either in useEffect or componentDidMount as they
+     * are exclusively executed on a client
+     */
+    const AOS = require("aos");
+    AOS.init({
+      once: true,
+    });
+  }, []);
+
+  useEffect(() => {
+    if (AOS) {
+      AOS.refresh();
+    }
+  });
+
   return (
     <Layout className="overflow-x-hidden">
       <div          
@@ -42,7 +57,7 @@ const IndexPage = () => {
           alt="Now Showing"
           placeholder=""
           width={3840}
-          className=" mb-16 sm:mb-20 md:mb-24 lg:mb-28 xl:mb-32"
+          className="mb-4 sm:mb-8 md:mb-12 lg:mb-16 xl:mb-20"
         />
       </div>
       
@@ -53,7 +68,7 @@ const IndexPage = () => {
         className="relative mx-5 md:mx-10 lg:mx-20 lg:px-20">
         <Nowshowing/>
       </div>
-      {/* <Preview/> */}
+      <Preview/>
       <Themesong/>
       <Sponsors/>
     </Layout>

@@ -77,7 +77,10 @@ export default function Footer() {
             <SiTiktok color="#f5f1be" size={28} className="hover:-translate-y-1 duration-300"/>
           </a>
         </div>
-        <div className='font-ProductSans text-[#f5f1be] text-center text-xs '>
+        <div className="text-[#f5f1be] font-ProductSans text-center text-xs md:text-sm lg:text-md mt-1 md:mt-2">
+          Jl. Tanjung Duren Raya No.4, RT.12/RW.2, Tj. Duren Utara, <br className="flex xl:hidden"/>Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11470
+        </div>
+        <div className='font-ProductSans text-[#f5f1be] text-center text-xs mt-2'>
           Copyright<sup>&copy;</sup> 2022 Smakonecup Atraxia<br/>All Rights Reserved
         </div>
     </div>

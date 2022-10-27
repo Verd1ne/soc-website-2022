@@ -67,6 +67,13 @@ body {
     font-display: swap;
     src: url(../fonts/Open\ Sans\ Regular\ 400.ttf) format('truetype');
   }
+  @font-face {
+    font-family: 'ProductSansBold';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/Product_Sans_Bold.ttf) format('truetype');
+  }
 }
 
 td, th {
@@ -90,6 +97,7 @@ td, th {
 .headerButton {
   position: relative;
   display: inline-block;
+  color: #F5F5F5;
 }
 
 .headerButton:after {

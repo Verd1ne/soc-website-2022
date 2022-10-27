@@ -1,13 +1,10 @@
-import { useState, useEffect } from 'react'
-import * as React from "react"
+import React, {useEffect, useState } from "react";
 import Infolomba from './Infolomba'
 import Timeline from "./Timeline"
 import Hadiah from "./Hadiah"
-import Scoreboard from "./Scoreboard"
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
-AOS.init();
-
+import 'aos/dist/aos.css';
+export default function Template( props ) {
+  let AOS;
 export default function Template( props ) {
   const [datas, setDatas] = useState([])
   const sheetID = '1pk-6GLpbx3yRb52osPydVpdsesJbtXE-Mf_VgX5irMA'
@@ -34,6 +31,19 @@ export default function Template( props ) {
       getData();
     }, 5000)
     }, [datas]);
+
+  useEffect(() => {
+    const AOS = require("aos");
+    AOS.init({
+      once: true,
+    });
+  }, []);
+
+  useEffect(() => {
+    if (AOS) {
+      AOS.refresh();
+    }
+  });
 
   return (
       <div className='grid grid-cols-1 xl:grid-cols-2 relative mt-32 mb-16 md:mb-20 lg:mb-24 xl:mx-16 2xl:mx-64'>

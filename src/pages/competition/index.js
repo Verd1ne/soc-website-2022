@@ -1,15 +1,30 @@
-import React from 'react'
+import React, {useEffect} from "react";
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../../components/Layout/Layout'
 import { Link } from 'gatsby'
-import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-AOS.init({
-  once: true,
-  mirror: false, 
-});
 
 export default function Index() {
+  let AOS;
+
+  useEffect(() => {
+    /**
+     * Server-side rendering does not provide the 'document' object
+     * therefore this import is required either in useEffect or componentDidMount as they
+     * are exclusively executed on a client
+     */
+    const AOS = require("aos");
+    AOS.init({
+      once: true,
+    });
+  }, []);
+
+  useEffect(() => {
+    if (AOS) {
+      AOS.refresh();
+    }
+  });
+
   return (
     <Layout>
     <div      
@@ -17,7 +32,7 @@ export default function Index() {
       data-aos-offset="0"
       data-aos-delay="0"
       data-aos-duration="3000">
-    <div className='font-Broadway text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white overflow-hidden mt-32 mb-[24px] lg:mb-8 xl:mb-[40px] text-center'>COMPETITIONS</div>
+    <div className='font-Broadway text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white overflow-hidden mt-36 mb-[24px] lg:mb-8 xl:mb-[40px] text-center'>COMPETITIONS</div>
       <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-4 md:gap-x-8 lg:gap-x-12 xl:gap-x-16 gap-y-12 md:gap-y-16 lg:gap-y-20 xl:gap-y-24 w-full container mx-auto mb-16 md:mb-20 lg:mb-24 p-12'>
          <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/badminton'>
           <StaticImage 
@@ -137,7 +152,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Modern United Nation</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Model United Nations</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/mural'>
           <StaticImage 
@@ -157,7 +172,7 @@ export default function Index() {
             layout="constrained"
             className="mx-auto"
           />
-          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Paskriba</p>
+          <p className="pt-5 pb-2 text-white text-4xl font-ProductSans text-center overflow-hidden">Paskibra</p>
         </Link>
         <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/pencakSilat'>
           <StaticImage 

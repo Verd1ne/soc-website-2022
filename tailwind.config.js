@@ -13,7 +13,8 @@ module.exports = {
         'ProductSans': ['ProductSans'],
         'Esteban': ['Esteban'],
         'Monserrat': ['Montserrat'],
-        'OpenSans': ['OpenSans']
+        'OpenSans': ['OpenSans'],
+        'ProdcutSansBold': ['ProductSansBold']
       },
       colors: {
         'gold': '#FFDF00'

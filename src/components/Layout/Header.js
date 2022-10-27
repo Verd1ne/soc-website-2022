@@ -37,21 +37,21 @@ export default function Header() {
         </div>
       </div>
       <div className={`${dropdown ? "" : "hidden"} lg:hidden w-fit fixed right-0 pl-[16px] sm:pl-[20px] md:pl-[24px] lg:pl-[28px] pr-[20px] lg:pr-[32px] py-1 -mt-2 rounded-bl-xl divide-y bg-black`}>
-        <ul className="py-1 text-[20px] text-gray-700 dark:text-gray-200 text-right font-ProductSans">
+        <ul className="py-1 text-[20px] text-white text-right font-ProductSans">
           <li>
-            <Link to="/about" className="headerButton headerButtonThin">About</Link>
+            <Link to="/about" className="headerButton headerButtonThin my-2">About</Link>
           </li>
           <li>
             {/* <Link to="/" className="headerButton headerButtonThin">Store</Link> */}
           </li>
           <li>
-            <Link to="/competition" className="headerButton headerButtonThin">Competition</Link>
+            <Link to="/competition" className="headerButton headerButtonThin my-2">Competition</Link>
           </li>
           <li>
-            <a href="https://socregis.smakone.org/" target="_blank" rel="noreferrer" className="headerButton headerButtonThin">Registration</a>
+            <a href="https://socregis.smakone.org/" target="_blank" rel="noreferrer" className="headerButton headerButtonThin my-2">Registration</a>
           </li>
           <li>
-            <a href="https://open.spotify.com/artist/6dBkUvQfVsXZiz9X9DDnTo?si=dI6zyRaSTkaLpFfu2Qt1-A" target="_blank" rel="noreferrer" className="headerButton headerButtonThin">Soundscape</a>
+            <a href="https://open.spotify.com/artist/6dBkUvQfVsXZiz9X9DDnTo?si=dI6zyRaSTkaLpFfu2Qt1-A" target="_blank" rel="noreferrer" className="headerButton headerButtonThin my-2">Soundscape</a>
           </li>
             {/* <a href="#" className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a> */}
         </ul>

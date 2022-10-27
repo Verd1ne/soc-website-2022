@@ -1,5 +1,14 @@
 const path = require('path')
 
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      fallback: {
+        fs: false
+      }
+    }
+  })
+}
 exports.createPages = async ({ graphql, actions}) => {
 
   const { data } = await graphql (`
@@ -10,6 +19,8 @@ exports.createPages = async ({ graphql, actions}) => {
             date
             slug
             title
+            tm
+            contact
           }
         }
       }
@@ -21,7 +32,7 @@ exports.createPages = async ({ graphql, actions}) => {
     actions.createPage({
       path: '/competition/' + node.frontmatter.slug,
       component: path.resolve('./src/templates/competitionTemplate.js'),
-      context: { slug: node.frontmatter.slug }
+      context: { date: node.frontmatter.date, slug: node.frontmatter.slug, title: node.frontmatter.title, tm: node.frontmatter.tm, contact: node.frontmatter.contact }
     })
   })  
 
