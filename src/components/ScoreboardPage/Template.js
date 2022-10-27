@@ -2,6 +2,7 @@ import React, {useEffect, useState } from "react";
 import Infolomba from './Infolomba'
 import Timeline from "./Timeline"
 import Hadiah from "./Hadiah"
+import Scoreboard from "./Scoreboard"
 import 'aos/dist/aos.css';
 export default function Template( props ) {
   let AOS;
@@ -29,13 +30,13 @@ export default function Template( props ) {
             className="mx-auto mt-12 col-span-1 xl:col-span-5">
           <Hadiah/>
         </div> */}
-        <div data-aos="fade-in"
+        { props.scoreboard ? (<div data-aos="fade-in"
             data-aos-duration="3000"
             data-aos-once="true"
             data-aos-anchor-placement="top-bottom"
             className="mx-auto mt-12 col-span-1">
           <Scoreboard bidang={ props.slug }/>
-        </div>
+        </div>) : ''}
         <div data-aos="fade-in"
             data-aos-duration="3000"
             data-aos-once="true"

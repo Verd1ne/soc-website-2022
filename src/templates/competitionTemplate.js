@@ -6,12 +6,12 @@ import Template from "../components/ScoreboardPage/template"
 export default function Scoreboard({ data, }) {
   // const { html } = data.markdownRemark
  
-  const { date, slug, title, tm, contact } = data.markdownRemark.frontmatter
+  const { date, slug, title, tm, contact, scoreboard } = data.markdownRemark.frontmatter
 
   // const { date, slug, title, tm, contact } = typeof document !== `undefined` ? data.markdownRemark.frontmatter : ""
   return (
     <Layout>
-      <Template title={ title } slug={ slug } date={ date } tm={ tm } contact={ contact }/>
+      <Template title={ title } slug={ slug } date={ date } tm={ tm } contact={ contact } scoreboard={ scoreboard }/>
     </Layout>
   )
 }
@@ -27,6 +27,7 @@ export const query = graphql`
         title
         tm
         contact
+        scoreboard
       }
     }
   }
