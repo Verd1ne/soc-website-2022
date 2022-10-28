@@ -8,26 +8,26 @@ export default function Scoreboard( props ) {
     const key = 'AIzaSyCyeHkUFZ5kWAwhCQZAm_hrOWPDUNfx_Lw'
     const endpoint = `https://sheets.googleapis.com/v4/spreadsheets/${sheetID}?key=${key}`;
 
-    const getData = () => {
-        fetch(endpoint).then(response => response.json()).then(data => {
-        data?.sheets.forEach(s => {
-            // const sheetName = {s.properties.title};
-            const API = `https://sheets.googleapis.com/v4/spreadsheets/${sheetID}/values:batchGet?ranges=${ props.bidang }&valueRenderOption=ROWS&key=${key}`;
-            fetch(API).then(response => response.json()).then(data => {
-            let rows = data.valueRanges[0].values;
+    // const getData = () => {
+    //     fetch(endpoint).then(response => response.json()).then(data => {
+    //     data?.sheets.forEach(s => {
+    //         // const sheetName = {s.properties.title};
+    //         const API = `https://sheets.googleapis.com/v4/spreadsheets/${sheetID}/values:batchGet?ranges=${ props.bidang }&valueRenderOption=ROWS&key=${key}`;
+    //         fetch(API).then(response => response.json()).then(data => {
+    //         let rows = data.valueRanges[0].values;
 
-            setDatas(rows)
-            });
-        });
-        });
-    }
+    //         setDatas(rows)
+    //         });
+    //     });
+    //     });
+    // }
         
-    useEffect(() => {
-        setTimeout(() => {
-        getData();
-        console.log(datas)
-        }, 5000)
-        }, [datas]);
+    // useEffect(() => {
+    //     setTimeout(() => {
+    //     getData();
+    //     console.log(datas)
+    //     }, 5000)
+    //     }, [datas]);
 
     return (
         <>
