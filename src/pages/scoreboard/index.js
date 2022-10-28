@@ -1,36 +1,13 @@
 import { Container } from 'postcss';
 import React, { useState, useEffect } from 'react'
+import Layout from '../../components/Layout/Layout'
+import SplideCompe from '../../components/ScoreboardPage/SplideCompe';
 
 export default function Scoreboard( props ) {
 
-    const [datas, setDatas] = useState([])
-    const sheetID = '1pk-6GLpbx3yRb52osPydVpdsesJbtXE-Mf_VgX5irMA'
-    const key = 'AIzaSyCyeHkUFZ5kWAwhCQZAm_hrOWPDUNfx_Lw'
-    const endpoint = `https://sheets.googleapis.com/v4/spreadsheets/${sheetID}?key=${key}`;
-
-    // const getData = () => {
-    //     fetch(endpoint).then(response => response.json()).then(data => {
-    //     data?.sheets.forEach(s => {
-    //         // const sheetName = {s.properties.title};
-    //         const API = `https://sheets.googleapis.com/v4/spreadsheets/${sheetID}/values:batchGet?ranges=${ props.bidang }&valueRenderOption=ROWS&key=${key}`;
-    //         fetch(API).then(response => response.json()).then(data => {
-    //         let rows = data.valueRanges[0].values;
-
-    //         setDatas(rows)
-    //         });
-    //     });
-    //     });
-    // }
-        
-    // useEffect(() => {
-    //     setTimeout(() => {
-    //     getData();
-    //     console.log(datas)
-    //     }, 5000)
-    //     }, [datas]);
-
     return (
-        <>
+        <Layout>
+            <SplideCompe/>
             <div className='font-Broadway text-5xl text-[#f5f1be] my-10 overflow-hidden text-center'>SCOREBOARD BASKET</div>
             <div className="text-[#f5f1be] md:text-xl lg:text-2xl font-semibold font-ProductSans text-center md:mt-[70px] px-10 md:px-24 mx-11 md:mx-0">
                 <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 1<hr className="mt-3"/></div>
@@ -56,10 +33,7 @@ export default function Scoreboard( props ) {
                     <div className="bg-gray-900 text-9xl font-bold rounded-3xl lg:py-10"><div className="bg-gray-900 text-5xl font-bold rounded-3xl -mb-12">SMAK GADING SERPONG</div> <br/> 0</div>
                 </div>
             </div>
-
-        
-        
-        </>
+        </Layout>
   )
 }
 
