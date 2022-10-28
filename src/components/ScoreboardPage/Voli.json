@@ -1,0 +1,82 @@
+[
+    
+    {
+        "gender": "PA",
+        "level": "SMA",
+        "school1": "SMA KOLESE KANISIUS",
+        "school2": "SMA RICCI",
+        "score1": "1",
+        "score2": "2"
+        
+    },
+    {
+        
+        "gender": "PA",
+        "level": "SMA",
+        "school1": "SMAN 12 TANGSEL",
+        "school2": "SMA SANTO PAULUS",
+        "score1": "2",
+        "score2": "0"
+        
+    },
+    {
+        
+        "gender": "PA",
+        "level": "SMA",
+        "school1": "SMA YP KARYA",
+        "school2": "SMA CANDRA NAYA",
+        "score1": "2",
+        "score2": "0"
+        
+    },
+    {
+        
+        "gender": "PA",
+        "level": "SMA",
+        "school1": "SMA MARSUDIRINI BEKASI",
+        "school2": "SMA KSATRYA 51",
+        "score1": "1",
+        "score2": "2"
+        
+    },
+    {
+        
+        "gender": "PA",
+        "level": "SMA",
+        "school1": "SMAK 1 PENABUR A",
+        "school2": "SMA SANTO PAULUS",
+        "score1": "1",
+        "score2": "2"
+        
+    },
+    {
+        
+        "gender": "PA",
+        "level": "SMA",
+        "school1": "SMA RICCI",
+        "school2": "SMAN 45",
+        "score1": "0",
+        "score2": "2"
+        
+    },
+    {
+        
+        "gender": "PI",
+        "level": "SMA",
+        "school1": "SMA SANTO PAULUS",
+        "school2": "SMA RICCI",
+        "score1": "0",
+        "score2": "2"
+        
+    },
+    {
+        
+        "gender": "P1",
+        "level": "SMA",
+        "school1": "SMA SANTA URSULA",
+        "school2": "SMA CANDRA NAYA",
+        "score1": "1",
+        "score2": "2"
+        
+    }
+]
