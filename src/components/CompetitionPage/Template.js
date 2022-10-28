@@ -1,8 +1,8 @@
 import React, {useEffect, useState } from "react";
-import Infolomba from './Infolomba'
-import Timeline from "./Timeline"
-import Hadiah from "./Hadiah"
-import Scoreboard from "../../pages/scoreboard"
+import Infolomba from './Infolomba';
+import Timeline from "./Timeline";
+import Hadiah from "./Hadiah";
+import Scoreboard from "../../pages/scoreboard";
 import 'aos/dist/aos.css';
 let AOS;
   
