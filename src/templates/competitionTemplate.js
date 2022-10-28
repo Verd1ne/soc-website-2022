@@ -1,7 +1,7 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout/Layout"
-import Template from "../components/ScoreboardPage/template"
+import Template from "../components/CompetitionPage/template"
 
 export default function Scoreboard({ data, }) {
   // const { html } = data.markdownRemark

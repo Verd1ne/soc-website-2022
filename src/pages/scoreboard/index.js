@@ -1,5 +1,5 @@
-import { Container } from 'postcss';
-import React, { useState, useEffect } from 'react'
+
+import React from 'react'
 import Layout from '../../components/Layout/Layout'
 import SplideCompe from '../../components/ScoreboardPage/SplideCompe';
 
