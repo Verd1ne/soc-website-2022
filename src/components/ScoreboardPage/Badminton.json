@@ -1,358 +1,379 @@
 [
     {
-        "gender": "REGU",
+        "gender": "Regu",
         "level": "SMA",
         "school1": "SMAK 1 PENABUR A (REGU)",
         "school2": "SMAK 8 PENABUR (REGU)",
         "score1": "3",
-        "score2": "0"
+        "score2": "0",
+        "date": "28 Oct"
         
     },
     {
         
-        "gender": "XD",
+        "gender": "Campur",
         "level": "SMP",
         "school1": "SMP SANTA MARIA (MIXED)",
         "school2": "SMPK 2 PENABUR A (MIXED)",
         "score1": "2",
-        "score2": "0"
-        
+        "score2": "0",
+        "date": "28 Oct"
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMP",
         "school1": "SMP LABSCHOOL KEBAYORAN A (MALE)",
         "school2": "SMP IICS (MALE)",
         "score1": "0",
-        "score2": "2"
+        "score2": "2",
+        "date": "28 Oct"
         
     },
     {
         
-        "gender": "XD",
+        "gender": "Campur",
         "level": "SMA",
         "school1": "SMAK 1 PENABUR C (MIXED)",
         "school2": "SMA UPH COLLEGE (MIXED)",
         "score1": "0",
-        "score2": "2"
+        "score2": "2",
+        "date": "28 Oct"
         
     },
     {
         
-        "gender": "XD",
+        "gender": "Campur",
         "level": "SMP",
         "school1": "SMP BUNDA HATI KUDUS (MIXED)",
         "school2": "SMP PELITA 2 (MIXED)",
         "score1": "0",
-        "score2": "2"
+        "score2": "2",
+        "date": "28 Oct"
         
     },
     {
         
-        "gender": "XD",
+        "gender": "Campur",
         "level": "SMP",
         "school1": "SMPN 88 (MIXED)",
         "school2": "SMPK 8 PENABUR (MIXED)",
         "score1": "2",
-        "score2": "0"
+        "score2": "0",
+        "date": "28 Oct"
         
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMP",
         "school1": "SMP ABDI SISWA (MALE)",
         "school2": "SMP BUKIT SION A (MALE)",
         "score1": "2",
-        "score2": "0"
+        "score2": "0",
+        "date": "28 Oct"
         
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMP",
         "school1": "SMP BUNDA HATI KUDUS (MALE)",
         "school2": "SMP KAIROS GRACIA A (MALE)",
         "score1": "0",
-        "score2": "2"
+        "score2": "2",
+        "date": "28 Oct"
         
     },
     {
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMA",
         "school1": "SMA TARSISIUS 1 (MALE)",
         "school2": "SMAK 6 PENABUR A (MALE)",
         "score1": "0",
-        "score2": "2"
+        "score2": "2",
+        "date": "28 Oct"
         
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMA",
         "school1": "SMA KHARISMA BANGSA (MALE)",
         "school2": "SMA BINA TUNAS BANGSA (MALE)",
         "score1": "0",
-        "score2": "2"
+        "score2": "2",
+        "date": "28 Oct"
         
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMP",
         "school1": "SMPK 6 PENABUR A (MALE)",
         "school2": "SMP IPEKA PURI (MALE)",
         "score1": "2",
-        "score2": "0"
+        "score2": "0",
+        "date": "28 Oct"
         
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMP",
         "school1": "SMP IICS (MALE)",
         "school2": "SMP CAHAYSA SAKTI (MALE)",
         "score1": "2",
-        "score2": "0"
+        "score2": "0",
+        "date": "28 Oct"
         
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMA",
         "school1": "SMAK 7 PENABUR A (MALE)",
         "school2": "SMA PELITA 2 (MALE)",
         "score1": "2",
-        "score2": "1"
-        
+        "score2": "1",
+        "date": "28 Oct"
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMA",
         "school1": "SMA UPH COLLEGE A (MALE)",
         "school2": "SMAK GADING SERPONG (MALE)",
         "score1": "2",
-        "score2": "0"
-        
+        "score2": "0",
+        "date": "28 Oct"
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMA",
         "school1": "SMA KARUNIA (MALE)",
         "school2": "SMA UPH COLLEGE B (MALE)",
         "score1": "0",
-        "score2": "2"
-        
+        "score2": "2",
+        "date": "28 Oct"
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMA",
         "school1": "SMA IPEKA PURI B (MALE)",
         "school2": "SMA DINAMIKA 1 (MALE)",
         "score1": "0",
-        "score2": "2"
-        
+        "score2": "2",
+        "date": "28 Oct"
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMA",
         "school1": "SMA GMC B (MALE)",
         "school2": "SMAN 4 TANGERANG (MALE)",
         "score1": "0",
-        "score2": "2"
-        
+        "score2": "2",
+        "date": "28 Oct"
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMA",
         "school1": "SMA SINAR DHARMA (MALE)",
         "school2": "SMA KRISTOFORUS 1 A (MALE)",
         "score1": "2",
-        "score2": "0"
-        
+        "score2": "0",
+        "date": "28 Oct"
     },
     {
         
-        "gender": "REGU",
+        "gender": "Regu",
         "level": "SMA",
         "school1": "SMAK GADING SERPONG (REGU)",
         "school2": "SMA UPH COLLEGE (REGU)",
         "score1": "1",
-        "score2": "2"
-        
+        "score2": "2",
+        "date": "28 Oct"
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMP",
         "school1": "SMPK 6 PENABUR B (MALE)",
         "school2": "SMPK 8 PENABUR (MALE)",
         "score1": "2",
-        "score2": "0"
-        
+        "score2": "0",
+        "date": "28 Oct"
     },
     {
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMP",
         "school1": "SMP BUKIT SION B (MALE)",
         "school2": "SMPK 2 PENABUR (MALE)",
         "score1": "2",
-        "score2": "0"
-        
+        "score2": "0",
+        "date": "28 Oct"
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMA",
         "school1": "SMAN 90 (MALE)",
         "school2": "SMA KSATRYA A (MALE)",
         "score1": "2",
-        "score2": "1"
-        
+        "score2": "1",
+        "date": "28 Oct"
     },
     {
         
-        "gender": "XD",
+        "gender": "Campur",
         "level": "SMP",
         "school1": "SMPK 2 PENABUR B (MIXED)",
         "school2": "SMP IPEKA PLUIT (MIXED)",
         "score1": "0",
-        "score2": "2"
-        
+        "score2": "2",
+        "date": "28 Oct"
     },
     {
         
-        "gender": "XD",
+        "gender": "Campur",
         "level": "SMP",
         "school1": "SMP SANTA MARIA (MIXED)",
         "school2": "SMP KRISTOFORUS 1 (MIXED)",
         "score1": "2",
-        "score2": "0"
-        
+        "score2": "0",
+        "date": "28 Oct"
     },
     {
         
-        "gender": "XD",
+        "gender": "Campur",
         "level": "SMA",
         "school1": "SMAN 10 (MIXED)",
         "school2": "SMA LABSCHOOL KEBAYORAN (MIXED)",
         "score1": "2",
-        "score2": "0"
-        
+        "score2": "0",
+        "date": "28 Oct"
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMP",
         "school1": "SMP KHARISMA BANGSA (MALE)",
         "school2": "SMP LABSCHOOL KEBAYORAN B (MALE)",
         "score1": "2",
-        "score2": "0"
-        
+        "score2": "0",
+        "date": "28 Oct"
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMA",
         "school1": "SMAN 28 (MALE)",
         "school2": "SMA MUTIARA BANGSA 3 (MALE)",
         "score1": "2",
-        "score2": "0"
+        "score2": "0",
+        "date": "28 Oct"
         
     },
     {
         
-        "gender": "XD",
+        "gender": "Campur",
         "level": "SMA",
         "school1": "SMA METHODIST (MIXED)",
         "school2": "SMA BINUS SCHOOL BEKASI (MIXED)",
         "score1": "0",
-        "score2": "2"
+        "score2": "2",
+        "date": "28 Oct"
         
     },
     {
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMP",
         "school1": "SMPK PENABUR SENTUL (MALE)",
         "school2": "SMPN 111 (MALE)",
         "score1": "2",
-        "score2": "0"
+        "score2": "0",
+        "date": "28 Oct"
         
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMP",
         "school1": "SMPK 6 PENABUR B (MALE)",
         "school2": "SMP KAIROS GRACIA B (MALE)",
         "score1": "2",
-        "score2": "0"
+        "score2": "0",
+        "date": "28 Oct"
         
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMA",
         "school1": "SMA DHARMA SUCI A (MALE)",
         "school2": "SMA IPEKA PURI C (MALE)",
         "score1": "2",
-        "score2": "0"
+        "score2": "0",
+        "date": "28 Oct"
         
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMA",
         "school1": "SMA IPEKA SUNTER (MALE)",
         "school2": "SMA GANDHI ANCOL (MALE)",
         "score1": "0",
-        "score2": "2"
+        "score2": "2",
+        "date": "28 Oct"
         
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMA",
         "school1": "SMAN 57 D (MALE)",
         "school2": "SMAK 1 PENABUR (MALE)",
         "score1": "0",
-        "score2": "2"
+        "score2": "2",
+        "date": "28 Oct"
         
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMA",
         "school1": "SMA KANISIUS B (MALE)",
         "school2": "SMA KSATRYA B (MALE)",
         "score1": "2",
-        "score2": "0"
+        "score2": "0",
+        "date": "28 Oct"
         
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMA",
         "school1": "SMA AL CHASANAH (MALE)",
         "school2": "MAS KHAFILA JAKARTA (MALE)",
         "score1": "2",
-        "score2": "0"
+        "score2": "0",
+        "date": "28 Oct"
         
     },
     {
         
-        "gender": "MD",
+        "gender": "Putra",
         "level": "SMA",
         "school1": "SMAN 78 (MALE)",
         "school2": "PSKG (MALE)",
         "score1": "2",
-        "score2": "0"
+        "score2": "0",
+        "date": "28 Oct"
         
     }
 ]
