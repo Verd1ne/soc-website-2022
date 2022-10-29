@@ -9,7 +9,7 @@
         "score2": "2",
         "date": "26 Oct",
         "set1": "28-30",
-        "set2": "14-25",
+        "set2": "25-14",
         "set3": "6-15"
     },
     {
@@ -34,8 +34,8 @@
         "score1": "2",
         "score2": "0",
         "date": "26 Oct",
-        "set1": "24-26",
-        "set2": "12-25"
+        "set1": "26-24",
+        "set2": "25-12"
         
     },
     {
@@ -62,7 +62,10 @@
         "school2": "SMA SANTO PAULUS (MALE)",
         "score1": "1",
         "score2": "2",
-        "date": "27 Oct"
+        "date": "27 Oct",
+        "set1": "25-21",
+        "set2": "20-25",
+        "set3": "3-15"
         
     },
     {
@@ -73,7 +76,9 @@
         "school2": "SMAN 45 (MALE)",
         "score1": "0",
         "score2": "2",
-        "date": "27 Oct"
+        "date": "27 Oct",
+        "set1": "18-25",
+        "set2": "20-25"
         
     },
     {
@@ -84,7 +89,9 @@
         "school2": "SMA RICCI (FEMALE)",
         "score1": "0",
         "score2": "2",
-        "date": "27 Oct"
+        "date": "27 Oct",
+        "set1": "18-25",
+        "set2": "9-25"
         
     },
     {
@@ -95,7 +102,10 @@
         "school2": "SMA CANDRA NAYA (FEMALE)",
         "score1": "1",
         "score2": "2",
-        "date": "27 Oct"
+        "date": "27 Oct",
+        "set1": "25-11",
+        "set2": "19-25",
+        "set3": "6-15"
         
     },
 
@@ -108,7 +118,9 @@
         "school2": "SMAN 45 (MALE)",
         "score1": "0",
         "score2": "2",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "18-25",
+        "set2": "19-25"
         
     },
     {
@@ -119,7 +131,9 @@
         "school2": "SMAK 1 PENABUR (FEMALE)",
         "score1": "2",
         "score2": "0",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "25-22",
+        "set2": "25-16"
         
     },
     {
@@ -130,7 +144,10 @@
         "school2": "SMA MARSUDIRINI BEKASI (MALE)",
         "score1": "2",
         "score2": "1",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "25-21",
+        "set2": "21-25",
+        "set3": "15-10"
         
     }
 ]

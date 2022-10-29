@@ -80,6 +80,11 @@ export default function Scoreboard( props ) {
                             score1 = {compe.score1}
                             team2 = {compe.school2}
                             score2 = {compe.score2}
+                            set1 = {compe.set1}
+                            set2 = {compe.set2}
+                            set3 = {compe.set3}
+                            set4 = {compe.set4}
+                            set5 = {compe.set5}
                         />
                     ))
                 }
@@ -95,6 +100,11 @@ export default function Scoreboard( props ) {
                             score1 = {compe.score1}
                             team2 = {compe.school2}
                             score2 = {compe.score2}
+                            set1 = {compe.set1}
+                            set2 = {compe.set2}
+                            set3 = {compe.set3}
+                            set4 = {compe.set4}
+                            set5 = {compe.set5}
                         />
                     ))
                 }
@@ -110,6 +120,11 @@ export default function Scoreboard( props ) {
                             score1 = {compe.score1}
                             team2 = {compe.school2}
                             score2 = {compe.score2}
+                            set1 = {compe.set1}
+                            set2 = {compe.set2}
+                            set3 = {compe.set3}
+                            set4 = {compe.set4}
+                            set5 = {compe.set5}
                         />
                     ))
                 }
