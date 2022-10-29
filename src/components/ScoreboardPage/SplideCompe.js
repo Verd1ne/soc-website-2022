@@ -2,10 +2,10 @@ import React, {useEffect} from 'react';
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
-import { Link } from 'gatsby';
 import 'aos/dist/aos.css'; 
+import Tag from './Tag';
 
-export default function SplideCompe() {
+export default function SplideCompe({selectedCompe, handleTag}) {
     let AOS;
 
     useEffect(() => {
@@ -73,14 +73,14 @@ export default function SplideCompe() {
                     <div className="grid grid-rows">
                         <div className="px-3 lg:px-10 xl:px-32">
                             <div className="text-lg md:text-xl xl:text-2xl">SMA</div>
-                            <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 md:px-12 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Putra</button>
-                            <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 md:px-12 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Putri</button>
+                            <Tag selectedCompe={selectedCompe} handleTag={handleTag} gender={'Putra'} compe={"Basket"} level={"SMA"}/>
+                            <Tag selectedCompe={selectedCompe} handleTag={handleTag} gender={'Putri'} compe={"Basket"} level={"SMA"}/>
                         </div>
                         <div className="my-5 px-3 lg:px-10 xl:px-32">
                             <div className="text-lg xl:text-2xl">SMP</div>
-                            <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 md:px-12 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Putra</button>
-                            <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 md:px-12 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Putri</button>
-                        </div>
+                            <Tag selectedCompe={selectedCompe} handleTag={handleTag} gender={"Putra"} compe={"Basket"} level={"SMP"}/>
+                            <Tag selectedCompe={selectedCompe} handleTag={handleTag} gender={"Putri"} compe={"Basket"} level={"SMP"}/>
+                            </div>
                     </div>
                 </div> 
             </SplideSlide>
@@ -91,12 +91,12 @@ export default function SplideCompe() {
                     <div className="grid grid-rows">
                         <div className="px-3 lg:px-10 xl:px-32">
                             <div className="text-lg md:text-xl xl:text-2xl">SMA</div>
-                            <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 md:px-12 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Putra</button>
-                            <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 md:px-12 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Putri</button>
+                            <Tag selectedCompe={selectedCompe} handleTag={handleTag} gender={"Putra"} compe={"Futsal"} level={"SMA"}/>
+                            <Tag selectedCompe={selectedCompe} handleTag={handleTag} gender={"Putri"} compe={"Futsal"} level={"SMA"}/>
                         </div>
                         <div className="my-5 px-3 lg:px-10 xl:px-32">
                             <div className="text-lg md:text-xl xl:text-2xl">SMP</div>
-                            <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 md:px-12 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Putra</button>
+                            <Tag selectedCompe={selectedCompe} handleTag={handleTag} gender={"Putra"} compe={"Futsal"} level={"SMP"}/>
                         </div>
                     </div>
                 </div> 
@@ -108,8 +108,8 @@ export default function SplideCompe() {
                     <div className="grid grid-rows">
                         <div className="my-5 px-3 lg:px-10 xl:px-32">
                             <div className="text-lg md:text-xl xl:text-2xl">SMA</div>
-                            <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 md:px-12 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Putra</button>
-                            <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 md:px-12 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Putri</button>
+                            <Tag selectedCompe={selectedCompe} handleTag={handleTag} gender={"Putra"} compe={"Voli"} level={"SMA"}/>
+                            <Tag selectedCompe={selectedCompe} handleTag={handleTag} gender={"Putri"} compe={"Voli"} level={"SMA"}/>
                         </div>
                     </div>
                 </div> 
@@ -119,20 +119,20 @@ export default function SplideCompe() {
                     <div className="text-3xl md:text-4xl lg:text-5xl">Badminton</div>
                     <hr className='mt-1 mb-5'/>
                     <div className="grid grid-rows">
-                        <div className="px-3 lg:px-10 xl:px-48">
+                        <div className="px-3 lg:px-10 xl:px-48 2xl:px-64">
                             <div className="text-lg md:text-xl xl:text-2xl">SMA</div>
-                            <div className='grid grid-cols-2 '>
-                                <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-3 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Ganda Putra</button>
-                                <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-3 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Ganda Putri</button>
-                                <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-3 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Ganda Campuran</button>
-                                <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-3 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Regu</button>
+                            <div className='grid grid-cols-2'>
+                                <button onClick={()=> handleTag("Badminton SMA Ganda Putra")} className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-3 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Ganda Putra</button>
+                                <button onClick={()=> handleTag("Badminton SMA Ganda Putri")} className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-3 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Ganda Putri</button>
+                                <button onClick={()=> handleTag("Badminton SMA Ganda Campuran")} className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-3 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Ganda Campuran</button>
+                                <button onClick={()=> handleTag("Badminton SMA Regu")} className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-3 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Regu</button>
                             </div>
                         </div>
-                        <div className="my-5 px-3 lg:px-10 xl:px-48">
+                        <div className="my-5 px-3 lg:px-10 xl:px-48 2xl:px-64">
                             <div className="text-lg md:text-xl xl:text-2xl">SMP</div>
                             <div className='grid grid-cols-2 '>
-                                <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-5 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Ganda Putra</button>
-                                <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-5 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Ganda Putri</button>
+                                <button onClick={()=> handleTag("Badminton SMP Ganda Putra")} className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-5 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Ganda Putra</button>
+                                <button onClick={()=> handleTag("Badminton SMP Ganda Putra")} className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-5 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Ganda Putri</button>
                             </div>
                         </div>
                     </div>
