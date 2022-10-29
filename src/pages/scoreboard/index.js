@@ -54,6 +54,7 @@ export default function Scoreboard( props ) {
                         />
                     ))
                 }
+
             </div>
         </Layout>
   )
