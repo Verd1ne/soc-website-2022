@@ -31,9 +31,9 @@ export default function Scoreboard( props ) {
             <div className="text-[#f5f1be] md:text-xl lg:text-2xl font-semibold font-ProductSans text-center md:mt-[70px] px-10 md:mx-0">
                 <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 1<hr className="mt-3"/></div>
                 <Score
-                    team1 = "SMAK 1 PENABUR C (PUTRA)"
+                    team1 = "SMAK 1 PENABUR C (MALE)"
                     score1 = "LOSE"
-                    team2 = "SMAK GADING SERPONG (PUTRA)"
+                    team2 = "SMAK GADING SERPONG (MALE)"
                     score2 = "WIN"
                 />
                 <Score
@@ -59,52 +59,52 @@ export default function Scoreboard( props ) {
             <div className="text-[#f5f1be] md:text-xl lg:text-2xl font-semibold font-ProductSans text-center md:mt-[70px] px-10 md:mx-0">
                 <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 1<hr className="mt-3"/></div>
                 <Score
-                    team1 = "SMA KOLESE KANISIUS (PUTRA)"
+                    team1 = "SMA KOLESE KANISIUS (MALE)"
                     score1 = "1"
-                    team2 = "SMA RICCI (PUTRA)"
+                    team2 = "SMA RICCI (MALE)"
                     score2 = "2"
                 />
                 <Score
-                    team1 = "SMAN 12 TANGSEL (PUTRA)"
+                    team1 = "SMAN 12 TANGSEL (MALE)"
                     score1 = "2"
-                    team2 = "SMA SANTO PAULUS (PUTRA)"
+                    team2 = "SMA SANTO PAULUS (MALE)"
                     score2 = "0"
                 />
                 <Score
-                    team1 = "SMA YP KARYA (PUTRA)"
+                    team1 = "SMA YP KARYA (MALE)"
                     score1 = "2"
-                    team2 = "SMA CANDRA NAYA (PUTRA)"
+                    team2 = "SMA CANDRA NAYA (MALE)"
                     score2 = "0"
                 />
                 <Score
-                    team1 = "SMA MARSUDIRINI BEKASI (PUTRA)"
+                    team1 = "SMA MARSUDIRINI BEKASI (MALE)"
                     score1 = "1"
-                    team2 = "SMA KSATRYA 51 (PUTRA)"
+                    team2 = "SMA KSATRYA 51 (MALE)"
                     score2 = "2"
                 />
                 <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 2<hr className="mt-3"/></div>
                 <Score
-                    team1 = "SMAK 1 PENABUR A (PUTRA)"
+                    team1 = "SMAK 1 PENABUR A (MALE)"
                     score1 = "1"
-                    team2 = "SMA SANTO PAULUS (PUTRA)"
+                    team2 = "SMA SANTO PAULUS (MALE)"
                     score2 = "2"
                 />
                 <Score
-                    team1 = "SMA RICCI (PUTRA)"
+                    team1 = "SMA RICCI (MALE)"
                     score1 = "0"
-                    team2 = "SMAN 45 (PUTRA)"
+                    team2 = "SMAN 45 (MALE)"
                     score2 = "2"
                 />
                 <Score
-                    team1 = "SMA SANTO PAULUS (PUTRI)"
+                    team1 = "SMA SANTO PAULUS (FEMALE)"
                     score1 = "0"
-                    team2 = "SMA RICCI (PUTRI)"
+                    team2 = "SMA RICCI (FEMALE)"
                     score2 = "2"
                 />
                 <Score
-                    team1 = "SMA SANTA URSULA (PUTRI)"
+                    team1 = "SMA SANTA URSULA (FEMALE)"
                     score1 = "1"
-                    team2 = "SMA CANDRA NAYA (PUTRI)"
+                    team2 = "SMA CANDRA NAYA (FEMALE)"
                     score2 = "2"
                 />
             </div>

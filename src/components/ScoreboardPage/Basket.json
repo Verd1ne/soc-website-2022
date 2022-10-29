@@ -1,0 +1,121 @@
+[
+    {
+        "gender": "Putri",
+        "level": "SMA",
+        "school1": "SMAK GADING SERPONG (FEMALE)",
+        "school2": "SMA KRISTOFORUS 1 (FEMALE)",
+        "score1": "20",
+        "score2": "42",
+        "date": "26 Oct"
+    },
+    {
+        "gender": "Putra",
+        "level": "SMA",
+        "school1": "SMAK 1 PENABUR A (MALE)",
+        "school2": "SMAK GADING SERPONG (MALE)",
+        "score1": "10",
+        "score2": "63",
+        "date": "26 Oct"
+    },
+    {
+        "gender": "Putra",
+        "level": "SMA",
+        "school1": "SMAK 1 PENABUR C (MALE)",
+        "school2": "SMAK 6 PENABUR (MALE)",
+        "score1": "22",
+        "score2": "42",
+        "date": "26 Oct"
+    },
+    {
+        "gender": "Putri",
+        "level": "SMA",
+        "school1": "SMAK 4 PENABUR (FEMALE)",
+        "school2": "SMA TARAKANITA 2 (FEMALE)",
+        "score1": "28",
+        "score2": "14",
+        "date": "26 Oct"
+    },
+    {
+        "gender": "Putra",
+        "level": "SMP",
+        "school1": "SMPK 7 PENABUR (MALE)",
+        "school2": "SMP SPRINGFIELD (MALE)",
+        "score1": "28",
+        "score2": "30",
+        "date": "26 Oct"
+    },
+    {
+        "gender": "Putri",
+        "level": "SMA",
+        "school1": "SMA BINA TUNAS BANGSA (FEMALE)",
+        "school2": "SMA TUNAS BANGSA (MALE)",
+        "score1": "29",
+        "score2": "12",
+        "date": "26 Oct"
+    },
+    {
+        "gender": "Putra",
+        "level": "SMA",
+        "school1": "SMA CANISIUS (MALE)",
+        "school2": "SMA IPEKA PLUIT (MALE)",
+        "score1": "57",
+        "score2": "17",
+        "date": "26 Oct"
+    },
+
+
+    {
+        "gender": "Putri",
+        "level": "SMA",
+        "school1": "SMAK 1 PENABUR (FEMALE)",
+        "school2": "SMAK GADING SERPONG (FEMALE)",
+        "score1": "65",
+        "score2": "19",
+        "date": "27 Oct"
+    },
+    {
+        "gender": "Putra",
+        "level": "SMA",
+        "school1": "SMAK 1 PENABUR A (MALE)",
+        "school2": "SMA JAGAKARSA (MALE)",
+        "score1": "44",
+        "score2": "4",
+        "date": "27 Oct"
+    },
+    {
+        "gender": "Putra",
+        "level": "SMA",
+        "school1": "SMA IPEKA PLUIT (MALE)",
+        "school2": "SMA PELITA IV (MALE)",
+        "score1": "-",
+        "score2": "-",
+        "date": "27 Oct"
+    },
+    {
+        "gender": "Putra",
+        "level": "SMA",
+        "school1": "SMA TIARA KASIH (MALE)",
+        "school2": "SMK GLOBAL MULTIMEDIA (MALE)",
+        "score1": "50",
+        "score2": "20",
+        "date": "27 Oct"
+    },
+    {
+        "gender": "Putra",
+        "level": "SMA",
+        "school1": "SMAK 6 PENABUR (MALE)",
+        "school2": "SMA BUDI MULIA (MALE)",
+        "score1": "30",
+        "score2": "18",
+        "date": "27 Oct"
+    },
+    {
+        "gender": "Putri",
+        "level": "SMA",
+        "school1": "SMAK 8 PENABUR (FEMALE)",
+        "school2": "SMAK GADING SERPONG (FEMALE)",
+        "score1": "6",
+        "score2": "43",
+        "date": "27 Oct"
+    }
+]
