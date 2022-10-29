@@ -8,15 +8,15 @@ export default function Header() {
 
   return (
     <div className={"fixed z-[100] w-full top-0 overflow-hidden"}>
-      <div className="grid grid-cols-4 sm:grid-cols-3 lg:grid-cols-4 bg-black flex justify-between w-screen h-20 pr-4 md:pr-8 lg:pr-12">
+      <div className="grid grid-cols-4 sm:grid-cols-3 lg:grid-cols-4 bg-black flex justify-between w-screen h-14 md:h-20 pr-4 md:pr-8 lg:pr-12">
           <Link to="/" className="col-span-3 sm:col-span-2 lg:col-span-1 h-full ml-0 md:ml-4 lg:ml-8 xl:ml-12">
             <StaticImage 
               src= "../../images/SmakonecupLogo.webp"
               alt= "logo"
               placeholder=""
-              layout="fixed"
+              layout="constrained"
               height= {64}
-              className="my-2"
+              className="-mt-1 md:mt-2"
             />
           </Link>
         <div className="col-start-4 sm:col-start-3 lg:col-span-3">
@@ -32,7 +32,7 @@ export default function Header() {
           {/* mobile */}
           <div className="flex lg:hidden justify-end items-center h-full mr-4">
             {/* <button onClick={() => setDropdown(prev => !prev)}> */}
-              <Hamburger color="white" size={40} toggled={dropdown} toggle={setDropdown} duration={0.4} rounded/>
+              <Hamburger color="white" size={30} toggled={dropdown} toggle={setDropdown} duration={0.4} rounded/>
             {/* </button> */}
           </div>
         </div>
