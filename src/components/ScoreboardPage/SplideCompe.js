@@ -1,17 +1,32 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import { Link } from 'gatsby';
-// import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css'; 
 
 export default function SplideCompe() {
+    let AOS;
+
+    useEffect(() => {
+        const AOS = require("aos");
+        AOS.init({
+        once: true,
+        });
+    }, []);
+
+    useEffect(() => {
+        if (AOS) {
+        AOS.refresh();
+        }
+    });
+
     return (
         <div>
             <Splide
-                // data-aos="fade-in"
-                // data-aos-offset="400"
-                // data-aos-duration="1500"
+                data-aos="fade-in"
+                data-aos-offset="400"
+                data-aos-duration="1500"
                 className="mb-20 sm:mb-24 md:mb-28 lg:mb-32 xl:mb-36 2xl:mb-40"
                 options={{
                     rewind: true,
