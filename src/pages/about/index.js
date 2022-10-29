@@ -29,7 +29,7 @@ export default function Index() {
 
   return (
     <Layout>
-      <div className="text-white overflow-x-hidden mb-[50px] md:mb-[60px] lg:mb-[80px] xl:mb-[100px] mx-[35px] md:mx-[80px] lg:mx-[125px] xl:mx-[150px] 2xl:mx-[275px]">
+      <div className="text-white overflow-x-hidden mb-[50px] md:mb-[60px] lg:mb-[80px] xl:mb-[100px] mx-[25px] md:mx-[80px] lg:mx-[125px] xl:mx-[150px] 2xl:mx-[275px]">
           <div         
           data-aos="fade-in"
           data-aos-offset="0"
