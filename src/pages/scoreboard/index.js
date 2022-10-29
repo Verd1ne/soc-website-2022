@@ -30,7 +30,7 @@ export default function Scoreboard( props ) {
 
             console.log(competition)
             let level = selectedCompe.split(' ').slice(1, 2)
-            let gender = selectedCompe.split(' ').slice(2)
+            let gender = selectedCompe.split(' ').slice(-1)
             // console.log(level)
             // console.log(gender)
             setFilteredCompes(
