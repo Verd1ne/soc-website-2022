@@ -48,7 +48,7 @@ export default function Scoreboard( props ) {
             <SplideCompe selectedCompe={selectedCompe} handleTag={handleTag}/>
             <div className='font-Broadway text-4xl md:text-5xl text-[#f5f1be] my-10 mx-5 md:mx-10 overflow-hidden text-center'>SCOREBOARD {selectedCompe}</div>
             <div className="text-[#f5f1be] md:text-xl lg:text-2xl font-semibold font-ProductSans text-center md:mt-[70px] px-10 md:mx-0">
-                <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 1<hr className="mt-3"/></div>
+                <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 1 (26 Oct)<hr className="mt-3"/></div>
                 {filteredCompes &&
                     filteredCompes.filter((compe) => {
                         if(compe.date === "26 Oct"){
@@ -60,10 +60,15 @@ export default function Scoreboard( props ) {
                             score1 = {compe.score1}
                             team2 = {compe.school2}
                             score2 = {compe.score2}
+                            set1 = {compe.set1}
+                            set2 = {compe.set2}
+                            set3 = {compe.set3}
+                            set4 = {compe.set4}
+                            set5 = {compe.set5}
                         />
                     ))
                 }
-                <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 2<hr className="mt-3"/></div>
+                <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 2 (27 Oct)<hr className="mt-3"/></div>
                 {filteredCompes &&
                     filteredCompes.filter((compe) => {
                         if(compe.date == "27 Oct"){
@@ -78,7 +83,7 @@ export default function Scoreboard( props ) {
                         />
                     ))
                 }
-                <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 3<hr className="mt-3"/></div>
+                <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 3 (28 Oct)<hr className="mt-3"/></div>
                 {filteredCompes &&
                     filteredCompes.filter((compe) => {
                         if(compe.date == "28 Oct"){
@@ -93,7 +98,21 @@ export default function Scoreboard( props ) {
                         />
                     ))
                 }
-
+                <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 4 (29 Oct)<hr className="mt-3"/></div>
+                {filteredCompes &&
+                    filteredCompes.filter((compe) => {
+                        if(compe.date == "29 Oct"){
+                            return compe
+                        }
+                    }).map((compe, index) => (
+                        <Score key={index}
+                            team1 = {compe.school1}
+                            score1 = {compe.score1}
+                            team2 = {compe.school2}
+                            score2 = {compe.score2}
+                        />
+                    ))
+                }
 
             </div>
         </Layout>

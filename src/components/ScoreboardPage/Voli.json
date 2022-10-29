@@ -7,8 +7,10 @@
         "school2": "SMA RICCI (MALE)",
         "score1": "1",
         "score2": "2",
-        "date": "26 Oct"
-        
+        "date": "26 Oct",
+        "set1": "28-30",
+        "set2": "14-25",
+        "set3": "6-15"
     },
     {
         
@@ -18,7 +20,9 @@
         "school2": "SMA SANTO PAULUS (MALE)",
         "score1": "2",
         "score2": "0",
-        "date": "26 Oct"
+        "date": "26 Oct",
+        "set1": "25-17",
+        "set2": "25-20"
         
     },
     {
@@ -29,7 +33,9 @@
         "school2": "SMA CANDRA NAYA (MALE)",
         "score1": "2",
         "score2": "0",
-        "date": "26 Oct"
+        "date": "26 Oct",
+        "set1": "24-26",
+        "set2": "12-25"
         
     },
     {
@@ -40,8 +46,11 @@
         "school2": "SMA KSATRYA 51 (MALE)",
         "score1": "1",
         "score2": "2",
-        "date": "26 Oct"
-        
+        "date": "26 Oct",
+        "set1": "36-34",
+        "set2": "24-26",
+        "set3": "4-15"
+
     },
 
     
