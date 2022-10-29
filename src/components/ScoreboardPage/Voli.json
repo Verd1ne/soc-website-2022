@@ -3,8 +3,8 @@
     {
         "gender": "PA",
         "level": "SMA",
-        "school1": "SMA KOLESE KANISIUS",
-        "school2": "SMA RICCI",
+        "school1": "SMA KOLESE KANISIUS (MALE)",
+        "school2": "SMA RICCI (MALE)",
         "score1": "1",
         "score2": "2"
         
@@ -13,8 +13,8 @@
         
         "gender": "PA",
         "level": "SMA",
-        "school1": "SMAN 12 TANGSEL",
-        "school2": "SMA SANTO PAULUS",
+        "school1": "SMAN 12 TANGSEL (MALE)",
+        "school2": "SMA SANTO PAULUS (MALE)",
         "score1": "2",
         "score2": "0"
         
@@ -23,8 +23,8 @@
         
         "gender": "PA",
         "level": "SMA",
-        "school1": "SMA YP KARYA",
-        "school2": "SMA CANDRA NAYA",
+        "school1": "SMA YP KARYA (MALE)",
+        "school2": "SMA CANDRA NAYA (MALE)",
         "score1": "2",
         "score2": "0"
         
@@ -33,8 +33,20 @@
         
         "gender": "PA",
         "level": "SMA",
-        "school1": "SMA MARSUDIRINI BEKASI",
-        "school2": "SMA KSATRYA 51",
+        "school1": "SMA MARSUDIRINI BEKASI (MALE)",
+        "school2": "SMA KSATRYA 51 (MALE)",
+        "score1": "1",
+        "score2": "2"
+        
+    },
+
+    
+    {
+        
+        "gender": "PA",
+        "level": "SMA",
+        "school1": "SMAK 1 PENABUR A (MALE)",
+        "school2": "SMA SANTO PAULUS (MALE)",
         "score1": "1",
         "score2": "2"
         
@@ -43,18 +55,8 @@
         
         "gender": "PA",
         "level": "SMA",
-        "school1": "SMAK 1 PENABUR A",
-        "school2": "SMA SANTO PAULUS",
-        "score1": "1",
-        "score2": "2"
-        
-    },
-    {
-        
-        "gender": "PA",
-        "level": "SMA",
-        "school1": "SMA RICCI",
-        "school2": "SMAN 45",
+        "school1": "SMA RICCI (MALE)",
+        "school2": "SMAN 45 (MALE)",
         "score1": "0",
         "score2": "2"
         
@@ -63,18 +65,18 @@
         
         "gender": "PI",
         "level": "SMA",
-        "school1": "SMA SANTO PAULUS",
-        "school2": "SMA RICCI",
+        "school1": "SMA SANTO PAULUS (FEMALE)",
+        "school2": "SMA RICCI (FEMALE)",
         "score1": "0",
         "score2": "2"
         
     },
     {
         
-        "gender": "P1",
+        "gender": "PI",
         "level": "SMA",
-        "school1": "SMA SANTA URSULA",
-        "school2": "SMA CANDRA NAYA",
+        "school1": "SMA SANTA URSULA (FEMALE)",
+        "school2": "SMA CANDRA NAYA (FEMALE)",
         "score1": "1",
         "score2": "2"
         
