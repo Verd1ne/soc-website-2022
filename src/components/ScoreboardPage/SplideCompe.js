@@ -53,61 +53,73 @@ export default function SplideCompe() {
             >
             <SplideSlide>
             <div className="bg-[#040030] rounded-3xl p-5 lg:p-7 2xl:p-10 h-96 w-full text-center text-white font-ProductSans">
-                    <div className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-9xl">Basket</div>
+                    <div className="text-3xl md:text-4xl lg:text-5xl">Basket</div>
                     <hr className='mt-1 mb-5'/>
-                    <div className="my-5">
-                        <div className="text-lg md:text-xl xl:text-2xl">SMA</div>
-                        <button className='text-base md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.2] duration-100'>Putra</button>
-                        <button className='text-base md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.2] duration-100'>Putri</button>
-                    </div>
-                    <div className="my-5">
-                        <div className="text-lg xl:text-2xl">SMP</div>
-                        <button className='text-base md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.2] duration-100'>Putra</button>
-                        <button className='text-base md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.2] duration-100'>Putri</button>
+                    <div className="grid grid-rows">
+                        <div className="px-3 lg:px-10 xl:px-32">
+                            <div className="text-lg md:text-xl xl:text-2xl">SMA</div>
+                            <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 md:px-12 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Putra</button>
+                            <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 md:px-12 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Putri</button>
+                        </div>
+                        <div className="my-5 px-3 lg:px-10 xl:px-32">
+                            <div className="text-lg xl:text-2xl">SMP</div>
+                            <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 md:px-12 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Putra</button>
+                            <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 md:px-12 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Putri</button>
+                        </div>
                     </div>
                 </div> 
             </SplideSlide>
             <SplideSlide>
-                <div className="bg-[#040030] rounded-3xl p-5 lg:p-7 2xl:p-10 2xl:h-96 w-full text-center text-white font-ProductSans">
-                    <div className="text-5xl">Futsal</div>
+                <div className="bg-[#040030] rounded-3xl p-5 lg:p-7 2xl:p-10 h-96 w-full text-center text-white font-ProductSans">
+                    <div className="text-3xl md:text-4xl lg:text-5xl">Futsal</div>
                     <hr className='mt-1 mb-5'/>
-                    <div className="my-5">
-                        <div className="text-2xl">SMA</div>
-                        <button className='text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.2] duration-100'>Putra</button>
-                        <button className='text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.2] duration-100'>Putri</button>
-                    </div>
-                    <div className="my-5">
-                        <div className="text-2xl">SMP</div>
-                        <Link to=""><button className='text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.2] duration-100'>Putra</button></Link>
+                    <div className="grid grid-rows">
+                        <div className="px-3 lg:px-10 xl:px-32">
+                            <div className="text-lg md:text-xl xl:text-2xl">SMA</div>
+                            <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 md:px-12 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Putra</button>
+                            <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 md:px-12 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Putri</button>
+                        </div>
+                        <div className="my-5 px-3 lg:px-10 xl:px-32">
+                            <div className="text-lg md:text-xl xl:text-2xl">SMP</div>
+                            <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 md:px-12 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Putra</button>
+                        </div>
                     </div>
                 </div> 
             </SplideSlide>
             <SplideSlide>
-                <div className="bg-[#040030] rounded-3xl p-5 lg:p-7 2xl:p-10 2xl:h-96 w-full text-center text-white font-ProductSans">
-                    <div className="text-5xl">Voli</div>
+                <div className="bg-[#040030] rounded-3xl p-5 lg:p-7 2xl:p-10 h-96 w-full text-center text-white font-ProductSans">
+                    <div className="text-3xl md:text-4xl lg:text-5xl">Voli</div>
                     <hr className='mt-1 mb-5'/>
-                    <div className="my-5">
-                        <div className="text-2xl">SMA</div>
-                        <button className='text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.2] duration-100'>Putra</button>
-                        <button className='text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.2] duration-100'>Putri</button>
+                    <div className="grid grid-rows">
+                        <div className="my-5 px-3 lg:px-10 xl:px-32">
+                            <div className="text-lg md:text-xl xl:text-2xl">SMA</div>
+                            <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 md:px-12 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Putra</button>
+                            <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 md:px-12 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Putri</button>
+                        </div>
                     </div>
                 </div> 
             </SplideSlide>
             <SplideSlide>
-                <div className=" bg-[#040030] rounded-3xl p-5 lg:p-7 2xl:p-10 2xl:h-96 w-full text-center text-white font-ProductSans">
-                    <div className="text-5xl">Badminton</div>
+                <div className="bg-[#040030] rounded-3xl p-5 lg:p-7 2xl:p-10 h-96 md:h-96 w-full text-center text-white font-ProductSans">
+                    <div className="text-3xl md:text-4xl lg:text-5xl">Badminton</div>
                     <hr className='mt-1 mb-5'/>
-                    <div className="my-5">
-                        <div className="text-2xl">SMA</div>
-                        <button className='text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.2] duration-100'>Ganda Putra</button>
-                        <button className='text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.2] duration-100'>Ganda Putri</button>
-                        <button className='text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.2] duration-100'>Ganda Campuran</button>
-                        <button className='text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.2] duration-100'>Regu</button>
-                    </div>
-                    <div className="my-5">
-                        <div className="text-2xl">SMP</div>
-                        <button className='text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.2] duration-100'>Ganda Putra</button>
-                        <button className='text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-7 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.2] duration-100'>Ganda Putri</button>
+                    <div className="grid grid-rows">
+                        <div className="px-3 lg:px-10 xl:px-48">
+                            <div className="text-lg md:text-xl xl:text-2xl">SMA</div>
+                            <div className='grid grid-cols-2 '>
+                                <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-3 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Ganda Putra</button>
+                                <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-3 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Ganda Putri</button>
+                                <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-3 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Ganda Campuran</button>
+                                <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-3 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Regu</button>
+                            </div>
+                        </div>
+                        <div className="my-5 px-3 lg:px-10 xl:px-48">
+                            <div className="text-lg md:text-xl xl:text-2xl">SMP</div>
+                            <div className='grid grid-cols-2 '>
+                                <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-5 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Ganda Putra</button>
+                                <button className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-5 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Ganda Putri</button>
+                            </div>
+                        </div>
                     </div>
                 </div> 
             </SplideSlide>
