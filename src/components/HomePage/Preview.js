@@ -25,7 +25,7 @@ export default function Preview() {
 
   return (
     <div 
-      data-aos="fade-in"
+      data-aos="zoom-in-down"
       data-aos-offset="500"
       data-aos-duration="3000"
       data-aos-delay="0">
