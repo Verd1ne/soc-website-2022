@@ -6,16 +6,38 @@
         "school2": "SMA KRISTOFORUS 1 (FEMALE)",
         "score1": "20",
         "score2": "42",
-        "date": "26 Oct"
+        "date": "26 Oct",
+        "set1": "4-9",
+        "set2": "6-7",
+        "set3": "5-2",
+        "set4": "5-24"
+    },
+    {
+        "gender": "Putra",
+        "level": "SMP",
+        "school1": "SMP  KRISTOFORUS 2 (MALE)",
+        "school2": "SMPN 111 (MALE)",
+        "score1": "30",
+        "score2": "32",
+        "date": "26 Oct",
+        "set1": "8-4",
+        "set2": "8-8",
+        "set3": "4-5",
+        "set4": "6-9",
+        "set5": "4-6"
     },
     {
         "gender": "Putra",
         "level": "SMA",
         "school1": "SMAK 1 PENABUR A (MALE)",
         "school2": "SMAK GADING SERPONG (MALE)",
-        "score1": "10",
-        "score2": "63",
-        "date": "26 Oct"
+        "score1": "16",
+        "score2": "81",
+        "date": "26 Oct",
+        "set1": "3-17",
+        "set2": "3-27",
+        "set3": "4-19",
+        "set4": "6-18"
     },
     {
         "gender": "Putra",
@@ -23,8 +45,12 @@
         "school1": "SMAK 1 PENABUR C (MALE)",
         "school2": "SMAK 6 PENABUR (MALE)",
         "score1": "22",
-        "score2": "42",
-        "date": "26 Oct"
+        "score2": "47",
+        "date": "26 Oct",
+        "set1": "0-5",
+        "set2": "1-6",
+        "set3": "4-13",
+        "set4": "17-23"
     },
     {
         "gender": "Putri",
@@ -33,7 +59,11 @@
         "school2": "SMA TARAKANITA 2 (FEMALE)",
         "score1": "28",
         "score2": "14",
-        "date": "26 Oct"
+        "date": "26 Oct",
+        "set1": "7-0",
+        "set2": "3-3",
+        "set3": "8-2",
+        "set4": "10-9"
     },
     {
         "gender": "Putra",
@@ -42,7 +72,11 @@
         "school2": "SMP SPRINGFIELD (MALE)",
         "score1": "28",
         "score2": "30",
-        "date": "26 Oct"
+        "date": "26 Oct",
+        "set1": "7-4",
+        "set2": "4-10",
+        "set3": "14-10",
+        "set4": "3-6"
     },
     {
         "gender": "Putri",
@@ -51,7 +85,11 @@
         "school2": "SMA TUNAS BANGSA (MALE)",
         "score1": "29",
         "score2": "12",
-        "date": "26 Oct"
+        "date": "26 Oct",
+        "set1": "7-2",
+        "set2": "13-6",
+        "set3": "5-2",
+        "set4": "4-2"
     },
     {
         "gender": "Putra",
@@ -60,7 +98,11 @@
         "school2": "SMA IPEKA PLUIT (MALE)",
         "score1": "57",
         "score2": "17",
-        "date": "26 Oct"
+        "date": "26 Oct",
+        "set1": "14-7",
+        "set2": "17-0",
+        "set3": "16-4",
+        "set4": "10-6"
     },
 
 
@@ -71,7 +113,11 @@
         "school2": "SMAK GADING SERPONG (FEMALE)",
         "score1": "65",
         "score2": "19",
-        "date": "27 Oct"
+        "date": "27 Oct",
+        "set1": "17-1",
+        "set2": "12-4",
+        "set3": "20-5",
+        "set4": "19-9"
     },
     {
         "gender": "Putra",
@@ -80,15 +126,19 @@
         "school2": "SMA JAGAKARSA (MALE)",
         "score1": "44",
         "score2": "4",
-        "date": "27 Oct"
+        "date": "27 Oct",
+        "set1": "9-0",
+        "set2": "12-0",
+        "set3": "8-2",
+        "set4": "15-2"
     },
     {
         "gender": "Putra",
         "level": "SMA",
         "school1": "SMA IPEKA PLUIT (MALE)",
         "school2": "SMA PELITA IV (MALE)",
-        "score1": "-",
-        "score2": "-",
+        "score1": "62",
+        "score2": "12",
         "date": "27 Oct"
     },
     {
@@ -98,7 +148,11 @@
         "school2": "SMK GLOBAL MULTIMEDIA (MALE)",
         "score1": "50",
         "score2": "20",
-        "date": "27 Oct"
+        "date": "27 Oct",
+        "set1": "14-4",
+        "set2": "11-5",
+        "set3": "13-4",
+        "set4": "12-7"
     },
     {
         "gender": "Putra",
@@ -114,8 +168,12 @@
         "level": "SMA",
         "school1": "SMAK 8 PENABUR (FEMALE)",
         "school2": "SMAK GADING SERPONG (FEMALE)",
-        "score1": "6",
+        "score1": "9",
         "score2": "43",
-        "date": "27 Oct"
+        "date": "27 Oct",
+        "set1": "0-11",
+        "set2": "4-10",
+        "set3": "2-4",
+        "set4": "3-18"
     }
 ]

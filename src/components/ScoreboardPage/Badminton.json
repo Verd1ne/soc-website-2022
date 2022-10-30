@@ -6,8 +6,10 @@
         "school2": "SMAK 8 PENABUR (REGU)",
         "score1": "3",
         "score2": "0",
-        "date": "28 Oct"
-        
+        "date": "28 Oct",
+        "set1": "30-22",
+        "set2": "30-11",
+        "set3": "30-13"
     },
     {
         
@@ -17,7 +19,9 @@
         "school2": "SMPK 2 PENABUR A (MIXED)",
         "score1": "2",
         "score2": "0",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "21-16",
+        "set2": "21-8"
     },
     {
         
@@ -27,8 +31,9 @@
         "school2": "SMP IICS (MALE)",
         "score1": "0",
         "score2": "2",
-        "date": "28 Oct"
-        
+        "date": "28 Oct",
+        "set1": "21-21",
+        "set2": "14-21"
     },
     {
         
@@ -38,7 +43,9 @@
         "school2": "SMA UPH COLLEGE (MIXED)",
         "score1": "0",
         "score2": "2",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "7-21",
+        "set2": "5-21"
         
     },
     {
@@ -49,7 +56,9 @@
         "school2": "SMP PELITA 2 (MIXED)",
         "score1": "0",
         "score2": "2",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "10-21",
+        "set2": "19-21"
         
     },
     {
@@ -60,7 +69,9 @@
         "school2": "SMPK 8 PENABUR (MIXED)",
         "score1": "2",
         "score2": "0",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "21-4",
+        "set2": "21-10"
         
     },
     {
@@ -71,7 +82,9 @@
         "school2": "SMP BUKIT SION A (MALE)",
         "score1": "2",
         "score2": "0",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "21-0",
+        "set2": "21-2"
         
     },
     {
@@ -82,7 +95,9 @@
         "school2": "SMP KAIROS GRACIA A (MALE)",
         "score1": "0",
         "score2": "2",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "11-21",
+        "set2": "20-22"
         
     },
     {
@@ -92,7 +107,9 @@
         "school2": "SMAK 6 PENABUR A (MALE)",
         "score1": "0",
         "score2": "2",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "9-21",
+        "set2": "5-21"
         
     },
     {
@@ -103,7 +120,9 @@
         "school2": "SMA BINA TUNAS BANGSA (MALE)",
         "score1": "0",
         "score2": "2",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "10-21",
+        "set2": "11-21"
         
     },
     {
@@ -114,7 +133,9 @@
         "school2": "SMP IPEKA PURI (MALE)",
         "score1": "2",
         "score2": "0",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "21-14",
+        "set2": "21-5"
         
     },
     {
@@ -125,7 +146,9 @@
         "school2": "SMP CAHAYSA SAKTI (MALE)",
         "score1": "2",
         "score2": "0",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "21-13",
+        "set2": "22-20"
         
     },
     {
@@ -136,7 +159,10 @@
         "school2": "SMA PELITA 2 (MALE)",
         "score1": "2",
         "score2": "1",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "18-21",
+        "set2": "21-15",
+        "set3": "21-13"
     },
     {
         
@@ -146,7 +172,9 @@
         "school2": "SMAK GADING SERPONG (MALE)",
         "score1": "2",
         "score2": "0",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "21-7",
+        "set2": "21-19"
     },
     {
         
@@ -156,7 +184,9 @@
         "school2": "SMA UPH COLLEGE B (MALE)",
         "score1": "0",
         "score2": "2",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "7-21",
+        "set2": "11-21"
     },
     {
         
@@ -166,7 +196,9 @@
         "school2": "SMA DINAMIKA 1 (MALE)",
         "score1": "0",
         "score2": "2",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "9-21",
+        "set2": "15-21"
     },
     {
         
@@ -176,7 +208,9 @@
         "school2": "SMAN 4 TANGERANG (MALE)",
         "score1": "0",
         "score2": "2",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "6-21",
+        "set2": "11-21"
     },
     {
         
@@ -186,7 +220,9 @@
         "school2": "SMA KRISTOFORUS 1 A (MALE)",
         "score1": "2",
         "score2": "0",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "22-20",
+        "set2": "21-14"
     },
     {
         
@@ -196,7 +232,10 @@
         "school2": "SMA UPH COLLEGE (REGU)",
         "score1": "1",
         "score2": "2",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "19-30",
+        "set2": "19-30",
+        "set3": "30-25"
     },
     {
         
@@ -206,7 +245,9 @@
         "school2": "SMPK 8 PENABUR (MALE)",
         "score1": "2",
         "score2": "0",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "22-18",
+        "set2": "21-5"
     },
     {
         "gender": "Putra",
@@ -215,7 +256,9 @@
         "school2": "SMPK 2 PENABUR (MALE)",
         "score1": "2",
         "score2": "0",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "21-2",
+        "set2": "21-9"
     },
     {
         
@@ -225,7 +268,10 @@
         "school2": "SMA KSATRYA A (MALE)",
         "score1": "2",
         "score2": "1",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "21-18",
+        "set2": "15-21",
+        "set3": "21-12"
     },
     {
         
@@ -235,7 +281,9 @@
         "school2": "SMP IPEKA PLUIT (MIXED)",
         "score1": "0",
         "score2": "2",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "11-21",
+        "set2": "7-21"
     },
     {
         
@@ -245,7 +293,9 @@
         "school2": "SMP KRISTOFORUS 1 (MIXED)",
         "score1": "2",
         "score2": "0",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "21-11",
+        "set2": "21-12"
     },
     {
         
@@ -255,7 +305,9 @@
         "school2": "SMA LABSCHOOL KEBAYORAN (MIXED)",
         "score1": "2",
         "score2": "0",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "21-6",
+        "set2": "21-5"
     },
     {
         
@@ -265,7 +317,9 @@
         "school2": "SMP LABSCHOOL KEBAYORAN B (MALE)",
         "score1": "2",
         "score2": "0",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "21-15",
+        "set2": "21-14"
     },
     {
         
@@ -275,7 +329,9 @@
         "school2": "SMA MUTIARA BANGSA 3 (MALE)",
         "score1": "2",
         "score2": "0",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "21-14",
+        "set2": "21-13"
         
     },
     {
@@ -286,7 +342,9 @@
         "school2": "SMA BINUS SCHOOL BEKASI (MIXED)",
         "score1": "0",
         "score2": "2",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "13-21",
+        "set2": "19-21"
         
     },
     {
@@ -296,7 +354,9 @@
         "school2": "SMPN 111 (MALE)",
         "score1": "2",
         "score2": "0",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "21-6",
+        "set2": "21-10"
         
     },
     {
@@ -307,7 +367,9 @@
         "school2": "SMP KAIROS GRACIA B (MALE)",
         "score1": "2",
         "score2": "0",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "21-9",
+        "set2": "21-8"
         
     },
     {
@@ -318,7 +380,9 @@
         "school2": "SMA IPEKA PURI C (MALE)",
         "score1": "2",
         "score2": "0",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "21-15",
+        "set2": "21-15"
         
     },
     {
@@ -329,7 +393,9 @@
         "school2": "SMA GANDHI ANCOL (MALE)",
         "score1": "0",
         "score2": "2",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "13-21",
+        "set2": "13-21"
         
     },
     {
@@ -340,7 +406,9 @@
         "school2": "SMAK 1 PENABUR (MALE)",
         "score1": "0",
         "score2": "2",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "16-21",
+        "set2": "18-21"
         
     },
     {
@@ -351,7 +419,9 @@
         "school2": "SMA KSATRYA B (MALE)",
         "score1": "2",
         "score2": "0",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "21-10",
+        "set2": "21-12"
         
     },
     {
@@ -362,7 +432,9 @@
         "school2": "MAS KHAFILA JAKARTA (MALE)",
         "score1": "2",
         "score2": "0",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "21-19",
+        "set2": "21-16"
         
     },
     {
@@ -373,7 +445,9 @@
         "school2": "PSKG (MALE)",
         "score1": "2",
         "score2": "0",
-        "date": "28 Oct"
+        "date": "28 Oct",
+        "set1": "21-13",
+        "set2": "21-11"
         
     }
 ]
