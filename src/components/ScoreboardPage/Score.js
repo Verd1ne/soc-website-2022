@@ -30,7 +30,7 @@ export default function Score(props){
     }
 
     return(
-            <div className='grid grid-cols-3 gap-x-5 my-12 bg-red-900 border-2 border-gold rounded-3xl p-5 text-center align-center px-auto'>
+            <div className='grid grid-cols-3 gap-x-3 md:gap-x-5 gap-x-5 my-12 bg-red-900 border-2 border-gold rounded-3xl p-5 text-center align-center px-auto'>
                 <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
                     <div className="bg-gray-900 text-[7px] xl:text-3xl md:text-lg xl:rounded-2xl rounded-lg xl:p-3 p-2 grid place-items-center py-auto xl:h-[95px] h-[70px] w-fit">{props.team1}</div>
                     <div className="xl:text-7xl xl:mt-12 mt-3">{props.score1}</div>
@@ -68,79 +68,79 @@ export default function Score(props){
                             leaveFrom="opacity-100 scale-100"
                             leaveTo="opacity-0 scale-95"
                             >
-                            <Dialog.Panel className="lg:w-full w-fit max-w-md transform overflow-hidden rounded-2xl bg-white border-2 border-lg p-6 text-center align-middle shadow-xl transition-all">
+                            <Dialog.Panel className="lg:w-full w-fit max-w-lg  overflow-hidden rounded-2xl bg-gray-900 border-2 border-yellow-400 border-md md:p-6 p--1 text-center align-middle shadow-xl transition-all">
                                 <Dialog.Overlay/>
                                 <Dialog.Title
                                     as="h3"
-                                    className="text-lg grid justify-self-center font-black leading-6 text-black"
+                                    className="md:text-2xl text-lg grid justify-self-center font-black leading-6 text-white"
                                 >
                                     Match Details
                                 </Dialog.Title>
-                                <div className="flex justify-center mt-2">
+                                <div className="flex justify-center mt-2 ">
                                     <p className="text-sm text-gray-500">
                                     <div className='grid grid-rows-3 gap-x-5 lg:gap-y-0 gap-y-2 my-1 rounded-3xl'>
                                     { set1 ? (
-                                        <div className='grid grid-cols-3'>
+                                        <div className='grid grid-cols-3 gap-x-3 md:gap-x-5'>
                                             <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
-                                                <div className="text-2xl xl:text-5xl text-black rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{ set1[0] }</div>   
+                                                <div className={`${parseInt(set1[0]) > parseInt(set1[1]) ? 'bg-red-700 text-white' : 'text-red-700'} text-xl sm:text-2xl lg:text-5xl xl:text-5xl   rounded-lg p-2 grid place-items-center py-auto w-fit align-middle`}>{ set1[0] }</div>   
                                             </div>
-                                            <div className="lg:text-xl text-md text-black font-bold rounded-3xl grid place-items-center ">
+                                            <div className="lg:text-xl text-md text-white font-bold rounded-3xl grid place-items-center ">
                                                 <div>- 1 -</div>
                                             </div>
                                             <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
-                                                <div className="text-2xl xl:text-5xl text-black rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{ set1[1] }</div>
+                                                <div className={`${parseInt(set1[1]) > parseInt(set1[0]) ? 'bg-red-700 text-white' : 'text-red-700'} text-xl sm:text-2xl lg:text-5xl xl:text-5xl   rounded-lg p-2 grid place-items-center py-auto w-fit align-middle`}>{ set1[1] }</div>
                                             </div>   
                                         </div>
                                         ) : ''}
                                         { set2 ? (
-                                        <div className='grid grid-cols-3'>
+                                        <div className='grid grid-cols-3 gap-x-3 md:gap-x-5'>
                                             <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
-                                                <div className="text-2xl xl:text-5xl text-black rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{ set2[0] }</div>   
+                                                <div className={`${parseInt(set2[0]) > parseInt(set2[1]) ? 'bg-red-700 text-white' : 'text-red-700'} text-xl sm:text-2xl lg:text-5xl xl:text-5xl   rounded-lg p-2 grid place-items-center py-auto w-fit align-middle`}>{ set2[0] }</div>   
                                             </div>
-                                            <div className="lg:text-xl text-md text-black font-bold rounded-3xl grid place-items-center ">
+                                            <div className="lg:text-xl text-md text-white font-bold rounded-3xl grid place-items-center ">
                                                 <div>- 2 -</div>
                                             </div>
                                             <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
-                                                <div className="text-2xl xl:text-5xl text-black rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{ set2[1] }</div>
+                                                <div className={`${parseInt(set2[1]) > parseInt(set2[0]) ? 'bg-red-700 text-white' : 'text-red-700'} text-xl sm:text-2xl lg:text-5xl xl:text-5xl   rounded-lg p-2 grid place-items-center py-auto w-fit align-middle`}>{ set2[1] }</div>
                                             </div>   
                                         </div>
                                         ) : ''}
                                         { set3 ? (
-                                        <div className='grid grid-cols-3'>
+                                        <div className='grid grid-cols-3 gap-x-3 md:gap-x-5'>
                                             <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
-                                                <div className="text-2xl xl:text-5xl text-black rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{ set3[0] }</div>   
+                                                <div className={`${parseInt(set3[0]) > parseInt(set3[1]) ? 'bg-red-700 text-white' : 'text-red-700'} text-xl sm:text-2xl lg:text-5xl xl:text-5xl   rounded-lg p-2 grid place-items-center py-auto w-fit align-middle`}>{ set3[0] }</div>   
                                             </div>
-                                            <div className="lg:text-xl text-md text-black font-bold rounded-3xl grid place-items-center ">
+                                            <div className="lg:text-xl text-md text-white font-bold rounded-3xl grid place-items-center ">
                                                 <div>- 3 -</div>
                                             </div>
                                             <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
-                                                <div className="text-2xl xl:text-5xl text-black rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{ set3[1] }</div>
+                                                <div className={`${parseInt(set3[1]) > parseInt(set3[0]) ? 'bg-red-700 text-white' : 'text-red-700'} text-xl sm:text-2xl lg:text-5xl xl:text-5xl   rounded-lg p-2 grid place-items-center py-auto w-fit align-middle`}>{ set3[1] }</div>
                                             </div>   
                                         </div>
                                         ) : ''}
                                         { set4 ? (
-                                        <div className='grid grid-cols-3'>
+                                        <div className='grid grid-cols-3 gap-x-3 md:gap-x-5'>
                                             <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
-                                                <div className="text-2xl xl:text-5xl text-black rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{ set4[0] }</div>   
+                                                <div className={`${parseInt(set4[0]) > parseInt(set4[1]) ? 'bg-red-700 text-white' : 'text-red-700'} text-xl sm:text-2xl lg:text-5xl xl:text-5xl   rounded-lg p-2 grid place-items-center py-auto w-fit align-middle`}>{ set4[0] }</div>   
                                             </div>
-                                            <div className="lg:text-xl text-md text-black font-bold rounded-3xl grid place-items-center ">
+                                            <div className="lg:text-xl text-md text-white font-bold rounded-3xl grid place-items-center ">
                                                 <div>- 4 -</div>
                                             </div>
                                             <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
-                                                <div className="text-2xl xl:text-5xl text-black rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{ set4[1] }</div>
+                                                <div className={`${parseInt(set4[1]) > parseInt(set4[0]) ? 'bg-red-700 text-white' : 'text-red-700'} text-xl sm:text-2xl lg:text-5xl xl:text-5xl   rounded-lg p-2 grid place-items-center py-auto w-fit align-middle`}>{ set4[1] }</div>
                                             </div>   
                                         </div>
                                         ) : ''}
                                         { set5 ? (
-                                        <div className='grid grid-cols-3'>
+                                        <div className='grid grid-cols-3 gap-x-3 md:gap-x-5'>
                                             <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
-                                                <div className="text-2xl xl:text-5xl text-black rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{ set5[0] }</div>   
+                                                <div className={`${parseInt(set5[0]) > parseInt(set5[1]) ? 'bg-red-700 text-white' : 'text-red-700'} text-xl sm:text-2xl lg:text-5xl xl:text-5xl   rounded-lg p-2 grid place-items-center py-auto w-fit align-middle`}>{ set5[0] }</div>   
                                             </div>
-                                            <div className="lg:text-xl text-md text-black font-bold rounded-3xl grid place-items-center ">
+                                            <div className="lg:text-xl text-md text-white font-bold rounded-3xl grid place-items-center ">
                                                 <div>- 5 -</div>
                                             </div>
                                             <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
-                                                <div className="text-2xl xl:text-5xl text-black rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{ set5[1] }</div>
+                                                <div className={`${parseInt(set5[1]) > parseInt(set5[0]) ? 'bg-red-700 text-white' : 'text-red-700'} text-xl sm:text-2xl lg:text-5xl xl:text-5xl   rounded-lg p-2 grid place-items-center py-auto w-fit align-middle`}>{ set5[1] }</div>
                                             </div>   
                                         </div>
                                         ) : ''}
