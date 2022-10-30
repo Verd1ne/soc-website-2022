@@ -27,7 +27,7 @@ export default function Themesong() {
   return (
     <div  
       data-aos="fade-in"
-      data-aos-offset="500"
+      data-aos-offset="300"
       data-aos-duration="3000"
       data-aos-delay="0"
       className="relative z-10 bg-[url('../images/Disc.webp')] bg-no-repeat bg-top bg-contain mx-0 px-0 md:px-12 h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] ">
