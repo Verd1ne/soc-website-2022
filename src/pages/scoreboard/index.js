@@ -46,7 +46,7 @@ export default function Scoreboard( props ) {
         <Layout>
             <div className='font-Broadway text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white mt-32 md:mt-36 lg:mt-40 xl:mt-44 mb-10 md:mb-16 lg:mb-24 xl:mb-32 overflow-hidden text-center'>BROWSE COMPETITIONS</div>
             <SplideCompe selectedCompe={selectedCompe} handleTag={handleTag}/>
-            <div className='font-Broadway text-4xl md:text-5xl text-[#f5f1be] my-10 mx-5 md:mx-10 overflow-hidden text-center'>SCOREBOARD {selectedCompe}</div>
+            <div className='font-Broadway text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl text-[#f5f1be] my-10 mx-5 md:mx-10 overflow-hidden text-center'>SCOREBOARD {selectedCompe}</div>
             <div className="text-[#f5f1be] md:text-xl lg:text-2xl font-semibold font-ProductSans text-center md:mt-[70px] px-10 md:mx-0">
                 <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 1 (26 Oct)<hr className="mt-3"/></div>
                 {filteredCompes &&
