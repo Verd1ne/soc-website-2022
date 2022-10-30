@@ -85,9 +85,9 @@ export default function Index() {
           data-aos="fade-in"
           data-aos-offset="400"
           data-aos-duration="1500"
-          className="mb-20 sm:mb-24 md:mb-28 lg:mb-32 xl:mb-36 2xl:mb-40"
+          className="mb-20 sm:mb-24 md:mb-28 lg:mb-32 xl:mb-36 2xl:mb-40 mx-0"
           options={{
-            rewind: true,
+            type:"loop",
             lazyLoad:'nearby',
             perPage: 3,
             perMove: 1,
