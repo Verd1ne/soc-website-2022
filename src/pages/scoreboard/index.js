@@ -1,4 +1,3 @@
-import { Container } from 'postcss';
 import React, { useState, useEffect } from 'react';
 import Layout from '../../components/Layout/Layout';
 import SplideCompe from '../../components/ScoreboardPage/SplideCompe';
@@ -66,7 +65,7 @@ export default function Scoreboard( props ) {
                 <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 2<hr className="mt-3"/></div>
                 {filteredCompes &&
                     filteredCompes.filter((compe) => {
-                        if(compe.date == "27 Oct"){
+                        if(compe.date === "27 Oct"){
                             return compe
                         }
                     }).map((compe, index) => (
@@ -81,7 +80,7 @@ export default function Scoreboard( props ) {
                 <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 3<hr className="mt-3"/></div>
                 {filteredCompes &&
                     filteredCompes.filter((compe) => {
-                        if(compe.date == "28 Oct"){
+                        if(compe.date === "28 Oct"){
                             return compe
                         }
                     }).map((compe, index) => (

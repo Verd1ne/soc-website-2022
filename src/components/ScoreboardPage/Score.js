@@ -1,9 +1,6 @@
 import React, { useState, Fragment } from 'react';
 import { Dialog, Transition } from '@headlessui/react'
 
-
-
-
 export default function Score(props){
     const [isOpen, setIsOpen] = useState(false)
 
@@ -12,7 +9,7 @@ export default function Score(props){
     }
 
     function openModal() {
-    setIsOpen(true)
+        setIsOpen(true)
     }
 
     return(
@@ -30,7 +27,7 @@ export default function Score(props){
             Match Details
             </button>
             <Transition show={isOpen} as={Fragment} className=''>
-                <Dialog className='relative z-10' onClose={() => setIsOpen(false)}>
+                <Dialog as='div' className='relative z-10' onClose={() => setIsOpen(false)}>
                     <Transition.Child
                     as={Fragment}
                     enter="ease-out duration-300"
@@ -40,10 +37,11 @@ export default function Score(props){
                     leaveFrom="opacity-100"
                     leaveTo="opacity-0"
                     >
-                    <div className="min-h-screen px-4 text-center" />
+                        <div className="min-h-screen px-4 text-center" />
                     </Transition.Child>
+
                     <div className='fixed inset-0 overflow-y-auto'>
-                        <div>
+                        <div className='flex min-h-full items-center justify-center p-32 text-center'>
                         <Transition.Child
                             as={Fragment}
                             enter="ease-out duration-300"
@@ -63,15 +61,40 @@ export default function Score(props){
                                 </Dialog.Title>
                                 <div className="flex justify-center mt-2">
                                     <p className="text-sm text-gray-500">
-                                    <div className='grid grid-cols-3 gap-x-5 my-12 rounded-3xl p-5'>
-                                        <div className="font-bold rounded-3xl lg:p-10">
-                                            
+                                    <div className='grid grid-rows-3 gap-x-5 my-1 rounded-3xl'>
+                                        <div className='grid grid-cols-3'>
+                                            <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
+                                                <div className="bg-gray-900 text-[7px] xl:text-3xl rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">23</div>   
+                                            </div>
+                                            <div className="text-xl font-bold rounded-3xl grid place-items-center">
+                                                <div>- Set 1 -</div>
+                                            </div>
+                                            <div className="font-bold rounded-3xl align-middle">
+                                                <div className="bg-gray-900 text-[7px] xl:text-3xl rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{props.scoreSetB3}</div>
+                                            </div>   
                                         </div>
-                                        <div className="text-xl font-bold rounded-3xl align-middle my-auto">Set 1 <br/>
+                                        <div className='grid grid-cols-3'>
+                                            <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
+                                                <div className="bg-gray-900 text-[7px] xl:text-3xl rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{props.score2}</div>   
+                                            </div>
+                                            <div className="text-xl font-bold rounded-3xl grid place-items-center">
+                                                <div>- Set 2 -</div>
+                                            </div>
+                                            <div className="font-bold rounded-3xl align-middle">
+                                                <div className="bg-gray-900 text-[7px] xl:text-3xl rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{props.scoreSetB3}</div>
+                                            </div>   
                                         </div>
-                                        <div className="font-bold rounded-3xl lg:p-10">
-                                            <div className="text-7xl mt-12">{props.scoreSetB1}</div>
-                                        </div>   
+                                        <div className='grid grid-cols-3'>
+                                            <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
+                                                <div className="bg-gray-900 text-[7px] xl:text-3xl rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{props.score1}</div>   
+                                            </div>
+                                            <div className="text-xl font-bold rounded-3xl grid place-items-center">
+                                                <div>- Set 3 -</div>
+                                            </div>
+                                            <div className="font-bold rounded-3xl align-middle">
+                                                <div className="bg-gray-900 text-[7px] xl:text-3xl rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{props.scoreSetB3}</div>
+                                            </div>   
+                                        </div>
                                     </div>      
                                     </p>
                                 </div>
@@ -91,7 +114,11 @@ export default function Score(props){
                     </div>
                 </Dialog>
                 </Transition>
-            </div>        
+            </div>
+                <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
+                    <div className="bg-gray-900 text-[7px] xl:text-3xl md:text-lg xl:rounded-2xl rounded-lg xl:p-3 p-2 grid place-items-center py-auto xl:h-[95px] h-[70px] w-fit">{props.team2}</div>
+                    <div className="xl:text-7xl xl:mt-12 mt-3">{props.score2}</div>
+                </div>         
             </div>      
     )
 }
