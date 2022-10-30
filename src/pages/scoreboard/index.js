@@ -110,7 +110,7 @@ export default function Scoreboard( props ) {
                 <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 4 (29 Oct)<hr className="mt-3"/></div>
                 {filteredCompes &&
                     filteredCompes.filter((compe) => {
-                        if(compe.date == "29 Oct"){
+                        if(compe.date === "29 Oct"){
                             return compe
                         }
                     }).map((compe, index) => (

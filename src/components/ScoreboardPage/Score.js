@@ -3,6 +3,23 @@ import { Dialog, Transition } from '@headlessui/react'
 
 export default function Score(props){
     const [isOpen, setIsOpen] = useState(false)
+    
+    const splitSet = (set) => {
+        try {
+            var [teamA, teamB] = set.split('-');
+        return [teamA, teamB]
+        }
+        catch (err) {
+            return null
+        }
+    }
+    
+
+    const set1 = splitSet( props.set1 )
+    const set2 = splitSet( props.set2 )
+    const set3 = splitSet( props.set3 )
+    const set4 = splitSet( props.set4 )
+    const set5 = splitSet( props.set5 )
 
     function closeModal() {
         setIsOpen(false)
@@ -18,11 +35,11 @@ export default function Score(props){
                     <div className="bg-gray-900 text-[7px] xl:text-3xl md:text-lg xl:rounded-2xl rounded-lg xl:p-3 p-2 grid place-items-center py-auto xl:h-[95px] h-[70px] w-fit">{props.team1}</div>
                     <div className="xl:text-7xl xl:mt-12 mt-3">{props.score1}</div>
                 </div>
-                <div className="text-9xl font-bold rounded-3xl align-middle my-auto">VS <br/> 
+                <div className="lg:text-9xl text-3xl font-bold rounded-3xl align-middle my-auto">VS <br/> 
             <button
             type="button"
             onClick={openModal}
-            className="rounded-md bg-black bg-opacity-20 px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+            className="rounded-md bg-black bg-opacity-20 px-2 md:px-10 lg:px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
             >
             Match Details
             </button>
@@ -51,50 +68,84 @@ export default function Score(props){
                             leaveFrom="opacity-100 scale-100"
                             leaveTo="opacity-0 scale-95"
                             >
-                            <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
+                            <Dialog.Panel className="lg:w-full w-fit max-w-md transform overflow-hidden rounded-2xl bg-white border-2 border-lg p-6 text-center align-middle shadow-xl transition-all">
                                 <Dialog.Overlay/>
                                 <Dialog.Title
                                     as="h3"
-                                    className="text-lg grid justify-self-start font-black leading-6 text-gray-900"
+                                    className="text-lg grid justify-self-center font-black leading-6 text-black"
                                 >
                                     Match Details
                                 </Dialog.Title>
                                 <div className="flex justify-center mt-2">
                                     <p className="text-sm text-gray-500">
-                                    <div className='grid grid-rows-3 gap-x-5 my-1 rounded-3xl'>
+                                    <div className='grid grid-rows-3 gap-x-5 lg:gap-y-0 gap-y-2 my-1 rounded-3xl'>
+                                    { set1 ? (
                                         <div className='grid grid-cols-3'>
                                             <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
-                                                <div className="bg-gray-900 text-[7px] xl:text-3xl rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">23</div>   
+                                                <div className="text-2xl xl:text-5xl text-black rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{ set1[0] }</div>   
                                             </div>
-                                            <div className="text-xl font-bold rounded-3xl grid place-items-center">
-                                                <div>- Set 1 -</div>
+                                            <div className="lg:text-xl text-md text-black font-bold rounded-3xl grid place-items-center ">
+                                                <div>- 1 -</div>
                                             </div>
-                                            <div className="font-bold rounded-3xl align-middle">
-                                                <div className="bg-gray-900 text-[7px] xl:text-3xl rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{props.scoreSetB3}</div>
+                                            <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
+                                                <div className="text-2xl xl:text-5xl text-black rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{ set1[1] }</div>
                                             </div>   
                                         </div>
+                                        ) : ''}
+                                        { set2 ? (
                                         <div className='grid grid-cols-3'>
                                             <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
-                                                <div className="bg-gray-900 text-[7px] xl:text-3xl rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{props.score2}</div>   
+                                                <div className="text-2xl xl:text-5xl text-black rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{ set2[0] }</div>   
                                             </div>
-                                            <div className="text-xl font-bold rounded-3xl grid place-items-center">
-                                                <div>- Set 2 -</div>
+                                            <div className="lg:text-xl text-md text-black font-bold rounded-3xl grid place-items-center ">
+                                                <div>- 2 -</div>
                                             </div>
-                                            <div className="font-bold rounded-3xl align-middle">
-                                                <div className="bg-gray-900 text-[7px] xl:text-3xl rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{props.scoreSetB3}</div>
+                                            <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
+                                                <div className="text-2xl xl:text-5xl text-black rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{ set2[1] }</div>
                                             </div>   
                                         </div>
+                                        ) : ''}
+                                        { set3 ? (
                                         <div className='grid grid-cols-3'>
                                             <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
-                                                <div className="bg-gray-900 text-[7px] xl:text-3xl rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{props.score1}</div>   
+                                                <div className="text-2xl xl:text-5xl text-black rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{ set3[0] }</div>   
                                             </div>
-                                            <div className="text-xl font-bold rounded-3xl grid place-items-center">
-                                                <div>- Set 3 -</div>
+                                            <div className="lg:text-xl text-md text-black font-bold rounded-3xl grid place-items-center ">
+                                                <div>- 3 -</div>
                                             </div>
-                                            <div className="font-bold rounded-3xl align-middle">
-                                                <div className="bg-gray-900 text-[7px] xl:text-3xl rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{props.scoreSetB3}</div>
+                                            <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
+                                                <div className="text-2xl xl:text-5xl text-black rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{ set3[1] }</div>
                                             </div>   
                                         </div>
+                                        ) : ''}
+                                        { set4 ? (
+                                        <div className='grid grid-cols-3'>
+                                            <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
+                                                <div className="text-2xl xl:text-5xl text-black rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{ set4[0] }</div>   
+                                            </div>
+                                            <div className="lg:text-xl text-md text-black font-bold rounded-3xl grid place-items-center ">
+                                                <div>- 4 -</div>
+                                            </div>
+                                            <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
+                                                <div className="text-2xl xl:text-5xl text-black rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{ set4[1] }</div>
+                                            </div>   
+                                        </div>
+                                        ) : ''}
+                                        { set5 ? (
+                                        <div className='grid grid-cols-3'>
+                                            <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
+                                                <div className="text-2xl xl:text-5xl text-black rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{ set5[0] }</div>   
+                                            </div>
+                                            <div className="lg:text-xl text-md text-black font-bold rounded-3xl grid place-items-center ">
+                                                <div>- 5 -</div>
+                                            </div>
+                                            <div className="font-bold rounded-3xl lg:p-10 justify-center mx-auto">
+                                                <div className="text-2xl xl:text-5xl text-black rounded-lg p-2 grid place-items-center py-auto w-fit align-middle">{ set5[1] }</div>
+                                            </div>   
+                                        </div>
+                                        ) : ''}
+                                        
+
                                     </div>      
                                     </p>
                                 </div>
