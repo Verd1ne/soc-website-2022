@@ -50,7 +50,7 @@ export default function Template( props ) {
             data-aos-anchor-placement="top-bottom"
             className="mx-auto mt-12 col-span-1 xl:col-span-6">
           <Hadiah/>
-        </div> */}
+        </div> */ }
       </div>
     </div>
   )

@@ -51,7 +51,7 @@ const IndexPage = () => {
       <div
         data-aos="fade-in"
         data-aos-offset="100"
-        data-aos-duration="3000">
+        data-aos-duration="2000">
         <StaticImage 
           src="../images/NowShowing.webp"
           alt="Now Showing"
@@ -64,7 +64,7 @@ const IndexPage = () => {
       <div 
         data-aos="fade-in"
         data-aos-offset="100"
-        data-aos-duration="3000"
+        data-aos-duration="2000"
         className="relative mx-5 md:mx-10 lg:mx-20 lg:px-20">
         <Nowshowing/>
       </div>
