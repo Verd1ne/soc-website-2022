@@ -5,10 +5,10 @@ export default function Infolomba(props) {
   let contact = props.contact.split("|")
   // mx-5 sm:mx-10 md:mx-40 lg:mx-64 xl:mx-20
   return (
-    <div className='w-full h-fit overflow-hidden '>
-      <div className="font-Broadway text-4xl md:text-6xl lg:text-7xl 2xl:text-9xl text-[#f5f1be] overflow-hidden text-center">{props.namaLomba}</div>
+    <div className='mx-8 sm:mx-20 md:mx-36 lg:mx-12'>
+      <div className="font-Broadway text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl text-[#f5f1be] overflow-hidden text-center my-10">{props.namaLomba}</div>
       <div>
-        <div className="text-[#f5f1be] md:text-xl lg:text-2xl font-semibold font-ProductSans text-left border-4 border-[gold] mt-10 md:mt-14 p-3 md:p-10">
+        <div className="text-[#f5f1be] md:text-xl lg:text-2xl font-semibold font-ProductSans text-left border-4 border-[gold] p-4 md:p-10">
           <div className="">Penanggung Jawab :</div>
           <ul className="text-sm md:text-lg lg:text-xl xl:text-xl font-normal ml-3 mb-2 lg:mb-5 list-disc">
             <li>{contact[0]}</li>

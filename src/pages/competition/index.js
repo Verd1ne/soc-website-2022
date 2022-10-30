@@ -26,9 +26,10 @@ export default function Index() {
       data-aos="fade-in"
       data-aos-offset="0"
       data-aos-delay="0"
-      data-aos-duration="3000">
+      data-aos-duration="3000"
+      className="overflow-x-hidden">
     <div className='font-Broadway text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white overflow-hidden mt-24 2xl:mt-40 mb-[30px] md:mb-[50px] lg:mb-8 xl:mb-[40px] 2xl:mb-[100px] text-center'>COMPETITIONS</div>
-      <div className='grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-x-4 md:gap-x-8 lg:gap-x-12 xl:gap-x-16 gap-y-12 md:gap-y-16 lg:gap-y-20 xl:gap-y-24 w-screen px-5 md:px-10 mb-16 md:mb-20 lg:mb-24 '>
+      <div className='grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-x-4 md:gap-x-8 lg:gap-x-12 xl:gap-x-16 gap-y-12 md:gap-y-16 lg:gap-y-20 xl:gap-y-24 w-screen px-5 md:px-10 mb-16 md:mb-20 lg:mb-24 overflow-x-hidden pt-16'>
          <Link className="hover:scale-105 md:hover:scale-110 duration-300 ease-in-out" to='/competition/badminton'>
           <StaticImage 
             src= "../../images/PosterLomba/Badminton.webp"
