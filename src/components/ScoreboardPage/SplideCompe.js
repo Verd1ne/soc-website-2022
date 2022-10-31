@@ -122,17 +122,21 @@ export default function SplideCompe({selectedCompe, handleTag}) {
                         <div className="px-3 lg:px-10 xl:px-48 2xl:px-64">
                             <div className="text-lg md:text-xl xl:text-2xl">SMA</div>
                             <div className='grid grid-cols-2'>
-                                <button onClick={()=> handleTag("Badminton SMA Ganda Putra")} className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-3 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Ganda Putra</button>
-                                <button onClick={()=> handleTag("Badminton SMA Ganda Putri")} className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-3 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Ganda Putri</button>
-                                <button onClick={()=> handleTag("Badminton SMA Ganda Campuran")} className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-3 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Ganda Campuran</button>
-                                <button onClick={()=> handleTag("Badminton SMA Regu")} className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-3 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Regu</button>
+                                <button onClick={()=> handleTag("Badminton SMA Ganda Putra")} className={`text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-3 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100 ${selectedCompe === "Badminton SMA Ganda Putra" ? `bg-[#040030] border-red-900 scale-[1.1]`: ``}`}>
+                                    Ganda Putra</button>
+                                <button onClick={()=> handleTag("Badminton SMA Ganda Putri")} className={`text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-3 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100 ${selectedCompe === "Badminton SMA Ganda Putri" ? `bg-[#040030] border-red-900 scale-[1.1]`: ``}`}>
+                                    Ganda Putri</button>
+                                <button onClick={()=> handleTag("Badminton SMA Ganda Campuran")} className={`text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-3 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100 ${selectedCompe === "Badminton SMA Ganda Campuran" ? `bg-[#040030] border-red-900 scale-[1.1]`: ``}`}>
+                                    Ganda Campuran</button>
+                                <button onClick={()=> handleTag("Badminton SMA Regu")} className={`text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-3 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100 ${selectedCompe === "Badminton SMA Regu" ? `bg-[#040030] border-red-900 scale-[1.1]`: ``}`}>
+                                    Regu</button>
                             </div>
                         </div>
                         <div className="my-5 px-3 lg:px-10 xl:px-48 2xl:px-64">
                             <div className="text-lg md:text-xl xl:text-2xl">SMP</div>
                             <div className='grid grid-cols-2 '>
-                                <button onClick={()=> handleTag("Badminton SMP Ganda Putra")} className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-5 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Ganda Putra</button>
-                                <button onClick={()=> handleTag("Badminton SMP Ganda Putra")} className='text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-5 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100'>Ganda Putri</button>
+                                <button onClick={()=> handleTag("Badminton SMP Ganda Putra")} className={`text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-5 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100 ${selectedCompe === "Badminton SMP Ganda Putra" ? `bg-[#040030] border-red-900 scale-[1.1]`: ``}`}>Ganda Putra</button>
+                                <button onClick={()=> handleTag("Badminton SMP Ganda Putri")} className={`text-sm md:text-lg xl:text-xl my-2 rounded-3xl border border-red-900 border-2 py-1 px-5 mx-3 bg-red-900 hover:bg-[#040030] hover:border-red-900 hover:text-white hover:scale-[1.1] duration-100 ${selectedCompe === "Badminton SMP Ganda Putri" ? `bg-[#040030] border-red-900 scale-[1.1]`: ``}`}>Ganda Putri</button>
                             </div>
                         </div>
                     </div>
