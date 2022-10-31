@@ -131,6 +131,26 @@ export default function Scoreboard( props ) {
                             />
                         ))
                     }
+                    <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 5 (31 Oct)<hr className="mt-3"/></div>
+                    {filteredCompes &&
+                        filteredCompes.filter((compe) => {
+                            if(compe.date === "31 Oct"){
+                                return compe
+                            }
+                        }).map((compe, index) => (
+                            <Score key={index}
+                                team1 = {compe.school1}
+                                score1 = {compe.score1}
+                                team2 = {compe.school2}
+                                score2 = {compe.score2}
+                                set1 = {compe.set1}
+                                set2 = {compe.set2}
+                                set3 = {compe.set3}
+                                set4 = {compe.set4}
+                                set5 = {compe.set5}
+                            />
+                        ))
+                    }
                 </div>
             )}
         </Layout>
