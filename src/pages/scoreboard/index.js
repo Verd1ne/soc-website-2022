@@ -17,7 +17,7 @@ export default function Scoreboard( props ) {
 
     useEffect( //filteringCompes
         () => {
-            console.log("selectedCompe = " + selectedCompe)
+            // console.log("selectedCompe = " + selectedCompe)
             
             let compeName = selectedCompe.split(' ').slice(0, 1)
             let competition = []
@@ -27,11 +27,9 @@ export default function Scoreboard( props ) {
             else if (compeName[0] === "Futsal") competition = Futsal
             else if (compeName[0] === "Basket") competition = Basket
 
-            console.log(competition)
             let level = selectedCompe.split(' ').slice(1, 2)
             let gender = selectedCompe.split(' ').slice(-1)
-            // console.log(level)
-            // console.log(gender)
+
             setFilteredCompes(
                 competition
                     .filter(compe => (compe.level.includes(level)))
@@ -50,27 +48,27 @@ export default function Scoreboard( props ) {
                 (
                     <div className="text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl text-[#f5f1be] my-10 mx-5 md:mx-10 overflow-hidden text-center font-ProductSans">(Anda belum memilih lomba)</div>
                 ) : (
-                <div className="text-[#f5f1be] md:text-xl lg:text-2xl font-semibold font-ProductSans text-center md:mt-[70px] px-10 md:mx-0">
-                    <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 1 (26 Oct)<hr className="mt-3"/></div>
-                    {filteredCompes &&
-                        filteredCompes.filter((compe) => {
-                            if(compe.date === "26 Oct"){
-                                return compe
-                            }
-                        }).map((compe, index) => (
-                            <Score key={index}
-                                team1 = {compe.school1}
-                                score1 = {compe.score1}
-                                team2 = {compe.school2}
-                                score2 = {compe.score2}
-                                set1 = {compe.set1}
-                                set2 = {compe.set2}
-                                set3 = {compe.set3}
-                                set4 = {compe.set4}
-                                set5 = {compe.set5}
-                            />
-                        ))
-                    }
+                    <div className="text-[#f5f1be] md:text-xl lg:text-2xl font-semibold font-ProductSans text-center md:mt-[70px] px-10 md:mx-0">
+                        <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 1 (26 Oct)<hr className="mt-3"/></div>
+                        {filteredCompes &&
+                            filteredCompes.filter((compe) => {
+                                if(compe.date === "26 Oct"){
+                                    return compe
+                                }
+                            }).map((compe, index) => (
+                                <Score key={index}
+                                    team1 = {compe.school1}
+                                    score1 = {compe.score1}
+                                    team2 = {compe.school2}
+                                    score2 = {compe.score2}
+                                    set1 = {compe.set1}
+                                    set2 = {compe.set2}
+                                    set3 = {compe.set3}
+                                    set4 = {compe.set4}
+                                    set5 = {compe.set5}
+                                />
+                            ))
+                        }
                     <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 2 (27 Oct)<hr className="mt-3"/></div>
                     {filteredCompes &&
                         filteredCompes.filter((compe) => {
