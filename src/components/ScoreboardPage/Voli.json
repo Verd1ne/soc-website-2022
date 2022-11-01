@@ -177,7 +177,7 @@
         "gender":"Putra",
         "level": "SMA",
         "school1": "SMAK 1 PENABUR A (MALE)",
-        "schoool2": "SMAN 12 TANGSEL",
+        "school2": "SMAN 12 TANGSEL (MALE)",
         "score1": "0",
         "score2": "2",
         "date": "29 Oct",
@@ -185,7 +185,7 @@
         "set2": "15-25"
     },
     {
-        "gender": "putra",
+        "gender": "Putra",
         "level": "SMA",
         "school1": "SMA YP KARYA (MALE)",
         "school2": "STELLA MARIS",
@@ -206,5 +206,17 @@
         "set1": "26-24",
         "set2": "22-25",
         "set3": "3-15"
+    },
+
+    {
+        "gender": "Putra",
+        "level": "SMA",
+        "school1": "SMAN 12 TANGSEL (MALE)",
+        "school2": "SMA KSATRYA 51 (MALE)",
+        "score1": "2",
+        "score2": "0",
+        "date": "1 Nov",
+        "set1": "25-14",
+        "set2": "25-21"
     }
 ]
