@@ -179,14 +179,14 @@
     {
         "gender": "Putri",
         "level": "SMA",
-        "school1": "SMAK KRISTOFORUS (FEMALE)",
+        "school1": "SMAK KRISTOFORUS 1 (FEMALE)",
         "school2": "SMAK 1 PENABUR (FEMALE)",
-        "score1": "45",
+        "score1": "36",
         "score2": "38",
         "date": "1 Nov",
         "set1": "2-11",
-        "set2": "17-11",
-        "set3": "17-6",
+        "set2": "13-11",
+        "set3": "13-6",
         "set4": "8-10"
     },
     {
@@ -292,5 +292,8 @@
         "set2": "6-6",
         "set3": "20-2",
         "set4": "22-4"
+    },
+    {
+        
     }
 ]
