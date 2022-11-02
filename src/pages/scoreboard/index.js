@@ -49,6 +49,41 @@ export default function Scoreboard( props ) {
                     <div className="text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl text-[#f5f1be] my-10 mx-5 md:mx-10 overflow-hidden text-center font-ProductSans">(Anda belum memilih lomba)</div>
                 ) : (
                     <div className="text-[#f5f1be] md:text-xl lg:text-2xl font-semibold font-ProductSans text-center md:mt-[70px] px-10 md:mx-0">
+                        {filteredCompes.filter((compe) => {
+                            if(compe.juara === "true"){
+                                return compe
+                            }
+                        }).map((compe, index) => (
+                           <div className="grid grid-cols-3 bg-gray-900 rounded-xl text-center mx-auto gap-x-5">
+                                <div className="ml-2 my-3">
+                                    <div className="text-gold bg-red-900 rounded-xl">1st Place</div>
+                                    <div className="bg-[#040030] mt-5 rounded-xl border-2 border-gold h-[200px] w-fit align-center mx-auto px-3 py-2">
+                                        <p className="text-sm lg:text-3xl text-gold">{compe.first}</p>
+                                        <hr/>
+                                        <p className="mt-2 text-[12px] md:text-xl">{compe.first1}</p>
+                                        <p className="mt-1 text-[12px] md:text-xl">{compe.first2}</p>
+                                    </div>
+                                </div>
+                                <div className="my-3">
+                                    <div className="text-[#C0C0C0] bg-red-900 rounded-xl">2nd Place</div>
+                                    <div className="bg-[#040030] mt-5 rounded-xl border-2 border-[#C0C0C0] h-[200px] w-fit align-center mx-auto px-3 py-2">
+                                        <p className="text-sm md:text-3xl text-[#C0C0C0]">{compe.second}</p>
+                                        <hr/>
+                                        <p className="mt-2 text-[12px] md:text-xl">{compe.second1}</p>
+                                        <p className="mt-1 text-[12px] md:text-xl">{compe.second2}</p>
+                                    </div>
+                                </div>
+                                <div className="mr-2 my-3">
+                                    <div className="text-[#CD7F32] bg-red-900 rounded-xl">3rd Place</div>
+                                    <div className="bg-[#040030] mt-5 rounded-xl border-2 border-[#CD7F32] h-[200px] w-fit align-center mx-auto px-3 py-2">
+                                        <p className="text-sm md:text-3xl text-[#CD7F32]">{compe.third}</p>
+                                        <hr/>
+                                        <p className="mt-2 text-[12px] md:text-xl">{compe.third1}</p>
+                                        <p className="mt-1 text-[12px] md:text-xl">{compe.third2}</p>
+                                    </div>
+                                </div>
+                           </div> 
+                        ))}
                         <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 1 (26 Oct)<hr className="mt-3"/></div>
                         {filteredCompes &&
                             filteredCompes.filter((compe) => {
@@ -113,6 +148,46 @@ export default function Scoreboard( props ) {
                     {filteredCompes &&
                         filteredCompes.filter((compe) => {
                             if(compe.date === "29 Oct"){
+                                return compe
+                            }
+                        }).map((compe, index) => (
+                            <Score key={index}
+                                team1 = {compe.school1}
+                                score1 = {compe.score1}
+                                team2 = {compe.school2}
+                                score2 = {compe.score2}
+                                set1 = {compe.set1}
+                                set2 = {compe.set2}
+                                set3 = {compe.set3}
+                                set4 = {compe.set4}
+                                set5 = {compe.set5}
+                            />
+                        ))
+                    }
+                    <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 5 (31 Oct)<hr className="mt-3"/></div>
+                    {filteredCompes &&
+                        filteredCompes.filter((compe) => {
+                            if(compe.date === "31 Oct"){
+                                return compe
+                            }
+                        }).map((compe, index) => (
+                            <Score key={index}
+                                team1 = {compe.school1}
+                                score1 = {compe.score1}
+                                team2 = {compe.school2}
+                                score2 = {compe.score2}
+                                set1 = {compe.set1}
+                                set2 = {compe.set2}
+                                set3 = {compe.set3}
+                                set4 = {compe.set4}
+                                set5 = {compe.set5}
+                            />
+                        ))
+                    }
+                     <div className='text-white text-3xl lg:text-5xl mt-24 mb-8 text-left'>DAY 6 (1 Nov)<hr className="mt-3"/></div>
+                    {filteredCompes &&
+                        filteredCompes.filter((compe) => {
+                            if(compe.date === "1 Nov"){
                                 return compe
                             }
                         }).map((compe, index) => (
