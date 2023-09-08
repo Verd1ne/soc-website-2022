@@ -16,7 +16,7 @@ export default function Infolomba(props) {
 						<li>{contact[0]}</li>
 						<li className={`${!contact[1] ? "hidden" : ""}`}>{contact[1]}</li>
 					</ul>
-					<a href="../../PDFrules/" download={props.namaLomba + ".pdf"}>
+					<a href="../../PDFrules/" download={props.namaLomba}>
 						<u>Download PDF Rules</u>
 					</a>
 				</div>
